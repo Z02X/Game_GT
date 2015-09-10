@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\Game_GT.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{682A2D3C-3FD9-4E48-8E57-8ABADB6B2AA0}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Game_GT.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\Game_GTEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{8BF37FE1-062F-4E22-8136-2114C3B85787}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\Game_GT">
+			<UniqueIdentifier>{26047CBA-A0D9-4271-BB25-6A9B17D0FFAE}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Game_GT\Game_GT.Build.cs">
+			<Filter>Source\Game_GT</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\Game_GT\Game_GT.cpp">
+			<Filter>Source\Game_GT</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Game_GT\Game_GT.h">
+			<Filter>Source\Game_GT</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Game_GT\Game_GTCharacter.cpp">
+			<Filter>Source\Game_GT</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Game_GT\Game_GTCharacter.h">
+			<Filter>Source\Game_GT</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Game_GT\Game_GTGameMode.cpp">
+			<Filter>Source\Game_GT</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Game_GT\Game_GTGameMode.h">
+			<Filter>Source\Game_GT</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Game_GT\Game_GTPlayerController.cpp">
+			<Filter>Source\Game_GT</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Game_GT\Game_GTPlayerController.h">
+			<Filter>Source\Game_GT</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
