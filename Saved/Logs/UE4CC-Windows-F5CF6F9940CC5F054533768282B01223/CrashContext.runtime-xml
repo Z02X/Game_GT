@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+<RuntimeProperties>
+<Version>1</Version>
+<ProcessId>11552</ProcessId>
+<IsInternalBuild>0</IsInternalBuild>
+<IsPerforceBuild>0</IsPerforceBuild>
+<IsSourceDistribution>0</IsSourceDistribution>
+<GameName>Game_GT</GameName>
+<ExecutableName>UE4Editor</ExecutableName>
+<BuildConfiguration>Development</BuildConfiguration>
+<PlatformName>Windows</PlatformName>
+<PlatformNameIni>Windows</PlatformNameIni>
+<EngineMode>Editor</EngineMode>
+<EngineVersion>4.9.1-2689999+++depot+UE4-Releases+4.9</EngineVersion>
+<CommandLine> </CommandLine>
+<LanguageLCID>1033</LanguageLCID>
+<DefaultLocale>en_US</DefaultLocale>
+<IsUE4Release>1</IsUE4Release>
+<UserName></UserName>
+<BaseDir>G:/Programs/Epic Games/4.9/Engine/Binaries/Win64/</BaseDir>
+<RootDir>G:/Programs/Epic Games/4.9/</RootDir>
+<MachineId>92FD04214CF52093BC0AFABA21C43902</MachineId>
+<EpicAccountId>72e7fe8abf234c00b7d4ff8eb3462f9c</EpicAccountId>
+<CallStack></CallStack>
+<SourceContext></SourceContext>
+<UserDescription></UserDescription>
+<ErrorMessage>Fatal error: [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.9\Engine\Source\Runtime\Engine\Private\ShaderCompiler\ShaderCompiler.cpp] [Line: 1210] 
+Failed to compile default material /Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial!
+</ErrorMessage>
+<MiscNumberOfCores>4</MiscNumberOfCores>
+<MiscNumberOfCoresIncludingHyperthreads>4</MiscNumberOfCoresIncludingHyperthreads>
+<MiscIs64bitOperatingSystem>1</MiscIs64bitOperatingSystem>
+<MiscCPUVendor>GenuineIntel</MiscCPUVendor>
+<MiscCPUBrand>Intel(R) Core(TM) i5-4440 CPU @ 3.10GHz</MiscCPUBrand>
+<MiscPrimaryGPUBrand>NVIDIA GeForce GTX 760</MiscPrimaryGPUBrand>
+<MiscOSVersionMajor>Windows 10</MiscOSVersionMajor>
+<MiscOSVersionMinor></MiscOSVersionMinor>
+<CrashDumpMode>0</CrashDumpMode>
+<MemoryStatsTotalPhysical>8535527424</MemoryStatsTotalPhysical>
+<MemoryStatsTotalVirtual>140737488224256</MemoryStatsTotalVirtual>
+<MemoryStatsPageSize>4096</MemoryStatsPageSize>
+<MemoryStatsTotalPhysicalGB>8</MemoryStatsTotalPhysicalGB>
+<MemoryStatsAvailablePhysical>3153526784</MemoryStatsAvailablePhysical>
+<MemoryStatsAvailableVirtual>140733334401024</MemoryStatsAvailableVirtual>
+<MemoryStatsUsedPhysical>957362176</MemoryStatsUsedPhysical>
+<MemoryStatsPeakUsedPhysical>1691324416</MemoryStatsPeakUsedPhysical>
+<MemoryStatsUsedVirtual>2885664768</MemoryStatsUsedVirtual>
+<MemoryStatsPeakUsedVirtual>4058132480</MemoryStatsPeakUsedVirtual>
+<MemoryStatsbIsOOM>0</MemoryStatsbIsOOM>
+<MemoryStatsOOMAllocationSize>0</MemoryStatsOOMAllocationSize>
+<MemoryStatsOOMAllocationAlignment>0</MemoryStatsOOMAllocationAlignment>
+</RuntimeProperties>
+<PlatformProperties>
+<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+</PlatformProperties>
+</FGenericCrashContext>
