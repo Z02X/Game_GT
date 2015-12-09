@@ -1,7 +1,7 @@
 ------------------
 System Information
 ------------------
-Time of this report: 11/9/2015, 10:46:47
+Time of this report: 12/9/2015, 11:07:06
        Machine name: MATTHEWS_LAPTOP
    Operating System: Windows 8.1 64-bit (6.3, Build 9600) (9600.winblue_r9.150322-1500)
            Language: English (Regional Setting: English)
@@ -11,7 +11,7 @@ System Manufacturer: TOSHIBA
           Processor: AMD A6-6310 APU with AMD Radeon R4 Graphics     (4 CPUs), ~1.8GHz
              Memory: 4096MB RAM
 Available OS Memory: 3546MB RAM
-          Page File: 4328MB used, 2546MB available
+          Page File: 3989MB used, 2499MB available
         Windows Dir: C:\Windows
     DirectX Version: DirectX 11
 DX Setup Parameters: Not found
@@ -19,7 +19,6 @@ DX Setup Parameters: Not found
  System DPI Setting: 96 DPI (100 percent)
     DWM DPI Scaling: Disabled
      DxDiag Version: 6.03.9600.17415 64bit Unicode
-  DxDiag Previously: Crashed in system information (stage 3). Re-running DxDiag with "dontskip" command line parameter or choosing not to bypass information gathering when prompted might result in DxDiag successfully obtaining this information
 
 ------------
 DxDiag Notes
@@ -303,7 +302,7 @@ PS/2 Devices
 | Driver: LHidFilt.Sys, 3/18/2014 19:24:38, 76568 bytes
 | Driver: kbdhid.sys, 11/4/2014 01:54:47, 32256 bytes
 | Driver: kbdclass.sys, 11/4/2014 14:25:09, 59712 bytes
-| Driver: LkmdfCoInst.dll, 3/18/2014 19:24:40, 1843992 bytes
+| Driver: LkmdfCoInst.dll, 5/31/2013 14:19:12, 1843480 bytes
 | 
 + HID-compliant mouse
 | Vendor/Product ID: 0x046D, 0xC52B
@@ -322,7 +321,7 @@ PS/2 Devices
 | Driver: LMouFilt.Sys, 3/18/2014 19:24:40, 59160 bytes
 | Driver: mouhid.sys, 11/4/2014 01:54:47, 30208 bytes
 | Driver: mouclass.sys, 11/4/2014 14:25:09, 51008 bytes
-| Driver: LkmdfCoInst.dll, 3/18/2014 19:24:40, 1843992 bytes
+| Driver: LkmdfCoInst.dll, 5/31/2013 14:19:12, 1843480 bytes
 | Driver: LMouFiltCoInst.dll, 3/18/2014 19:24:42, 53016 bytes
 | 
 + Logitech HID-compliant Unifying Mouse
@@ -335,7 +334,7 @@ PS/2 Devices
 | Driver: LMouFilt.Sys, 3/18/2014 19:24:40, 59160 bytes
 | Driver: mouhid.sys, 11/4/2014 01:54:47, 30208 bytes
 | Driver: mouclass.sys, 11/4/2014 14:25:09, 51008 bytes
-| Driver: LkmdfCoInst.dll, 3/18/2014 19:24:40, 1843992 bytes
+| Driver: LkmdfCoInst.dll, 5/31/2013 14:19:12, 1843480 bytes
 | Driver: LMouFiltCoInst.dll, 3/18/2014 19:24:42, 53016 bytes
 | 
 + Synaptics SMBus TouchPad
@@ -535,6 +534,242 @@ PS/2 Devices
 | Service: mouhid
 | Driver: mouhid.sys, 11/4/2014 01:54:47, 30208 bytes
 | Driver: mouclass.sys, 11/4/2014 14:25:09, 51008 bytes
+
+------------------------
+Disk & DVD/CD-ROM Drives
+------------------------
+      Drive: C:
+ Free Space: 263.3 GB
+Total Space: 466.1 GB
+File System: NTFS
+      Model: TOSHIBA MQ01ABF050
+
+      Drive: D:
+      Model: TSSTcorp CDDVDW SU-208FB
+     Driver: c:\windows\system32\drivers\cdrom.sys, 6.03.9600.16384 (English), 8/22/2013 03:46:35, 164352 bytes
+
+--------------
+System Devices
+--------------
+     Name: PCI standard host CPU bridge
+Device ID: PCI\VEN_1022&DEV_1582&SUBSYS_00000000&REV_00\3&2411E6FE&1&C2
+   Driver: n/a
+
+     Name: PCI standard host CPU bridge
+Device ID: PCI\VEN_1022&DEV_1566&SUBSYS_15661022&REV_00\3&2411E6FE&1&00
+   Driver: n/a
+
+     Name: Realtek PCIE CardReader
+Device ID: PCI\VEN_10EC&DEV_5229&SUBSYS_F9201179&REV_01\00000001004CE00000
+   Driver: C:\Windows\system32\DRIVERS\RtsP2Stor.sys, 6.03.9600.29077 (English), 2/11/2014 19:55:20, 293592 bytes
+   Driver: C:\Windows\SysWOW64\RsCRIcon.dll, 1.10.0000.0000 (English), 1/27/2014 15:39:40, 9890008 bytes
+
+     Name: PCI standard host CPU bridge
+Device ID: PCI\VEN_1022&DEV_1585&SUBSYS_00000000&REV_00\3&2411E6FE&1&C5
+   Driver: n/a
+
+     Name: AMD USB 3.0 eXtensible Host Controller - 0100 (Microsoft)
+Device ID: PCI\VEN_1022&DEV_7814&SUBSYS_F9251179&REV_11\3&2411E6FE&1&80
+   Driver: C:\Windows\system32\DRIVERS\UCX01000.SYS, 6.03.9600.17393 (English), 10/7/2014 01:54:45, 189248 bytes
+   Driver: C:\Windows\system32\DRIVERS\USBXHCI.SYS, 6.03.9600.17795 (English), 4/16/2015 01:17:07, 325464 bytes
+
+     Name: High Definition Audio Controller
+Device ID: PCI\VEN_1022&DEV_780D&SUBSYS_F9251179&REV_02\3&2411E6FE&1&A2
+   Driver: C:\Windows\system32\DRIVERS\hdaudbus.sys, 6.03.9600.17238 (English), 7/24/2014 06:45:39, 76800 bytes
+
+     Name: PCI Express standard Root Port
+Device ID: PCI\VEN_1022&DEV_1439&SUBSYS_12341022&REV_00\3&2411E6FE&1&14
+   Driver: C:\Windows\system32\DRIVERS\pci.sys, 6.03.9600.17238 (English), 7/24/2014 10:28:35, 280384 bytes
+
+     Name: PCI Express standard Root Port
+Device ID: PCI\VEN_1022&DEV_1439&SUBSYS_12341022&REV_00\3&2411E6FE&1&13
+   Driver: C:\Windows\system32\DRIVERS\pci.sys, 6.03.9600.17238 (English), 7/24/2014 10:28:35, 280384 bytes
+
+     Name: PCI Express standard Root Port
+Device ID: PCI\VEN_1022&DEV_1439&SUBSYS_12341022&REV_00\3&2411E6FE&1&12
+   Driver: C:\Windows\system32\DRIVERS\pci.sys, 6.03.9600.17238 (English), 7/24/2014 10:28:35, 280384 bytes
+
+     Name: PCI standard host CPU bridge
+Device ID: PCI\VEN_1022&DEV_1580&SUBSYS_00000000&REV_00\3&2411E6FE&1&C0
+   Driver: n/a
+
+     Name: PCI standard host CPU bridge
+Device ID: PCI\VEN_1022&DEV_1583&SUBSYS_00000000&REV_00\3&2411E6FE&1&C3
+   Driver: n/a
+
+     Name: Realtek PCIe FE Family Controller
+Device ID: PCI\VEN_10EC&DEV_8136&SUBSYS_F9201179&REV_07\4&2047388C&0&0012
+   Driver: C:\Windows\system32\DRIVERS\Rt630x64.sys, 8.20.0815.2013 (English), 8/15/2013 16:28:42, 830680 bytes
+   Driver: C:\Windows\system32\RtNicProp64.dll, 1.02.0000.0006 (English), 8/15/2013 16:28:42, 74456 bytes
+
+     Name: AMD SMBus
+Device ID: PCI\VEN_1022&DEV_780B&SUBSYS_F9251179&REV_42\3&2411E6FE&1&A0
+   Driver: n/a
+
+     Name: AMD PSP 1.0 Device
+Device ID: PCI\VEN_1022&DEV_1537&SUBSYS_15371022&REV_00\3&2411E6FE&1&40
+   Driver: C:\Windows\system32\DRIVERS\amdpsp.sys, 1.18.0000.0000 (English), 2/24/2014 20:45:56, 230088 bytes
+   Driver: C:\Windows\system32\DRIVERS\amdkmcsp.sys, 1.18.0000.0000 (English), 2/24/2014 20:45:34, 85704 bytes
+   Driver: C:\Windows\system32\amdumcsp.dll, 1.18.0000.0000 (English), 2/24/2014 20:37:10, 77824 bytes
+   Driver: C:\Windows\SysWOW64\amdumcsp.dll, 1.18.0000.0000 (English), 2/24/2014 20:36:52, 59392 bytes
+   Driver: C:\Windows\system32\t-base_client_api.dll, 1.18.0000.0000 (English), 2/24/2014 20:32:30, 16384 bytes
+   Driver: C:\Windows\SysWOW64\t-base_client_api.dll, 1.18.0000.0000 (English), 2/24/2014 20:32:22, 12288 bytes
+   Driver: C:\Windows\system32\tbaseregistry64.dll, 1.18.0000.0000 (English), 2/24/2014 20:32:00, 120320 bytes
+   Driver: C:\Windows\SysWOW64\tbaseregistry32.dll, 1.18.0000.0000 (English), 2/24/2014 20:31:38, 99840 bytes
+   Driver: C:\Windows\SysWOW64\tbaseprovisioning.exe, 1.00.0000.0000 (English), 2/24/2014 20:30:12, 51712 bytes
+   Driver: C:\Windows\SysWOW64\tbaseprovisioning.exe.config, 2/24/2014 20:30:12, 2473 bytes
+   Driver: C:\Windows\SysWOW64\rootpacommon.dll, 1.12.0000.0000 (English), 2/24/2014 20:30:14, 2952704 bytes
+   Driver: C:\Windows\SysWOW64\07010000000000000000000000000000.tlbin, 2/24/2014 20:30:12, 21007 bytes
+   Driver: C:\Windows\system32\WdfCoInstaller01011.dll, 1.11.9200.16384 (English), 2/24/2014 20:29:32, 1795952 bytes
+   Driver: C:\Windows\system32\pspcoins.dll, 1.00.0005.0009 (English), 2/24/2014 20:29:32, 96256 bytes
+
+     Name: PCI standard host CPU bridge
+Device ID: PCI\VEN_1022&DEV_1581&SUBSYS_00000000&REV_00\3&2411E6FE&1&C1
+   Driver: n/a
+
+     Name: Standard Enhanced PCI to USB Host Controller
+Device ID: PCI\VEN_1022&DEV_7808&SUBSYS_F9251179&REV_39\3&2411E6FE&1&98
+   Driver: C:\Windows\system32\drivers\usbehci.sys, 6.03.9600.17195 (English), 5/31/2014 05:07:08, 89944 bytes
+   Driver: C:\Windows\system32\drivers\usbport.sys, 6.03.9600.17195 (English), 5/31/2014 05:07:07, 440664 bytes
+   Driver: C:\Windows\system32\drivers\usbhub.sys, 6.03.9600.17238 (English), 7/24/2014 10:28:38, 419648 bytes
+
+     Name: Standard Enhanced PCI to USB Host Controller
+Device ID: PCI\VEN_1022&DEV_7808&SUBSYS_F9251179&REV_39\3&2411E6FE&1&90
+   Driver: C:\Windows\system32\drivers\usbehci.sys, 6.03.9600.17195 (English), 5/31/2014 05:07:08, 89944 bytes
+   Driver: C:\Windows\system32\drivers\usbport.sys, 6.03.9600.17195 (English), 5/31/2014 05:07:07, 440664 bytes
+   Driver: C:\Windows\system32\drivers\usbhub.sys, 6.03.9600.17238 (English), 7/24/2014 10:28:38, 419648 bytes
+
+     Name: AMD Radeon(TM) R4 Graphics
+Device ID: PCI\VEN_1002&DEV_9851&SUBSYS_F9251179&REV_00\3&2411E6FE&1&08
+   Driver: C:\Windows\system32\DRIVERS\atikmdag.sys, 8.01.0001.1379 (English), 4/23/2014 16:36:58, 13941760 bytes
+   Driver: C:\Windows\system32\DRIVERS\ati2erec.dll, 1.00.0000.0024 (English), 4/23/2014 13:28:42, 43520 bytes
+   Driver: C:\Windows\system32\atiumd64.dll, 9.14.0010.1017 (English), 4/23/2014 16:48:56, 7896632 bytes
+   Driver: C:\Windows\system32\atiumd6a.dll, 8.14.0010.0441 (English), 4/23/2014 16:49:04, 10901184 bytes
+   Driver: C:\Windows\system32\atitmm64.dll, 6.14.0011.0025 (English), 4/23/2014 14:08:04, 190976 bytes
+   Driver: C:\Windows\system32\atiicdxx.dat, 1/16/2014 20:34:54, 723841 bytes
+   Driver: C:\Windows\system32\amdpcom64.dll, 8.14.0010.0023 (English), 4/23/2014 16:50:24, 78432 bytes
+   Driver: C:\Windows\system32\atimpc64.dll, 8.14.0010.0023 (English), 4/23/2014 16:50:36, 78432 bytes
+   Driver: C:\Windows\system32\atiadlxx.dll, 6.14.0010.1300 (English), 4/23/2014 13:34:02, 1147904 bytes
+   Driver: C:\Windows\system32\atiumd6a.cap, 4/23/2014 13:52:36, 3437632 bytes
+   Driver: C:\Windows\system32\atimuixx.dll, 6.14.0010.1002 (English), 4/23/2014 14:10:46, 31232 bytes
+   Driver: C:\Windows\system32\atiapfxx.exe, 6.14.0010.1001 (English), 4/23/2014 14:32:14, 368640 bytes
+   Driver: C:\Windows\system32\ativvsva.dat, 4/23/2014 13:49:38, 157144 bytes
+   Driver: C:\Windows\system32\ativvsvl.dat, 4/23/2014 13:49:38, 204952 bytes
+   Driver: C:\Windows\system32\ativvaxy_cik.dat, 4/1/2014 07:47:58, 234804 bytes
+   Driver: C:\Windows\system32\ativvaxy_cik_nd.dat, 4/1/2014 07:45:58, 233008 bytes
+   Driver: C:\Windows\system32\ativce02.dat, 4/4/2014 10:42:38, 82112 bytes
+   Driver: C:\Windows\system32\amdmmcl6.dll, 1.05.0000.0000 (English), 4/23/2014 13:57:08, 44544 bytes
+   Driver: C:\Windows\system32\atiesrxx.exe, 6.14.0011.1168 (English), 4/23/2014 14:09:44, 240128 bytes
+   Driver: C:\Windows\system32\atieclxx.exe, 6.14.0011.1168 (English), 4/23/2014 14:10:38, 586240 bytes
+   Driver: C:\Windows\system32\atidemgy.dll, 4.05.5225.38126 (English), 4/23/2014 14:10:54, 442368 bytes
+   Driver: C:\Windows\system32\atio6axx.dll, 6.14.0010.12804 (English), 4/23/2014 14:32:48, 27186176 bytes
+   Driver: C:\Windows\system32\aticalrt64.dll, 6.14.0010.1848 (English), 4/23/2014 14:32:02, 62464 bytes
+   Driver: C:\Windows\system32\aticalcl64.dll, 6.14.0010.1848 (English), 4/23/2014 14:31:52, 55808 bytes
+   Driver: C:\Windows\system32\aticaldd64.dll, 6.14.0010.1848 (English), 4/23/2014 14:31:34, 15716352 bytes
+   Driver: C:\Windows\system32\atibtmon.exe, 2.00.0000.0000 (English), 4/11/2013 03:34:26, 118784 bytes
+   Driver: C:\Windows\system32\atiapfxx.blb, 4/23/2014 14:32:44, 577232 bytes
+   Driver: C:\Windows\system32\amdmiracast.dll, 4/23/2014 14:39:34, 415232 bytes
+   Driver: C:\Windows\system32\amdhdl64.dll, 4/23/2014 13:23:46, 134144 bytes
+   Driver: C:\Windows\system32\atidxx64.dll, 8.17.0010.0539 (English), 4/23/2014 16:49:54, 10177624 bytes
+   Driver: C:\Windows\SysWOW64\atiumdag.dll, 9.14.0010.1017 (English), 4/23/2014 16:49:16, 6715752 bytes
+   Driver: C:\Windows\SysWOW64\atiumdva.dll, 8.14.0010.0441 (English), 4/23/2014 16:49:30, 10146664 bytes
+   Driver: C:\Windows\SysWOW64\amdpcom32.dll, 8.14.0010.0023 (English), 4/23/2014 16:50:22, 71704 bytes
+   Driver: C:\Windows\SysWOW64\atimpc32.dll, 8.14.0010.0023 (English), 4/23/2014 16:50:34, 71704 bytes
+   Driver: C:\Windows\SysWOW64\atiadlxy.dll, 6.14.0010.1300 (English), 4/23/2014 13:33:48, 826880 bytes
+   Driver: C:\Windows\SysWOW64\atiumdva.cap, 4/23/2014 13:40:48, 3471376 bytes
+   Driver: C:\Windows\SysWOW64\ativvsva.dat, 4/23/2014 13:49:38, 157144 bytes
+   Driver: C:\Windows\SysWOW64\ativvsvl.dat, 4/23/2014 13:49:38, 204952 bytes
+   Driver: C:\Windows\SysWOW64\amdmmcl.dll, 1.05.0000.0000 (English), 4/23/2014 13:57:02, 35840 bytes
+   Driver: C:\Windows\SysWOW64\atioglxx.dll, 6.14.0010.12804 (English), 4/23/2014 14:12:18, 22860800 bytes
+   Driver: C:\Windows\SysWOW64\atidxx32.dll, 8.17.0010.0539 (English), 4/23/2014 16:49:46, 8764952 bytes
+   Driver: C:\Windows\SysWOW64\aticalrt.dll, 6.14.0010.1848 (English), 4/23/2014 14:31:58, 52224 bytes
+   Driver: C:\Windows\SysWOW64\aticalcl.dll, 6.14.0010.1848 (English), 4/23/2014 14:31:50, 49152 bytes
+   Driver: C:\Windows\SysWOW64\aticaldd.dll, 6.14.0010.1848 (English), 4/23/2014 14:28:10, 14302208 bytes
+   Driver: C:\Windows\SysWOW64\atiapfxx.blb, 4/23/2014 14:32:44, 577232 bytes
+   Driver: C:\Windows\SysWOW64\amdhdl32.dll, 4/23/2014 13:23:44, 123392 bytes
+   Driver: C:\Windows\system32\ATIODCLI.exe, 1.00.0000.0001 (English), 4/11/2013 03:34:26, 51200 bytes
+   Driver: C:\Windows\system32\ATIODE.exe, 1.00.0000.0001 (English), 4/11/2013 03:34:26, 332800 bytes
+   Driver: C:\Windows\system32\amdave64.dll, 5.11.0006.0000 (English), 4/23/2014 13:32:02, 95744 bytes
+   Driver: C:\Windows\SysWOW64\amdave32.dll, 5.11.0006.0000 (English), 4/23/2014 13:31:56, 90112 bytes
+   Driver: C:\Windows\system32\atisamu64.dll, 7.01.0000.0001 (English), 4/23/2014 13:31:44, 89088 bytes
+   Driver: C:\Windows\system32\amdhcp64.dll, 1.00.0000.0001 (English), 4/23/2014 16:51:12, 127872 bytes
+   Driver: C:\Windows\system32\kapp_ci.sbin, 3/25/2014 07:12:46, 42544 bytes
+   Driver: C:\Windows\system32\kapp_si.sbin, 3/27/2014 03:10:48, 38544 bytes
+   Driver: C:\Windows\system32\samu_krnl_ci.sbin, 12/13/2013 01:53:56, 138832 bytes
+   Driver: C:\Windows\system32\samu_krnl_isv_ci.sbin, 12/13/2013 01:53:56, 138832 bytes
+   Driver: C:\Windows\SysWOW64\atisamu32.dll, 7.01.0000.0001 (English), 4/23/2014 13:31:38, 80896 bytes
+   Driver: C:\Windows\SysWOW64\amdhcp32.dll, 1.00.0000.0001 (English), 4/23/2014 16:51:10, 117560 bytes
+   Driver: C:\Windows\system32\DRIVERS\atikmpag.sys, 8.14.0001.6367 (English), 4/23/2014 13:32:36, 628224 bytes
+   Driver: C:\Windows\system32\atipblag.dat, 9/13/2011 10:06:18, 3917 bytes
+   Driver: C:\Windows\system32\atiu9p64.dll, 8.14.0001.6367 (English), 4/23/2014 16:50:14, 116024 bytes
+   Driver: C:\Windows\system32\atiuxp64.dll, 8.14.0001.6367 (English), 4/23/2014 16:50:18, 143304 bytes
+   Driver: C:\Windows\system32\atig6txx.dll, 8.14.0001.6367 (English), 4/23/2014 13:33:24, 146432 bytes
+   Driver: C:\Windows\system32\atiglpxx.dll, 8.14.0001.6367 (English), 4/23/2014 13:33:28, 69632 bytes
+   Driver: C:\Windows\system32\aticfx64.dll, 8.17.0010.1267 (English), 4/23/2014 16:50:08, 1329864 bytes
+   Driver: C:\Windows\SysWOW64\aticfx32.dll, 8.17.0010.1267 (English), 4/23/2014 16:50:02, 1107384 bytes
+   Driver: C:\Windows\system32\OpenCL.dll, 2.00.0000.0000 (English), 4/23/2014 14:38:10, 65024 bytes
+   Driver: C:\Windows\system32\amdocl64.dll, 10.00.1411.0004 (English), 4/23/2014 14:43:00, 28427264 bytes
+   Driver: C:\Windows\system32\amdocl_as64.exe, 4/23/2014 14:43:26, 1187342 bytes
+   Driver: C:\Windows\system32\amdocl_ld64.exe, 4/23/2014 14:43:26, 1061902 bytes
+   Driver: C:\Windows\system32\OpenVideo64.dll, 10.00.1411.0004 (English), 4/23/2014 14:43:22, 98816 bytes
+   Driver: C:\Windows\system32\OVDecode64.dll, 10.00.1411.0004 (English), 4/23/2014 14:43:10, 86528 bytes
+   Driver: C:\Windows\system32\clinfo.exe, 4/23/2014 14:43:38, 230912 bytes
+   Driver: C:\Windows\SysWOW64\OpenCL.dll, 2.00.0000.0000 (English), 4/23/2014 14:38:06, 58880 bytes
+   Driver: C:\Windows\SysWOW64\amdocl.dll, 10.00.1411.0004 (English), 4/23/2014 14:40:28, 23905280 bytes
+   Driver: C:\Windows\SysWOW64\amdocl_as32.exe, 4/23/2014 14:43:24, 995342 bytes
+   Driver: C:\Windows\SysWOW64\amdocl_ld32.exe, 4/23/2014 14:43:24, 798734 bytes
+   Driver: C:\Windows\SysWOW64\OpenVideo.dll, 10.00.1411.0004 (English), 4/23/2014 14:43:16, 83456 bytes
+   Driver: C:\Windows\SysWOW64\OVDecode.dll, 10.00.1411.0004 (English), 4/23/2014 14:43:06, 73216 bytes
+   Driver: C:\Program Files\AMD\amdkmpfd\amdkmpfd.sbz, 8.14.0001.6020 (English), 12/14/2013 08:00:58, 36608 bytes
+   Driver: C:\Program Files\AMD\amdkmpfd\amdkmpfd.ibz, 1/7/2014 07:12:24, 1981 bytes
+   Driver: C:\Program Files\AMD\amdkmpfd\amdkmpfd.cbz, 1/7/2014 19:00:42, 9946 bytes
+   Driver: C:\Windows\system32\atig6pxx.dll, 8.14.0001.6367 (English), 4/23/2014 13:33:32, 75264 bytes
+   Driver: C:\Windows\SysWOW64\atipblag.dat, 9/13/2011 10:06:18, 3917 bytes
+   Driver: C:\Windows\SysWOW64\atiu9pag.dll, 8.14.0001.6367 (English), 4/23/2014 16:50:12, 99008 bytes
+   Driver: C:\Windows\SysWOW64\atiuxpag.dll, 8.14.0001.6367 (English), 4/23/2014 16:50:18, 126336 bytes
+   Driver: C:\Windows\SysWOW64\atigktxx.dll, 8.14.0001.6367 (English), 4/23/2014 13:33:00, 133120 bytes
+   Driver: C:\Windows\SysWOW64\atiglpxx.dll, 8.14.0001.6367 (English), 4/23/2014 13:33:28, 69632 bytes
+   Driver: C:\Program Files\Common Files\ATI Technologies\Multimedia\AMDh264Enc32.dll, 1.00.0000.0001 (English), 4/23/2014 14:38:28, 258048 bytes
+   Driver: C:\Program Files\Common Files\ATI Technologies\Multimedia\AMDh264Enc64.dll, 1.00.0000.0001 (English), 4/23/2014 14:38:50, 290304 bytes
+   Driver: C:\Program Files\Common Files\ATI Technologies\Multimedia\AMDhwDecoder_32.dll, 1.00.0000.0001 (English), 4/23/2014 14:41:42, 196608 bytes
+   Driver: C:\Program Files\Common Files\ATI Technologies\Multimedia\AMDhwDecoder_64.dll, 1.00.0000.0001 (English), 4/23/2014 14:42:20, 232960 bytes
+   Driver: C:\Program Files\Common Files\ATI Technologies\Multimedia\amf-mft-mjpeg-decoder32.dll, 1.00.0000.0002 (English), 4/23/2014 14:38:16, 2150400 bytes
+   Driver: C:\Program Files\Common Files\ATI Technologies\Multimedia\amf-mft-mjpeg-decoder64.dll, 1.00.0000.0002 (English), 4/23/2014 14:39:00, 2192384 bytes
+   Driver: C:\Program Files\Common Files\ATI Technologies\Multimedia\mcl32.dll, 1.04.0000.0000 (English), 9/24/2013 00:49:02, 49152 bytes
+   Driver: C:\Program Files\Common Files\ATI Technologies\Multimedia\mcl64.dll, 1.04.0000.0000 (English), 9/24/2013 00:49:02, 64512 bytes
+   Driver: C:\Program Files\Common Files\ATI Technologies\Multimedia\amf-wic-jpeg-decoder32.dll, 1.01.0000.0000 (English), 4/23/2014 14:39:58, 407552 bytes
+   Driver: C:\Program Files\Common Files\ATI Technologies\Multimedia\amf-wic-jpeg-decoder64.dll, 1.01.0000.0000 (English), 4/23/2014 14:40:16, 415232 bytes
+   Driver: C:\Windows\system32\coinst_13.352.dll, 1.00.0005.0009 (English), 4/23/2014 13:40:02, 808960 bytes
+
+     Name: Qualcomm Atheros AR9485 Wireless Network Adapter
+Device ID: PCI\VEN_168C&DEV_0032&SUBSYS_863111AD&REV_01\4&3300E931&0&0013
+   Driver: C:\Windows\system32\DRIVERS\athwbx.sys, 10.00.0000.0285 (English), 2/14/2014 05:35:20, 3888640 bytes
+   Driver: C:\Windows\system32\drivers\vwifibus.sys, 6.03.9600.16384 (English), 8/22/2013 06:39:00, 24576 bytes
+
+     Name: High Definition Audio Controller
+Device ID: PCI\VEN_1002&DEV_9840&SUBSYS_F9251179&REV_00\3&2411E6FE&1&09
+   Driver: C:\Windows\system32\DRIVERS\hdaudbus.sys, 6.03.9600.17238 (English), 7/24/2014 06:45:39, 76800 bytes
+
+     Name: PCI standard host CPU bridge
+Device ID: PCI\VEN_1022&DEV_1584&SUBSYS_00000000&REV_00\3&2411E6FE&1&C4
+   Driver: n/a
+
+     Name: PCI standard host CPU bridge
+Device ID: PCI\VEN_1022&DEV_156B&SUBSYS_00000000&REV_00\3&2411E6FE&1&10
+   Driver: n/a
+
+     Name: Standard SATA AHCI Controller
+Device ID: PCI\VEN_1022&DEV_7801&SUBSYS_F9251179&REV_00\3&2411E6FE&1&88
+   Driver: C:\Windows\system32\DRIVERS\storahci.sys, 6.03.9600.16384 (English), 8/22/2013 07:43:31, 107872 bytes
+
+     Name: SDA Standard Compliant SD Host Controller
+Device ID: PCI\VEN_1022&DEV_7813&SUBSYS_F9251179&REV_01\3&2411E6FE&1&A7
+   Driver: C:\Windows\system32\DRIVERS\sdbus.sys, 6.03.9600.17705 (English), 3/12/2015 23:03:31, 239424 bytes
+   Driver: C:\Windows\system32\DRIVERS\dumpsd.sys, 6.03.9600.17705 (English), 3/12/2015 23:03:30, 154432 bytes
+
+     Name: PCI standard ISA bridge
+Device ID: PCI\VEN_1022&DEV_780E&SUBSYS_F9251179&REV_11\3&2411E6FE&1&A3
+   Driver: C:\Windows\system32\DRIVERS\msisadrv.sys, 6.03.9600.16384 (English), 8/22/2013 07:43:49, 17248 bytes
 
 ------------------
 DirectShow Filters
@@ -1064,19 +1299,19 @@ Diagnostics
 Windows Error Reporting:
 +++ WER0 +++:
 Fault bucket , type 0
-Event Name: LiveKernelEvent
+Event Name: AppHangB1
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: 156
-P2: ffffe000b238dbd0
-P3: 1
-P4: 16
-P5: fffff800879ae230
-P6: 6_3_9600
-P7: 0_0
-P8: 768_1
+P1: explorer.exe
+P2: 6.3.9600.17667
+P3: 54c6f7c2
+P4: ade1
+P5: 134217732
+P6: 
+P7: 
+P8: 
 P9: 
 P10: 
 
@@ -1108,7 +1343,7 @@ Cab Id: 0
 
 Problem signature:
 P1: x64
-P2: HID\VID_046D&PID_0A0C&REV_1013&MI_03
+P2: HID\VID_046D&PID_C531&REV_2100&MI_01&Col02
 P3: 
 P4: 
 P5: 
@@ -1127,7 +1362,7 @@ Cab Id: 0
 
 Problem signature:
 P1: x64
-P2: USB\VID_046D&PID_0A0C&REV_1013&MI_03
+P2: USB\VID_046D&PID_C531&REV_2100&MI_00
 P3: 6.3.0.0
 P4: 0409
 P5: input.inf
@@ -1146,7 +1381,7 @@ Cab Id: 0
 
 Problem signature:
 P1: x64
-P2: USB\VID_046D&PID_0A0C&REV_1013&MI_03
+P2: USB\VID_046D&PID_C531&REV_2100&MI_00
 P3: 
 P4: 
 P5: 
@@ -1159,51 +1394,13 @@ P10:
 
 +++ WER5 +++:
 Fault bucket , type 0
-Event Name: APPCRASH
-Response: Not available
-Cab Id: 0
-
-Problem signature:
-P1: TssSrv.exe
-P2: 1.0.1.1
-P3: 526514d5
-P4: StackHash_ddb1
-P5: 6.3.9600.17736
-P6: 550f42c2
-P7: c0000374
-P8: PCH_6A_FROM_ntdll+0x0003CA2C
-P9: 
-P10: 
-
-
-+++ WER6 +++:
-Fault bucket , type 0
-Event Name: AppHangTransient
-Response: Not available
-Cab Id: 0
-
-Problem signature:
-P1: AcroRd32.exe
-P2: 11.0.13.17
-P3: 5607180b
-P4: unknown
-P5: unknown
-P6: unknown
-P7: unknown
-P8: 
-P9: 
-P10: 
-
-
-+++ WER7 +++:
-Fault bucket , type 0
 Event Name: PnPRequestAdditionalSoftware
 Response: Not available
 Cab Id: 0
 
 Problem signature:
 P1: x64
-P2: USB\VID_046D&PID_0A1F&REV_0100&MI_03
+P2: USB\VID_046D&PID_C531&REV_2100&MI_01
 P3: 6.3.0.0
 P4: 0409
 P5: input.inf
@@ -1214,7 +1411,7 @@ P9:
 P10: 
 
 
-+++ WER8 +++:
++++ WER6 +++:
 Fault bucket , type 0
 Event Name: PnPGenericDriverFound
 Response: Not available
@@ -1222,7 +1419,7 @@ Cab Id: 0
 
 Problem signature:
 P1: x64
-P2: HID\VID_046D&PID_0A1F&REV_0100&MI_03&Col01
+P2: USB\VID_046D&PID_C531&REV_2100&MI_01
 P3: 
 P4: 
 P5: 
@@ -1233,19 +1430,57 @@ P9:
 P10: 
 
 
-+++ WER9 +++:
++++ WER7 +++:
 Fault bucket , type 0
-Event Name: PnPGenericDriverFound
+Event Name: APPCRASH
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: x64
-P2: USB\VID_046D&PID_0A1F&REV_0100&MI_03
-P3: 
-P4: 
-P5: 
-P6: 
+P1: UnrealCEFSubProcess.exe
+P2: 0.0.0.0
+P3: 562aabb2
+P4: libcef.dll
+P5: 3.2357.1291.0
+P6: 55df84b5
+P7: c0000005
+P8: 000000000052edd5
+P9: 
+P10: 
+
+
++++ WER8 +++:
+Fault bucket , type 0
+Event Name: LiveKernelEvent
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: 156
+P2: ffffe000b1954bb0
+P3: 1
+P4: ee
+P5: fffff800879ae230
+P6: 6_3_9600
+P7: 0_0
+P8: 768_1
+P9: 
+P10: 
+
+
++++ WER9 +++:
+Fault bucket , type 0
+Event Name: MoAppHang
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: microsoft.windowscommunicationsapps_17.5.9600.20911_x64__8wekyb3d8bbwe
+P2: praid:ppleae38af2e007f4358a809ac99a64a67c1
+P3: 17.5.9600.20911
+P4: 559467ee
+P5: c40a
+P6: 8388608
 P7: 
 P8: 
 P9: 
