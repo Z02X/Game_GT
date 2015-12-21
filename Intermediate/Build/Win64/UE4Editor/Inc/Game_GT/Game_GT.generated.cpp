@@ -21,6 +21,10 @@ void EmptyLinkFunctionForGeneratedCodeGame_GT() {}
 	{
 	}
 	IMPLEMENT_CLASS(AGame_GTPlayerController, 4163572900);
+	void AMyCharacter::StaticRegisterNativesAMyCharacter()
+	{
+	}
+	IMPLEMENT_CLASS(AMyCharacter, 4130023407);
 #if USE_COMPILED_IN_NATIVES
 // Cross Module References
 	ENGINE_API class UClass* Z_Construct_UClass_ACharacter();
@@ -35,6 +39,8 @@ void EmptyLinkFunctionForGeneratedCodeGame_GT() {}
 	GAME_GT_API class UClass* Z_Construct_UClass_AGame_GTGameMode();
 	GAME_GT_API class UClass* Z_Construct_UClass_AGame_GTPlayerController_NoRegister();
 	GAME_GT_API class UClass* Z_Construct_UClass_AGame_GTPlayerController();
+	GAME_GT_API class UClass* Z_Construct_UClass_AMyCharacter_NoRegister();
+	GAME_GT_API class UClass* Z_Construct_UClass_AMyCharacter();
 	GAME_GT_API class UPackage* Z_Construct_UPackage_Game_GT();
 	UClass* Z_Construct_UClass_AGame_GTCharacter_NoRegister()
 	{
@@ -151,6 +157,38 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 	}
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AGame_GTPlayerController(Z_Construct_UClass_AGame_GTPlayerController, TEXT("AGame_GTPlayerController"));
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AGame_GTPlayerController);
+	UClass* Z_Construct_UClass_AMyCharacter_NoRegister()
+	{
+		return AMyCharacter::StaticClass();
+	}
+	UClass* Z_Construct_UClass_AMyCharacter()
+	{
+		static UClass* OuterClass = NULL;
+		if (!OuterClass)
+		{
+			Z_Construct_UClass_ACharacter();
+			Z_Construct_UPackage_Game_GT();
+			OuterClass = AMyCharacter::StaticClass();
+			if (!(OuterClass->ClassFlags & CLASS_Constructed))
+			{
+				UObjectForceRegistration(OuterClass);
+				OuterClass->ClassFlags |= 0x20900080;
+
+
+				OuterClass->StaticLink();
+#if WITH_METADATA
+				UMetaData* MetaData = OuterClass->GetOutermost()->GetMetaData();
+				MetaData->SetValue(OuterClass, TEXT("HideCategories"), TEXT("Navigation"));
+				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("MyCharacter.h"));
+				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("MyCharacter.h"));
+#endif
+			}
+		}
+		check(OuterClass->GetClass());
+		return OuterClass;
+	}
+	static FCompiledInDefer Z_CompiledInDefer_UClass_AMyCharacter(Z_Construct_UClass_AMyCharacter, TEXT("AMyCharacter"));
+	DEFINE_VTABLE_PTR_HELPER_CTOR(AMyCharacter);
 	UPackage* Z_Construct_UPackage_Game_GT()
 	{
 		static UPackage* ReturnPackage = NULL;
@@ -159,8 +197,8 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), NULL, FName(TEXT("/Script/Game_GT")), false, false));
 			ReturnPackage->PackageFlags |= PKG_CompiledIn | 0x00000000;
 			FGuid Guid;
-			Guid.A = 0xEB6942DF;
-			Guid.B = 0x8DA720DA;
+			Guid.A = 0xBB5C6BFA;
+			Guid.B = 0xD9AE4F77;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;
 			ReturnPackage->SetGuid(Guid);

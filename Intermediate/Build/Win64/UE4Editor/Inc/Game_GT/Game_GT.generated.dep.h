@@ -14,3 +14,6 @@
 #ifndef GAME_GT_Game_GTPlayerController_generated_h
 	#include "Game_GTPlayerController.h"
 #endif
+#ifndef GAME_GT_MyCharacter_generated_h
+	#include "MyCharacter.h"
+#endif
