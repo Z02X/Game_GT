@@ -12,19 +12,19 @@ void EmptyLinkFunctionForGeneratedCodeGame_GT() {}
 	void AGame_GTCharacter::StaticRegisterNativesAGame_GTCharacter()
 	{
 	}
-	IMPLEMENT_CLASS(AGame_GTCharacter, 1900925734);
+	IMPLEMENT_CLASS(AGame_GTCharacter, 2491369361);
 	void AGame_GTGameMode::StaticRegisterNativesAGame_GTGameMode()
 	{
 	}
-	IMPLEMENT_CLASS(AGame_GTGameMode, 1380666714);
+	IMPLEMENT_CLASS(AGame_GTGameMode, 2796876835);
 	void AGame_GTPlayerController::StaticRegisterNativesAGame_GTPlayerController()
 	{
 	}
-	IMPLEMENT_CLASS(AGame_GTPlayerController, 4163572900);
+	IMPLEMENT_CLASS(AGame_GTPlayerController, 2084972219);
 	void AMyCharacter::StaticRegisterNativesAMyCharacter()
 	{
 	}
-	IMPLEMENT_CLASS(AMyCharacter, 4130023407);
+	IMPLEMENT_CLASS(AMyCharacter, 320451416);
 #if USE_COMPILED_IN_NATIVES
 // Cross Module References
 	ENGINE_API class UClass* Z_Construct_UClass_ACharacter();
@@ -195,9 +195,9 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 		if (!ReturnPackage)
 		{
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), NULL, FName(TEXT("/Script/Game_GT")), false, false));
-			ReturnPackage->PackageFlags |= PKG_CompiledIn | 0x00000000;
+			ReturnPackage->SetPackageFlags(PKG_CompiledIn | 0x00000000);
 			FGuid Guid;
-			Guid.A = 0xBB5C6BFA;
+			Guid.A = 0x780E6432;
 			Guid.B = 0xD9AE4F77;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;
