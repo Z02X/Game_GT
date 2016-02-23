@@ -1,0 +1,1065 @@
+﻿[2016.02.19-16.06.31:926][  0]Log file open, 02/19/16 11:06:31
+[2016.02.19-16.06.31:926][  0]LogInit:Display: Running engine for game: Game_GT
+[2016.02.19-16.06.31:926][  0]LogPlatformFile: Not using cached read wrapper
+[2016.02.19-16.06.31:926][  0]LogInit:Display: RandInit(1667417422) SRandInit(1667417424).
+[2016.02.19-16.06.31:926][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.02.19-16.06.31:926][  0]LogStats: Stats thread started at 0.496389
+[2016.02.19-16.06.31:927][  0]LogInit:Warning: Incompatible or missing module: UE4Editor-Game_GT.dll
+[2016.02.19-16.06.38:197][  0]Running C:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/DotNET/UnrealBuildTool.exe Game_GT Development Win64 -project="C:/Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Game_GT.uproject" -rocket -editorrecompile -progress -noubtmakefiles -2015
+[2016.02.19-16.06.56:049][  0]@progress push 5%
+[2016.02.19-16.06.56:751][  0]Parsing headers for Game_GTEditor
+[2016.02.19-16.06.56:751][  0]  Running UnrealHeaderTool "C:/Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Game_GT.uproject" "C:\Users\dacos\OneDrive\Documents\Unreal Projects\Game_GT\Intermediate\Build\Win64\Game_GTEditor\Development\UnrealHeaderTool.manifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -rocket -installed
+[2016.02.19-16.07.03:076][  0]Reflection code generated for Game_GTEditor in 6.2869279 seconds
+[2016.02.19-16.07.03:276][  0]@progress pop
+[2016.02.19-16.07.05:688][  0]Performing 8 actions (4 in parallel)
+[2016.02.19-16.07.05:688][  0]PCH.Game_GT.h.cpp
+[2016.02.19-16.07.14:325][  0]Game_GTGameMode.cpp
+[2016.02.19-16.07.14:325][  0]Game_GTCharacter.cpp
+[2016.02.19-16.07.14:325][  0]Game_GT.generated.cpp
+[2016.02.19-16.07.14:326][  0]Game_GTPlayerController.cpp
+[2016.02.19-16.07.14:527][  0]MyCharacter.cpp
+[2016.02.19-16.07.14:628][  0]Game_GT.cpp
+[2016.02.19-16.07.14:829][  0][8/8] Link UE4Editor-Game_GT.dll
+[2016.02.19-16.07.15:130][  0]   Creating library C:\Users\dacos\OneDrive\Documents\Unreal Projects\Game_GT\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-Game_GT.lib and object C:\Users\dacos\OneDrive\Documents\Unreal Projects\Game_GT\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-Game_GT.exp
+[2016.02.19-16.07.15:431][  0]-------- End Detailed Actions Stats -----------------------------------------------------------
+[2016.02.19-16.07.15:431][  0]Total build time: 37.06 seconds
+[2016.02.19-16.07.15:882][  0]LogInit: Version: 4.10.1-2791327+++depot+UE4-Releases+4.10
+[2016.02.19-16.07.15:882][  0]LogInit: API Version: 2758231
+[2016.02.19-16.07.15:882][  0]LogInit: Compiled (64-bit): Dec  4 2015 19:44:40
+[2016.02.19-16.07.15:882][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.02.19-16.07.15:882][  0]LogInit: Build Configuration: Development
+[2016.02.19-16.07.15:882][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.02.19-16.07.15:882][  0]LogInit: Command line:  
+[2016.02.19-16.07.15:882][  0]LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.02.19-16.07.15:882][  0]LogInit: Rocket: 1
+[2016.02.19-16.07.15:909][  0]LogInit: Using libcurl 7.41.0
+[2016.02.19-16.07.15:909][  0]LogInit:  - built for x86_64-pc-win32
+[2016.02.19-16.07.15:909][  0]LogInit:  - supports SSL with WinSSL
+[2016.02.19-16.07.15:909][  0]LogInit:  - other features:
+[2016.02.19-16.07.15:909][  0]LogInit:      CURL_VERSION_SSL
+[2016.02.19-16.07.15:909][  0]LogInit:      CURL_VERSION_IPV6
+[2016.02.19-16.07.15:909][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.02.19-16.07.15:909][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.02.19-16.07.15:909][  0]LogInit:      CURL_VERSION_IDN
+[2016.02.19-16.07.15:910][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.02.19-16.07.15:910][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.02.19-16.07.15:910][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.02.19-16.07.15:910][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.02.19-16.07.15:910][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.02.19-16.07.15:951][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.02.19-16.07.15:963][  0]LogInit: Object subsystem initialized
+[2016.02.19-16.07.15:974][  0]LogInit: Selected Device Profile: [Windows]
+[2016.02.19-16.07.15:974][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.02.19-16.07.15:993][  0]LogInit: Computer: APPLEEATER-V2
+[2016.02.19-16.07.15:993][  0]LogInit: User: dacos
+[2016.02.19-16.07.15:993][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.02.19-16.07.15:993][  0]LogInit: High frequency timer resolution =2.533207 MHz
+[2016.02.19-16.07.15:993][  0]LogMemory: Memory total: Physical=11.9GB (12GB approx)
+[2016.02.19-16.07.15:993][  0]LogMemory: Platform Memory Stats for Windows
+[2016.02.19-16.07.15:993][  0]LogMemory: Process Physical Memory: 60.67 MB used, 60.67 MB peak
+[2016.02.19-16.07.15:993][  0]LogMemory: Process Virtual Memory: 57.12 MB used, 57.12 MB peak
+[2016.02.19-16.07.15:993][  0]LogMemory: Physical Memory: 3261.79 MB used, 12177.01 MB total
+[2016.02.19-16.07.15:993][  0]LogMemory: Virtual Memory: 409.77 MB used, 134217728.00 MB total
+[2016.02.19-16.07.16:221][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.02.19-16.07.16:687][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 960M        (Feature Level 11_0)
+[2016.02.19-16.07.16:688][  0]LogD3D11RHI: Adapter has 1995MB of dedicated video memory, 0MB of dedicated system memory, and 6088MB of shared system memory, 1 output[s]
+[2016.02.19-16.07.16:693][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2016.02.19-16.07.16:693][  0]LogD3D11RHI: Adapter has 112MB of dedicated video memory, 0MB of dedicated system memory, and 6088MB of shared system memory, 0 output[s]
+[2016.02.19-16.07.16:694][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.02.19-16.07.16:694][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 6088MB of shared system memory, 0 output[s]
+[2016.02.19-16.07.16:694][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.02.19-16.07.16:699][  0]LogD3D11RHI: !Direct3DDevice
+[2016.02.19-16.07.16:699][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.02.19-16.07.16:723][  0]LogD3D11RHI: Async texture creation enabled
+[2016.02.19-16.07.17:245][  0]LogShaderCompilers: Guid format shader working directory is -27 characters bigger than the processId version (../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Intermediate/Shaders/WorkingDirectory/10736/).
+[2016.02.19-16.07.17:245][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/dacos/AppData/Local/Temp/UnrealShaderWorkingDir/C4D667B0440A85E09EF838B31720120D/'.
+[2016.02.19-16.07.17:245][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.02.19-16.07.18:767][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.02.19-16.07.18:772][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.02.19-16.07.18:777][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.02.19-16.07.18:782][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.02.19-16.07.18:788][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.02.19-16.07.18:793][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.02.19-16.07.18:796][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.02.19-16.07.18:802][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.02.19-16.07.18:805][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.02.19-16.07.18:809][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.02.19-16.07.18:812][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.02.19-16.07.18:821][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.02.19-16.07.18:821][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.02.19-16.07.18:822][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.02.19-16.07.18:864][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.02.19-16.07.18:868][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.02.19-16.07.18:871][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.02.19-16.07.18:876][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.02.19-16.07.18:876][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.02.19-16.07.19:195][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.02.19-16.07.19:466][  0]LogDerivedDataCache: Loaded boot cache 0.27s 42MB C:/Users/dacos/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.02.19-16.07.19:466][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/dacos/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.02.19-16.07.19:466][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.02.19-16.07.19:466][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.02.19-16.07.19:466][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.02.19-16.07.19:466][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.02.19-16.07.19:578][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.02.19-16.07.19:596][  0]LogDerivedDataCache: Using Local data cache path C:/Users/dacos/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.02.19-16.07.22:166][  0]LogInit: Selected Device Profile: [Windows]
+[2016.02.19-16.07.22:174][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.02.19-16.07.22:428][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.02.19-16.07.22:428][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.02.19-16.07.23:057][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.02.19-16.07.25:225][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.02.19-16.07.25:302][  0]LogLinker:Warning: Asset '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.19-16.07.25:306][  0]LogLinker:Warning: Asset '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Mannequin/Animations/ThirdPerson_Jump.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.19-16.07.25:314][  0]LogLinker:Warning: Asset '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.19-16.07.25:319][  0]LogLinker:Warning: Asset '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.19-16.07.25:324][  0]LogLinker:Warning: Asset '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.19-16.07.25:328][  0]LogLinker:Warning: Asset '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Mannequin/Animations/ThirdPersonIdle.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.19-16.07.25:336][  0]LogLinker:Warning: Asset '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Mannequin/Animations/ThirdPersonRun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.19-16.07.25:341][  0]LogLinker:Warning: Asset '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Mannequin/Animations/ThirdPersonWalk.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.19-16.07.25:859][  0]LogAssetRegistry: FAssetRegistry took 0.0130 seconds to start up
+[2016.02.19-16.07.26:206][  0]SourceControl: Info Source control is disabled
+[2016.02.19-16.07.26:989][  0]LogObj: 31636 objects as part of root set at end of initial load.
+[2016.02.19-16.07.26:989][  0]LogUObjectAllocator: 7168912 out of 0 bytes used by permanent object pool.
+[2016.02.19-16.07.27:089][  0]LogEngine: Initializing Engine...
+[2016.02.19-16.07.27:093][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.02.19-16.07.27:102][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.02.19-16.07.27:336][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.02.19-16.07.27:350][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.19-16.07.27:360][  0]LogInit: FAudioDevice initialized.
+[2016.02.19-16.07.27:390][  0]LogDerivedDataCache: Saved boot cache 0.03s 42MB C:/Users/dacos/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.02.19-16.07.27:397][  0]LogInit: Texture streaming: Enabled
+[2016.02.19-16.07.27:404][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.02.19-16.07.27:405][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.1-2791327+++depot+UE4-Releases+4.10
+[2016.02.19-16.07.27:405][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 7271a55c42ba7649a468ef8135f6e487|72e7fe8abf234c00b7d4ff8eb3462f9c|ed1d22c6-da52-4d8a-a8db-03a689afc6c5
+[2016.02.19-16.07.27:405][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.02.19-16.07.27:420][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.02.19-16.07.27:442][  0]LogInit: Transaction tracking system initialized
+[2016.02.19-16.07.27:493][  0]BlueprintLog: New page: Editor Load
+[2016.02.19-16.07.27:694][  0]LocalizationService: Info Localization service is disabled
+[2016.02.19-16.07.27:814][  0]LogConsoleResponse:Display: 
+[2016.02.19-16.07.28:131][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.02.19-16.07.28:418][  0]LogFileCache: Scanning file cache for directory 'C:/Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/' took 0.02s
+[2016.02.19-16.07.28:421][  0]Cmd: MAP LOAD FILE="../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/TopDownCPP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.02.19-16.07.28:422][  0]LightingResults: New page: Lighting Build
+[2016.02.19-16.07.28:430][  0]MapCheck: New page: Map Check
+[2016.02.19-16.07.28:430][  0]LightingResults: New page: Lighting Build
+[2016.02.19-16.07.28:451][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000027536AB1B20
+[2016.02.19-16.07.29:481][  0]LogClass:Warning: Type mismatch in DialogueNumber of HPBar_C - Previous (IntProperty) Current(StrProperty) for package:  FObjectReader
+[2016.02.19-16.07.30:853][  0]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2016.02.19-16.07.30:984][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.02.19-16.07.30:989][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.02.19-16.07.31:062][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 73.203ms to complete.
+[2016.02.19-16.07.31:062][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 2.642
+[2016.02.19-16.07.31:254][  0]LogCollectionManager: Loaded 0 collections in 0.004115 seconds
+[2016.02.19-16.07.31:316][  0]LogFileCache: Scanning file cache for directory 'C:/Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Saved/Collections/' took 0.01s
+[2016.02.19-16.07.31:316][  0]LogFileCache: Scanning file cache for directory 'C:/Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Developers/dacos/Collections/' took 0.01s
+[2016.02.19-16.07.31:316][  0]LogFileCache: Scanning file cache for directory 'C:/Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Collections/' took 0.01s
+[2016.02.19-16.07.31:316][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000009 seconds
+[2016.02.19-16.07.31:327][  0]LogContentBrowser: Native class hierarchy populated in 0.0099 seconds. Added 1897 classes and 340 folders.
+[2016.02.19-16.07.31:343][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2016.02.19-16.07.31:660][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2016.02.19-16.07.31:673][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2016.02.19-16.07.31:742][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.02.19-16.07.31:759][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.02.19-16.07.31:784][  0]LogLoad: Full Startup: 61.88 seconds (BP compile: 0.81 seconds)
+[2016.02.19-16.07.31:808][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.02.19-16.07.31:809][  0]LoadErrors:Error: Error /Game/Blueprints/Conversation : Failed import for StrProperty /Game/Blueprints/HPBar.HPBar_C:DialogueNumber
+[2016.02.19-16.07.31:809][  0]LoadErrors:Error: Error /Game/Blueprints/ConversationTestNPC : Failed import for StrProperty /Game/Blueprints/HPBar.HPBar_C:DialogueNumber
+[2016.02.19-16.07.31:967][  0]SourceControl: Info On branch master
+[2016.02.19-16.07.31:967][  0]SourceControl: Info Your branch is up-to-date with 'origin/master'.
+[2016.02.19-16.07.31:967][  0]SourceControl: Info Changes not staged for commit:
+[2016.02.19-16.07.31:967][  0]SourceControl: Info   (use "git add <file>..." to update what will be committed)
+[2016.02.19-16.07.31:967][  0]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2016.02.19-16.07.31:967][  0]SourceControl: Info 	modified:   Intermediate/Build/Win64/Game_GTEditor/DependencyCache.bin
+[2016.02.19-16.07.31:967][  0]SourceControl: Info 	modified:   Intermediate/Build/Win64/UE4Editor/Development/Game_GT/Game_GT.h
+[2016.02.19-16.07.31:967][  0]SourceControl: Info 	modified:   Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-Game_GT.exp
+[2016.02.19-16.07.31:967][  0]SourceControl: Info 	modified:   Intermediate/CachedAssetRegistry.bin
+[2016.02.19-16.07.31:967][  0]SourceControl: Info 	modified:   Saved/Config/Windows/Editor.ini
+[2016.02.19-16.07.31:967][  0]SourceControl: Info 	modified:   Saved/Logs/Game_GT.log
+[2016.02.19-16.07.31:967][  0]SourceControl: Info Untracked files:
+[2016.02.19-16.07.31:967][  0]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2016.02.19-16.07.31:967][  0]SourceControl: Info 	Binaries/
+[2016.02.19-16.07.31:967][  0]SourceControl: Info 	Intermediate/Build/BuildRules/Game_GTModuleRules.dll
+[2016.02.19-16.07.31:967][  0]SourceControl: Info 	Intermediate/Build/BuildRules/Game_GTModuleRules.pdb
+[2016.02.19-16.07.31:967][  0]SourceControl: Info 	Intermediate/Build/Win64/UE4Editor/Development/Game_GT/Game_GT.cpp.obj
+[2016.02.19-16.07.31:967][  0]SourceControl: Info 	Intermediate/Build/Win64/UE4Editor/Development/Game_GT/Game_GT.generated.cpp.obj
+[2016.02.19-16.07.31:967][  0]SourceControl: Info 	Intermediate/Build/Win64/UE4Editor/Development/Game_GT/Game_GT.h.obj
+[2016.02.19-16.07.31:967][  0]SourceControl: Info 	Intermediate/Build/Win64/UE4Editor/Development/Game_GT/Game_GTCharacter.cpp.obj
+[2016.02.19-16.07.31:967][  0]SourceControl: Info 	Intermediate/Build/Win64/UE4Editor/Development/Game_GT/Game_GTGameMode.cpp.obj
+[2016.02.19-16.07.31:967][  0]SourceControl: Info 	Intermediate/Build/Win64/UE4Editor/Development/Game_GT/Game_GTPlayerController.cpp.obj
+[2016.02.19-16.07.31:968][  0]SourceControl: Info 	Intermediate/Build/Win64/UE4Editor/Development/Game_GT/MyCharacter.cpp.obj
+[2016.02.19-16.07.31:968][  0]SourceControl: Info 	Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-Game_GT.lib
+[2016.02.19-16.07.31:968][  0]SourceControl: Info 	Saved/Logs/Game_GT-backup-2016.02.19-11.06.31.log
+[2016.02.19-16.07.31:968][  0]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
+[2016.02.19-16.07.31:968][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.02.19-16.07.32:178][  0]LogRenderer: Reallocating scene render targets to support 1376x624 (Frame:2).
+[2016.02.19-16.07.34:962][ 17]LogAssetRegistry: Asset discovery search completed in 9.1147 seconds
+[2016.02.19-16.07.34:969][ 17]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000002 seconds (found 0 objects)
+[2016.02.19-16.07.34:969][ 17]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000560 seconds (updated 0 objects)
+[2016.02.19-16.07.46:873][ 95]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.02.19-16.07.46:873][ 95]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.19-16.07.46:875][ 95]PIE: New page: PIE session: TopDownExampleMap (Feb 19, 2016, 6:07:46 AM)
+[2016.02.19-16.07.46:876][ 95]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap
+[2016.02.19-16.07.46:927][ 95]LogPlayLevel: PIE: StaticDuplicateObject took: (0.050747s)
+[2016.02.19-16.07.46:929][ 95]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2016.02.19-16.07.46:929][ 95]LogPlayLevel: PIE: World Init took: (0.002699s)
+[2016.02.19-16.07.46:930][ 95]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.054411s)
+[2016.02.19-16.07.47:098][ 95]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.19-16.07.47:113][ 95]LogInit: FAudioDevice initialized.
+[2016.02.19-16.07.47:204][ 95]LogWorld: Game class is '2DTopDown_Style_C'
+[2016.02.19-16.07.47:234][ 95]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2016.02.19-11.07.47
+[2016.02.19-16.07.47:234][ 95]LogActor:Warning: GameSession /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.19-16.07.47:235][ 95]LogActor:Warning: GameNetworkManager /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.19-16.07.47:252][ 95]LogWorld: Bringing up level for play took: 0.042499
+[2016.02.19-16.07.47:275][ 95]PIE: Info Play in editor start time for /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap 1.145
+[2016.02.19-16.07.47:276][ 95]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.02.19-16.08.55:547][611]LogBlueprintUserMessages: [ConversationTestNPC_C_0] Hello
+[2016.02.19-16.08.55:547][611]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsLizard_Man_Paper_Character'
+	ConversationTestNPC_C /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.ConversationTestNPC_C_0
+	Function /Game/Blueprints/ConversationTestNPC.ConversationTestNPC_C:Overlap:0721
+[2016.02.19-16.08.55:548][611]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsLizard_Man_Paper_Character' from node Set DialogueNumber in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.08.55:548][611]LogScript:Warning: Accessed None
+	ConversationTestNPC_C /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.ConversationTestNPC_C_0
+	Function /Game/Blueprints/ConversationTestNPC.ConversationTestNPC_C:Overlap:0736
+[2016.02.19-16.08.55:548][611]PIE:Error: Error Accessed None from node Set DialogueNumber in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.08.55:548][611]LogScript:Warning: Attempt to assign variable through None
+	ConversationTestNPC_C /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.ConversationTestNPC_C_0
+	Function /Game/Blueprints/ConversationTestNPC.ConversationTestNPC_C:Overlap:074B
+[2016.02.19-16.08.55:549][611]PIE:Error: Error Attempt to assign variable through None from node Set DialogueNumber in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.08.55:549][611]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsLizard_Man_Paper_Character'
+	ConversationTestNPC_C /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.ConversationTestNPC_C_0
+	Function /Game/Blueprints/ConversationTestNPC.ConversationTestNPC_C:Overlap:075B
+[2016.02.19-16.08.55:549][611]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsLizard_Man_Paper_Character' from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.08.55:549][611]LogScript:Warning: Accessed None
+	ConversationTestNPC_C /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.ConversationTestNPC_C_0
+	Function /Game/Blueprints/ConversationTestNPC.ConversationTestNPC_C:Overlap:0770
+[2016.02.19-16.08.55:550][611]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.08.55:550][611]LogScript:Warning: Accessed None
+	ConversationTestNPC_C /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.ConversationTestNPC_C_0
+	Function /Game/Blueprints/ConversationTestNPC.ConversationTestNPC_C:Overlap:0785
+[2016.02.19-16.08.55:550][611]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.08.55:550][611]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsLizard_Man_Paper_Character'
+	ConversationTestNPC_C /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.ConversationTestNPC_C_0
+	Function /Game/Blueprints/ConversationTestNPC.ConversationTestNPC_C:Overlap:07AB
+[2016.02.19-16.08.55:550][611]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsLizard_Man_Paper_Character' from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.08.55:550][611]LogScript:Warning: Accessed None
+	ConversationTestNPC_C /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.ConversationTestNPC_C_0
+	Function /Game/Blueprints/ConversationTestNPC.ConversationTestNPC_C:Overlap:07C0
+[2016.02.19-16.08.55:551][611]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.08.55:551][611]LogScript:Warning: Accessed None
+	ConversationTestNPC_C /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.ConversationTestNPC_C_0
+	Function /Game/Blueprints/ConversationTestNPC.ConversationTestNPC_C:Overlap:07D5
+[2016.02.19-16.08.55:551][611]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.08.55:551][611]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsLizard_Man_Paper_Character'
+	ConversationTestNPC_C /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.ConversationTestNPC_C_0
+	Function /Game/Blueprints/ConversationTestNPC.ConversationTestNPC_C:Overlap:07FB
+[2016.02.19-16.08.55:552][611]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsLizard_Man_Paper_Character' from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.08.55:552][611]LogScript:Warning: Accessed None
+	ConversationTestNPC_C /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.ConversationTestNPC_C_0
+	Function /Game/Blueprints/ConversationTestNPC.ConversationTestNPC_C:Overlap:0810
+[2016.02.19-16.08.55:552][611]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.08.55:552][611]LogScript:Warning: Accessed None
+	ConversationTestNPC_C /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.ConversationTestNPC_C_0
+	Function /Game/Blueprints/ConversationTestNPC.ConversationTestNPC_C:Overlap:0825
+[2016.02.19-16.08.55:552][611]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.08.55:552][611]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsLizard_Man_Paper_Character'
+	ConversationTestNPC_C /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.ConversationTestNPC_C_0
+	Function /Game/Blueprints/ConversationTestNPC.ConversationTestNPC_C:Overlap:084B
+[2016.02.19-16.08.55:553][611]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsLizard_Man_Paper_Character' from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.08.55:553][611]LogScript:Warning: Accessed None
+	ConversationTestNPC_C /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.ConversationTestNPC_C_0
+	Function /Game/Blueprints/ConversationTestNPC.ConversationTestNPC_C:Overlap:0860
+[2016.02.19-16.08.55:553][611]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.08.55:553][611]LogScript:Warning: Accessed None
+	ConversationTestNPC_C /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.ConversationTestNPC_C_0
+	Function /Game/Blueprints/ConversationTestNPC.ConversationTestNPC_C:Overlap:0875
+[2016.02.19-16.08.55:553][611]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.08.55:553][611]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsLizard_Man_Paper_Character'
+	ConversationTestNPC_C /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.ConversationTestNPC_C_0
+	Function /Game/Blueprints/ConversationTestNPC.ConversationTestNPC_C:Overlap:089B
+[2016.02.19-16.08.55:554][611]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsLizard_Man_Paper_Character' from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.08.55:554][611]LogScript:Warning: Accessed None
+	ConversationTestNPC_C /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.ConversationTestNPC_C_0
+	Function /Game/Blueprints/ConversationTestNPC.ConversationTestNPC_C:Overlap:08B0
+[2016.02.19-16.08.55:554][611]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.08.55:554][611]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.08.55:554][611]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsLizard_Man_Paper_Character' from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.08.55:555][611]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.08.55:555][611]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.08.55:556][611]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsLizard_Man_Paper_Character' from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.08.55:556][611]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.08.55:556][611]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.08.55:557][611]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsLizard_Man_Paper_Character' from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.08.55:557][611]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.08.55:558][611]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.08.55:558][611]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsLizard_Man_Paper_Character' from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.08.55:558][611]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.08.55:559][611]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.08.55:559][611]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsLizard_Man_Paper_Character' from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.08.55:559][611]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.08.55:560][611]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.09.21:156][810]LogBlueprintUserMessages: [ConversationTestNPC_C_0] Hello
+[2016.02.19-16.09.21:156][810]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsLizard_Man_Paper_Character' from node Set DialogueNumber in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.09.21:156][810]PIE:Error: Error Accessed None from node Set DialogueNumber in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.09.21:157][810]PIE:Error: Error Attempt to assign variable through None from node Set DialogueNumber in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.09.21:157][810]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsLizard_Man_Paper_Character' from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.09.21:157][810]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.09.21:157][810]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.09.21:158][810]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsLizard_Man_Paper_Character' from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.09.21:158][810]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.09.21:158][810]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.09.21:159][810]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsLizard_Man_Paper_Character' from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.09.21:159][810]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.09.21:159][810]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.09.21:159][810]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsLizard_Man_Paper_Character' from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.09.21:159][810]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.09.21:160][810]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.09.21:160][810]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsLizard_Man_Paper_Character' from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.09.21:160][810]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.09.21:161][810]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.09.21:161][810]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsLizard_Man_Paper_Character' from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.09.21:161][810]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.09.21:161][810]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.09.21:161][810]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsLizard_Man_Paper_Character' from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.09.21:162][810]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.09.21:162][810]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.09.21:163][810]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsLizard_Man_Paper_Character' from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.09.21:163][810]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.09.21:163][810]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.09.21:163][810]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsLizard_Man_Paper_Character' from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.09.21:164][810]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.09.21:164][810]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.09.21:164][810]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsLizard_Man_Paper_Character' from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.09.21:164][810]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.09.21:165][810]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.09.44:043][970]LogBlueprintUserMessages: [ConversationTestNPC_C_0] Hello
+[2016.02.19-16.09.44:044][970]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsLizard_Man_Paper_Character' from node Set DialogueNumber in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.09.44:044][970]PIE:Error: Error Accessed None from node Set DialogueNumber in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.09.44:044][970]PIE:Error: Error Attempt to assign variable through None from node Set DialogueNumber in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.09.44:044][970]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsLizard_Man_Paper_Character' from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.09.44:045][970]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.09.44:045][970]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.09.44:045][970]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsLizard_Man_Paper_Character' from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.09.44:046][970]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.09.44:046][970]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.09.44:046][970]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsLizard_Man_Paper_Character' from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.09.44:047][970]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.09.44:047][970]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.09.44:047][970]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsLizard_Man_Paper_Character' from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.09.44:047][970]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.09.44:048][970]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.09.44:048][970]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsLizard_Man_Paper_Character' from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.09.44:048][970]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.09.44:048][970]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.09.44:049][970]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsLizard_Man_Paper_Character' from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.09.44:049][970]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.09.44:049][970]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.09.44:050][970]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsLizard_Man_Paper_Character' from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.09.44:050][970]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.09.44:051][970]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.09.44:051][970]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsLizard_Man_Paper_Character' from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.09.44:051][970]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.09.44:051][970]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.09.44:052][970]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsLizard_Man_Paper_Character' from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.09.44:052][970]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.09.44:052][970]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.09.44:052][970]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsLizard_Man_Paper_Character' from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.09.44:053][970]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.09.44:053][970]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.10.39:502][408]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.02.19-16.10.39:669][408]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.02.19-16.10.39:724][408]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000027544B16980
+[2016.02.19-16.10.40:804][437]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.02.19-16.10.40:805][437]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.19-16.10.40:805][437]PIE: New page: PIE session: TopDownExampleMap (Feb 19, 2016, 6:10:40 AM)
+[2016.02.19-16.10.40:805][437]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap
+[2016.02.19-16.10.40:836][437]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030979s)
+[2016.02.19-16.10.40:837][437]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2016.02.19-16.10.40:838][437]LogPlayLevel: PIE: World Init took: (0.001684s)
+[2016.02.19-16.10.40:838][437]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.033182s)
+[2016.02.19-16.10.40:882][437]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.19-16.10.40:896][437]LogInit: FAudioDevice initialized.
+[2016.02.19-16.10.40:946][437]LogWorld: Game class is '2DTopDown_Style_C'
+[2016.02.19-16.10.40:973][437]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2016.02.19-11.10.40
+[2016.02.19-16.10.40:974][437]LogActor:Warning: GameSession /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.19-16.10.40:974][437]LogActor:Warning: GameNetworkManager /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.19-16.10.40:983][437]LogWorld: Bringing up level for play took: 0.034000
+[2016.02.19-16.10.40:993][437]PIE: Info Play in editor start time for /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap 0.863
+[2016.02.19-16.10.40:994][437]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.02.19-16.32.38:460][957]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.02.19-16.32.38:649][957]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.02.19-16.32.38:722][958]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000275296FB420
+[2016.02.19-16.34.35:160][460]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.02.19-16.34.35:160][460]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.19-16.34.35:161][460]PIE: New page: PIE session: TopDownExampleMap (Feb 19, 2016, 6:34:35 AM)
+[2016.02.19-16.34.35:161][460]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap
+[2016.02.19-16.34.35:215][460]LogPlayLevel: PIE: StaticDuplicateObject took: (0.054284s)
+[2016.02.19-16.34.35:218][460]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2016.02.19-16.34.35:219][460]LogPlayLevel: PIE: World Init took: (0.003655s)
+[2016.02.19-16.34.35:220][460]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.058826s)
+[2016.02.19-16.34.35:308][460]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.19-16.34.35:332][460]LogInit: FAudioDevice initialized.
+[2016.02.19-16.34.35:399][460]LogWorld: Game class is '2DTopDown_Style_C'
+[2016.02.19-16.34.35:440][460]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2016.02.19-11.34.35
+[2016.02.19-16.34.35:440][460]LogActor:Warning: GameSession /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.19-16.34.35:441][460]LogActor:Warning: GameNetworkManager /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.19-16.34.35:457][460]LogWorld: Bringing up level for play took: 0.053816
+[2016.02.19-16.34.35:477][460]PIE: Info Play in editor start time for /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap -0.652
+[2016.02.19-16.34.35:478][460]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.02.19-16.34.44:188][519]LogBlueprintUserMessages: [ConversationTestNPC_C_0] Hello
+[2016.02.19-16.34.44:188][519]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsLizard_Man_Paper_Character' from node Set DialogueNumber in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.44:188][519]PIE:Error: Error Accessed None from node Set DialogueNumber in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.44:188][519]PIE:Error: Error Attempt to assign variable through None from node Set DialogueNumber in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.44:189][519]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsLizard_Man_Paper_Character' from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.44:189][519]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.44:189][519]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.44:189][519]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsLizard_Man_Paper_Character' from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.44:190][519]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.44:190][519]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.44:190][519]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsLizard_Man_Paper_Character' from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.44:190][519]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.44:191][519]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.44:191][519]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsLizard_Man_Paper_Character' from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.44:191][519]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.44:191][519]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.44:191][519]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsLizard_Man_Paper_Character' from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.44:192][519]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.44:192][519]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.44:192][519]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsLizard_Man_Paper_Character' from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.44:192][519]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.44:193][519]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.44:193][519]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsLizard_Man_Paper_Character' from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.44:193][519]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.44:193][519]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.44:193][519]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsLizard_Man_Paper_Character' from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.44:194][519]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.44:194][519]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.44:194][519]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsLizard_Man_Paper_Character' from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.44:194][519]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.44:195][519]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.44:195][519]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsLizard_Man_Paper_Character' from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.44:195][519]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.44:195][519]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.45:169][525]LogBlueprintUserMessages: [ConversationTestNPC_C_0] Hello
+[2016.02.19-16.34.45:169][525]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsLizard_Man_Paper_Character' from node Set DialogueNumber in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.45:169][525]PIE:Error: Error Accessed None from node Set DialogueNumber in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.45:169][525]PIE:Error: Error Attempt to assign variable through None from node Set DialogueNumber in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.45:170][525]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsLizard_Man_Paper_Character' from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.45:170][525]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.45:170][525]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.45:170][525]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsLizard_Man_Paper_Character' from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.45:171][525]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.45:171][525]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.45:171][525]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsLizard_Man_Paper_Character' from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.45:171][525]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.45:172][525]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.45:172][525]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsLizard_Man_Paper_Character' from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.45:172][525]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.45:173][525]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.45:173][525]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsLizard_Man_Paper_Character' from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.45:173][525]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.45:173][525]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.45:174][525]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsLizard_Man_Paper_Character' from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.45:174][525]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.45:174][525]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.45:174][525]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsLizard_Man_Paper_Character' from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.45:175][525]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.45:175][525]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.45:175][525]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsLizard_Man_Paper_Character' from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.45:175][525]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.45:175][525]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.45:176][525]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsLizard_Man_Paper_Character' from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.45:176][525]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.45:176][525]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.45:177][525]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsLizard_Man_Paper_Character' from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.45:177][525]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.45:177][525]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.51:054][561]LogBlueprintUserMessages: [ConversationTestNPC_C_0] Hello
+[2016.02.19-16.34.51:054][561]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsLizard_Man_Paper_Character' from node Set DialogueNumber in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.51:055][561]PIE:Error: Error Accessed None from node Set DialogueNumber in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.51:055][561]PIE:Error: Error Attempt to assign variable through None from node Set DialogueNumber in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.51:056][561]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsLizard_Man_Paper_Character' from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.51:056][561]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.51:057][561]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.51:057][561]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsLizard_Man_Paper_Character' from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.51:057][561]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.51:058][561]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.51:058][561]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsLizard_Man_Paper_Character' from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.51:059][561]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.51:059][561]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.51:060][561]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsLizard_Man_Paper_Character' from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.51:060][561]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.51:061][561]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.51:061][561]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsLizard_Man_Paper_Character' from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.51:061][561]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.51:062][561]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.51:062][561]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsLizard_Man_Paper_Character' from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.51:062][561]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.51:063][561]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.51:063][561]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsLizard_Man_Paper_Character' from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.51:063][561]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.51:063][561]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.51:063][561]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsLizard_Man_Paper_Character' from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.51:064][561]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.51:064][561]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.51:064][561]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsLizard_Man_Paper_Character' from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.51:065][561]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.51:065][561]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.51:065][561]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsLizard_Man_Paper_Character' from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.51:066][561]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.51:066][561]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.51:231][562]LogBlueprintUserMessages: [ConversationTestNPC_C_0] Hello
+[2016.02.19-16.34.51:232][562]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsLizard_Man_Paper_Character' from node Set DialogueNumber in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.51:232][562]PIE:Error: Error Accessed None from node Set DialogueNumber in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.51:233][562]PIE:Error: Error Attempt to assign variable through None from node Set DialogueNumber in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.51:233][562]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsLizard_Man_Paper_Character' from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.51:234][562]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.51:234][562]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.51:234][562]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsLizard_Man_Paper_Character' from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.51:235][562]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.51:235][562]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.51:236][562]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsLizard_Man_Paper_Character' from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.51:236][562]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.51:236][562]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.51:237][562]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsLizard_Man_Paper_Character' from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.51:237][562]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.51:238][562]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.51:238][562]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsLizard_Man_Paper_Character' from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.51:239][562]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.51:239][562]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.51:240][562]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsLizard_Man_Paper_Character' from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.51:240][562]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.51:240][562]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.51:241][562]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsLizard_Man_Paper_Character' from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.51:241][562]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.51:242][562]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.51:242][562]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsLizard_Man_Paper_Character' from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.51:242][562]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.51:242][562]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.51:243][562]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsLizard_Man_Paper_Character' from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.51:243][562]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.51:243][562]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.51:243][562]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsLizard_Man_Paper_Character' from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.51:244][562]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.51:244][562]PIE:Error: Error Accessed None from node Set Visibility in graph 'Overlap' in blueprint ConversationTestNPC
+[2016.02.19-16.34.52:715][571]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.02.19-16.34.52:900][571]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.02.19-16.34.52:974][571]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002753AD80D60
+[2016.02.19-16.36.24:943][ 22]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:\Users\dacos\OneDrive\Documents\Unreal Projects\Game_GT\TempResources\veicles\buss\BussBase.png)
+[2016.02.19-16.36.24:943][ 22]LogFactory:Error: File 'C:\Users\dacos\OneDrive\Documents\Unreal Projects\Game_GT\TempResources\veicles\buss\BussBase.png' does not exist
+[2016.02.19-16.36.24:943][ 22]Can't find file 'C:\Users\dacos\OneDrive\Documents\Unreal Projects\Game_GT\TempResources\veicles\buss\BussBase.png' for import
+[2016.02.19-16.36.27:256][ 22]LogAssetTools:Warning: Failed to import 'C:\Users\dacos\OneDrive\Documents\Unreal Projects\Game_GT\TempResources\veicles\buss\BussBase.png'. Failed to create asset '/Game/Textures/vehicle/buss/BussBase'
+[2016.02.19-16.36.35:448][ 52]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:\Users\dacos\OneDrive\Documents\Unreal Projects\Game_GT\TempResources\veicles\buss\BussBase.png)
+[2016.02.19-16.36.35:465][ 52]LogTexture:Display: Building textures: BussBase (AutoDXT)
+[2016.02.19-16.37.09:491][282]LogRenderer: Reallocating scene render targets to support 1432x624 (Frame:6912).
+[2016.02.19-16.37.09:856][283]LogRenderer: Reallocating scene render targets to support 1860x624 (Frame:6914).
+[2016.02.19-16.39.47:319][230]SourceControl: Info On branch master
+[2016.02.19-16.39.47:319][230]SourceControl: Info Your branch is up-to-date with 'origin/master'.
+[2016.02.19-16.39.47:319][230]SourceControl: Info Changes not staged for commit:
+[2016.02.19-16.39.47:319][230]SourceControl: Info   (use "git add <file>..." to update what will be committed)
+[2016.02.19-16.39.47:319][230]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2016.02.19-16.39.47:319][230]SourceControl: Info 	modified:   Intermediate/Build/Win64/Game_GTEditor/DependencyCache.bin
+[2016.02.19-16.39.47:319][230]SourceControl: Info 	modified:   Intermediate/Build/Win64/UE4Editor/Development/Game_GT/Game_GT.h
+[2016.02.19-16.39.47:319][230]SourceControl: Info 	modified:   Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-Game_GT.exp
+[2016.02.19-16.39.47:319][230]SourceControl: Info 	modified:   Intermediate/CachedAssetRegistry.bin
+[2016.02.19-16.39.47:319][230]SourceControl: Info 	modified:   Saved/Config/Windows/Editor.ini
+[2016.02.19-16.39.47:320][230]SourceControl: Info 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2016.02.19-16.39.47:320][230]SourceControl: Info 	modified:   Saved/Logs/Game_GT.log
+[2016.02.19-16.39.47:320][230]SourceControl: Info Untracked files:
+[2016.02.19-16.39.47:320][230]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2016.02.19-16.39.47:320][230]SourceControl: Info 	Binaries/
+[2016.02.19-16.39.47:320][230]SourceControl: Info 	Intermediate/Build/BuildRules/Game_GTModuleRules.dll
+[2016.02.19-16.39.47:320][230]SourceControl: Info 	Intermediate/Build/BuildRules/Game_GTModuleRules.pdb
+[2016.02.19-16.39.47:320][230]SourceControl: Info 	Intermediate/Build/Win64/UE4Editor/Development/Game_GT/Game_GT.cpp.obj
+[2016.02.19-16.39.47:320][230]SourceControl: Info 	Intermediate/Build/Win64/UE4Editor/Development/Game_GT/Game_GT.generated.cpp.obj
+[2016.02.19-16.39.47:320][230]SourceControl: Info 	Intermediate/Build/Win64/UE4Editor/Development/Game_GT/Game_GT.h.obj
+[2016.02.19-16.39.47:320][230]SourceControl: Info 	Intermediate/Build/Win64/UE4Editor/Development/Game_GT/Game_GTCharacter.cpp.obj
+[2016.02.19-16.39.47:320][230]SourceControl: Info 	Intermediate/Build/Win64/UE4Editor/Development/Game_GT/Game_GTGameMode.cpp.obj
+[2016.02.19-16.39.47:320][230]SourceControl: Info 	Intermediate/Build/Win64/UE4Editor/Development/Game_GT/Game_GTPlayerController.cpp.obj
+[2016.02.19-16.39.47:320][230]SourceControl: Info 	Intermediate/Build/Win64/UE4Editor/Development/Game_GT/MyCharacter.cpp.obj
+[2016.02.19-16.39.47:320][230]SourceControl: Info 	Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-Game_GT.lib
+[2016.02.19-16.39.47:320][230]SourceControl: Info 	Saved/Logs/Game_GT-backup-2016.02.19-11.06.31.log
+[2016.02.19-16.39.47:320][230]SourceControl: Info 	TempResources/veicles/
+[2016.02.19-16.39.47:320][230]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
+[2016.02.19-16.39.48:246][230]LogSavePackage: Save=26.807917ms
+[2016.02.19-16.39.48:246][230]LogSavePackage: Moving '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Saved/BussBase_Sprite09E0304041AA1F90D2FB12B3F150717F.tmp' to '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Sprites/vehicle/buss/BussBase_Sprite.uasset'
+[2016.02.19-16.39.48:267][230]LogSavePackage: Total save time: 58.875568ms
+[2016.02.19-16.39.48:267][230]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Sprites/vehicle/buss/BussBase_Sprite.uasset
+[2016.02.19-16.41.36:410][950]Cmd: DELETE
+[2016.02.19-16.41.36:410][950]Cmd: ACTOR DELETE
+[2016.02.19-16.41.36:414][950]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2016.02.19-16.41.36:573][950]LogEditorActor: Deleted 1 Actors (0.160 secs)
+[2016.02.19-16.41.55:013][ 68]MapCheck: New page: Map Check
+[2016.02.19-16.41.55:102][ 68]Cmd: MAP REBUILD ALLVISIBLE
+[2016.02.19-16.41.55:102][ 68]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2016.02.19-16.41.55:774][ 68]LogStats:     STAT_HLOD_InitializeClusters -  0.140 ms
+[2016.02.19-16.41.55:780][ 68]LogStats:                STAT_HLOD_FindMST -  0.023 ms
+[2016.02.19-16.41.55:796][ 68]LogStats:               HLOD_MergeClusters - 15.517 ms
+[2016.02.19-16.41.55:803][ 68]LogMeshUtilities: Merging Material: Merge Material count 2
+[2016.02.19-16.41.55:803][ 68]LogMeshUtilities: Material List 1 - BasicShapeMaterial
+[2016.02.19-16.41.55:803][ 68]LogMeshUtilities: Material List 2 - Street2_Mat
+[2016.02.19-16.41.55:825][ 68]LogMaterial: Missing cached shader map for material FExportMaterialRenderer BasicShapeMaterial, compiling. 
+[2016.02.19-16.41.57:803][ 68]LogMaterial: Missing cached shader map for material FExportMaterialRenderer BasicShapeMaterial, compiling. 
+[2016.02.19-16.41.58:141][ 68]LogMaterial: Missing cached shader map for material FExportMaterialRenderer Street2_Mat, compiling. 
+[2016.02.19-16.41.58:466][ 68]LogMaterial: Missing cached shader map for material FExportMaterialRenderer Street2_Mat, compiling. 
+[2016.02.19-16.41.58:827][ 68]LogTexture:Display: Building textures: T_M_LOD_Cube2_4_D (BGRA8)
+[2016.02.19-16.41.58:960][ 68]LogTexture:Display: Building textures: T_M_LOD_Cube2_4_N (BGRA8)
+[2016.02.19-16.41.59:055][ 68]LogMaterial: Missing cached shader map for material M_M_LOD_Cube2_4, compiling. 
+[2016.02.19-16.41.59:078][ 68]LogMaterial:Warning: Material /Game/TopDownCPP/Maps/TopDownExampleMap.M_M_LOD_Cube2_4 needed to have new flag set bUsedWithStaticLighting !
+[2016.02.19-16.41.59:080][ 68]LogMaterial: Missing cached shader map for material M_M_LOD_Cube2_4, compiling. 
+[2016.02.19-16.41.59:093][ 68]LogMaterial: 0.000097 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.19-16.41.59:095][ 68]LogStaticMesh: Building static mesh LOD_Cube2_4...
+[2016.02.19-16.41.59:878][ 68]LogStaticMesh: Built static mesh [0.783499.2s] /Game/TopDownCPP/Maps/TopDownExampleMap.LOD_Cube2_4
+[2016.02.19-16.41.59:906][ 68]LogStats:                 HLOD_BuildActors - 4110.670 ms
+[2016.02.19-16.41.59:906][ 68]LogStats:          STAT_HLOD_BuildClusters - 4188.922 ms
+[2016.02.19-16.41.59:920][ 68]LightingResults: New page: Lighting Build - Feb 19, 2016, 6:41:59 AM
+[2016.02.19-16.42.12:969][ 68]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2016.02.19-16.42.12:969][ 68]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2016.02.19-16.42.12:969][ 68]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2016.02.19-16.42.12:969][ 68]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2016.02.19-16.42.12:969][ 68]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2016.02.19-16.42.12:969][ 68]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2016.02.19-16.42.13:091][ 68]LightingResults:Error: Error Level has bPrecomputeVisibility enabled but no Precomputed Visibility Volumes, precomputed visibility will not be effective.
+[2016.02.19-16.42.13:128][ 68]LogEditorBuildUtils: Build time 0:00:18
+[2016.02.19-16.42.13:139][ 68]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_34, compiling. 
+[2016.02.19-16.42.13:142][ 68]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_34, compiling. 
+[2016.02.19-16.42.13:148][ 68]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_M_LOD_Cube2_4, compiling. 
+[2016.02.19-16.42.13:151][ 68]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_M_LOD_Cube2_4, compiling. 
+[2016.02.19-16.42.24:629][129]Job is a success!
+[2016.02.19-16.42.25:674][130]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2016.02.19-16.42.25:708][130]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2016.02.19-16.42.25:709][130]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2016.02.19-16.42.25:711][130]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2016.02.19-16.42.25:840][130]Lightmass on APPLEEATER-V2: 9.65 sec total, 375 ms importing, 2 ms setup, 285 ms photons, 8.96 sec processing, 0 ms extra exporting [7/7 mappings]. Threads: 1:02 min total, 10.2 sec processing.
+[2016.02.19-16.42.25:929][130]LogStaticLightingSystem: Illumination: 25.6 sec (114 ms encoding lightmaps)
+[2016.02.19-16.42.25:929][130]LogStaticLightingSystem: Lightmap texture memory:  0.3 MB (0.3 MB streaming, 0.0 MB non-streaming), 4 textures
+[2016.02.19-16.42.25:929][130]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2016.02.19-16.42.25:984][131]Cmd: MAP CHECK NOTIFYRESULTS
+[2016.02.19-16.42.25:985][131]MapCheck: New page: TopDownExampleMap - Feb 19, 2016, 6:42:25 AM
+[2016.02.19-16.42.26:203][131]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 218.745ms to complete.
+[2016.02.19-16.43.05:580][297]LogTexture:Display: Building textures: T_M_LOD_Cube2_4_N (BC5)
+[2016.02.19-16.43.05:684][297]LogTexture:Display: Building textures: T_M_LOD_Cube2_4_D (DXT1)
+[2016.02.19-16.43.05:968][297]LogSavePackage: Save=437.092194ms
+[2016.02.19-16.43.05:968][297]LogSavePackage: Moving '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Saved/TopDownExampleMap_Auto17834D2044FF61A9DDD4C768D0060CF8B.tmp' to '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Saved/Autosaves/Game/TopDownCPP/Maps/TopDownExampleMap_Auto1.umap'
+[2016.02.19-16.43.05:969][297]LogSavePackage: Total save time: 488.341063ms
+[2016.02.19-16.43.05:969][297]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Saved/Autosaves/Game/TopDownCPP/Maps/TopDownExampleMap_Auto1.umap
+[2016.02.19-16.43.05:973][297]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownCPP/Maps/TopDownExampleMap' took 0.525
+[2016.02.19-16.43.05:973][297]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.525
+[2016.02.19-16.43.05:977][297]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/vehicle/buss/BussBase] ([1] browsable assets)...
+[2016.02.19-16.43.05:994][297]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/vehicle/buss/BussBase.BussBase]
+[2016.02.19-16.43.05:994][297]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/vehicle/buss/BussBase]
+[2016.02.19-16.43.06:007][297]LogSavePackage: Save=10.689612ms
+[2016.02.19-16.43.06:007][297]LogSavePackage: Moving '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Saved/BussBase_Auto1F34F5AC04C282083CB8F48BDE845F4A9.tmp' to '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Saved/Autosaves/Game/Textures/vehicle/buss/BussBase_Auto1.uasset'
+[2016.02.19-16.43.06:009][297]LogSavePackage: Total save time: 13.123285ms
+[2016.02.19-16.43.06:009][297]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Saved/Autosaves/Game/Textures/vehicle/buss/BussBase_Auto1.uasset
+[2016.02.19-16.43.06:023][297]LogSavePackage: Save=6.890475ms
+[2016.02.19-16.43.06:023][297]LogSavePackage: Moving '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Saved/BussBase_Sprite_Auto1F145F11542A7FAD164FEA8AA62D9B2DF.tmp' to '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Saved/Autosaves/Game/Textures/vehicle/buss/BussBase_Sprite_Auto1.uasset'
+[2016.02.19-16.43.06:025][297]LogSavePackage: Total save time: 8.902550ms
+[2016.02.19-16.43.06:025][297]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Saved/Autosaves/Game/Textures/vehicle/buss/BussBase_Sprite_Auto1.uasset
+[2016.02.19-16.43.06:025][297]LogFileHelpers: Auto-saving content packages took 0.050
+[2016.02.19-16.44.14:153][522]LogSavePackage: Save=499.687958ms
+[2016.02.19-16.44.14:153][522]LogSavePackage: Moving '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Saved/TopDownExampleMap0B57DCCC4877C1E77A319A8DACB67756.tmp' to '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/TopDownCPP/Maps/TopDownExampleMap.umap'
+[2016.02.19-16.44.14:166][522]LogSavePackage: Total save time: 624.188628ms
+[2016.02.19-16.44.14:166][522]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/TopDownCPP/Maps/TopDownExampleMap.umap
+[2016.02.19-16.44.20:457][587]LogSavePackage: Save=28.108244ms
+[2016.02.19-16.44.20:457][587]LogSavePackage: Moving '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Saved/BussBase0B331A6A4C0DE3244A24038B98418B43.tmp' to '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Textures/vehicle/buss/BussBase.uasset'
+[2016.02.19-16.44.20:470][587]LogSavePackage: Total save time: 41.881695ms
+[2016.02.19-16.44.20:470][587]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Textures/vehicle/buss/BussBase.uasset
+[2016.02.19-16.44.20:849][587]LogSavePackage: Save=8.028953ms
+[2016.02.19-16.44.20:849][587]LogSavePackage: Moving '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Saved/BussBase_Sprite0EBE26B74FF8ADBAFB13339F7705987C.tmp' to '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Textures/vehicle/buss/BussBase_Sprite.uasset'
+[2016.02.19-16.44.20:861][587]LogSavePackage: Total save time: 20.292457ms
+[2016.02.19-16.44.20:861][587]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Textures/vehicle/buss/BussBase_Sprite.uasset
+[2016.02.19-16.44.43:237][763]Cmd: DELETE
+[2016.02.19-16.44.43:237][763]Cmd: ACTOR DELETE
+[2016.02.19-16.44.43:239][763]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2016.02.19-16.44.43:308][763]LogEditorActor: Deleted 1 Actors (0.070 secs)
+[2016.02.19-16.45.04:229][895]LogEditorViewport: Clicking on Actor (LMB): RoadStrait_C (RoadStrait5)
+[2016.02.19-16.45.05:750][906]Cmd: TRANSACTION UNDO
+[2016.02.19-16.45.05:750][906]LogEditorTransaction: Undo Clicking on Actors
+[2016.02.19-16.45.07:651][918]Cmd: TRANSACTION UNDO
+[2016.02.19-16.45.07:651][918]LogEditorTransaction: Undo Create Actors
+[2016.02.19-16.45.18:522][991]Cmd: DELETE
+[2016.02.19-16.45.18:522][991]Cmd: ACTOR DELETE
+[2016.02.19-16.45.18:524][991]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2016.02.19-16.45.18:679][991]LogEditorActor: Deleted 1 Actors (0.157 secs)
+[2016.02.19-16.45.32:010][ 75]LogSavePackage: Save=587.557617ms
+[2016.02.19-16.45.32:010][ 75]LogSavePackage: Moving '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Saved/TopDownExampleMap2E71AA434E3DC13856B673A28C5B4A47.tmp' to '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/TopDownCPP/Maps/TopDownExampleMap.umap'
+[2016.02.19-16.45.32:017][ 75]LogSavePackage: Total save time: 750.955999ms
+[2016.02.19-16.45.32:017][ 75]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/TopDownCPP/Maps/TopDownExampleMap.umap
+[2016.02.19-16.45.32:154][ 75]LogFileHelpers: Saving map 'TopDownExampleMap' took 1.164
+[2016.02.19-16.45.35:929][ 97]LogSavePackage: Save=320.402161ms
+[2016.02.19-16.45.35:929][ 97]LogSavePackage: Moving '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Saved/TopDownExampleMap5A68CD064EDE463DD8410091AF4B0058.tmp' to '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/TopDownCPP/Maps/TopDownExampleMap.umap'
+[2016.02.19-16.45.35:934][ 97]LogSavePackage: Total save time: 376.996826ms
+[2016.02.19-16.45.35:934][ 97]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/TopDownCPP/Maps/TopDownExampleMap.umap
+[2016.02.19-16.46.07:474][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/ArtTools/RenderToTexture/Blueprints/PhysMesh.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/ArtTools/RenderToTexture/Blueprints/PhysMesh.uasset' is outside repository
+[2016.02.19-16.46.07:474][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/ArtTools/RenderToTexture/Enums/EFloatTypes.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/ArtTools/RenderToTexture/Enums/EFloatTypes.uasset' is outside repository
+[2016.02.19-16.46.07:474][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' is outside repository
+[2016.02.19-16.46.07:474][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/ArtTools/RenderToTexture/MaterialFunctions/BoundingSphereBased_0-1_UVW.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/ArtTools/RenderToTexture/MaterialFunctions/BoundingSphereBased_0-1_UVW.uasset' is outside repository
+[2016.02.19-16.46.07:474][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/ArtTools/RenderToTexture/Materials/MPC_R2T.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/ArtTools/RenderToTexture/Materials/MPC_R2T.uasset' is outside repository
+[2016.02.19-16.46.07:474][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/ArtTools/RenderToTexture/Materials/Debug/M_2sidedLit.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/ArtTools/RenderToTexture/Materials/Debug/M_2sidedLit.uasset' is outside repository
+[2016.02.19-16.46.07:474][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/ArtTools/RenderToTexture/Materials/Flipbooks/M_FlipBookCounter_01.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/ArtTools/RenderToTexture/Materials/Flipbooks/M_FlipBookCounter_01.uasset' is outside repository
+[2016.02.19-16.46.07:474][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/ArtTools/RenderToTexture/Materials/Imposters/M_ImposterTest_01.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/ArtTools/RenderToTexture/Materials/Imposters/M_ImposterTest_01.uasset' is outside repository
+[2016.02.19-16.46.07:474][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/ArtTools/RenderToTexture/Meshes/ShadowTestMesh.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/ArtTools/RenderToTexture/Meshes/ShadowTestMesh.uasset' is outside repository
+[2016.02.19-16.46.07:474][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/ArtTools/RenderToTexture/Textures/127grey.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/ArtTools/RenderToTexture/Textures/127grey.uasset' is outside repository
+[2016.02.19-16.46.07:474][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/ArtTools/RenderToTexture/Textures/FlipbookMotionVectors/Position1.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/ArtTools/RenderToTexture/Textures/FlipbookMotionVectors/Position1.uasset' is outside repository
+[2016.02.19-16.46.07:474][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/BasicShapes/BasicShapeMaterial.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/BasicShapes/BasicShapeMaterial.uasset' is outside repository
+[2016.02.19-16.46.07:474][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/BufferVisualization/AmbientOcclusion.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/BufferVisualization/AmbientOcclusion.uasset' is outside repository
+[2016.02.19-16.46.07:474][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Editor/Slate/Icons/AssetIcons/Cone_16x.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Editor/Slate/Icons/AssetIcons/Cone_16x.uasset' is outside repository
+[2016.02.19-16.46.07:474][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EditorBlueprintResources/ActorMacros.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EditorBlueprintResources/ActorMacros.uasset' is outside repository
+[2016.02.19-16.46.07:474][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EditorKismetResources/StandardMacros.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EditorKismetResources/StandardMacros.uasset' is outside repository
+[2016.02.19-16.46.07:474][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EditorLandscapeResources/AlphaBrushMaterial.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EditorLandscapeResources/AlphaBrushMaterial.uasset' is outside repository
+[2016.02.19-16.46.07:474][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EditorMaterials/Anchor.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EditorMaterials/Anchor.uasset' is outside repository
+[2016.02.19-16.46.07:474][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EditorMaterials/TreeArrow_ExpandedRealtimePreview.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EditorMaterials/TreeArrow_ExpandedRealtimePreview.uasset' is outside repository
+[2016.02.19-16.46.07:474][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EditorMaterials/Cascade/CASC_BackgroundCube_MAT.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EditorMaterials/Cascade/CASC_BackgroundCube_MAT.uasset' is outside repository
+[2016.02.19-16.46.07:475][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EditorMaterials/Matinee/MAT_EnableTrack_Mat.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EditorMaterials/Matinee/MAT_EnableTrack_Mat.uasset' is outside repository
+[2016.02.19-16.46.07:475][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EditorMaterials/MatineeGroups/MAT_ColorTrack.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EditorMaterials/MatineeGroups/MAT_ColorTrack.uasset' is outside repository
+[2016.02.19-16.46.07:475][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EditorMaterials/ParticleSystems/PSysThumbnail_NoImage.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EditorMaterials/ParticleSystems/PSysThumbnail_NoImage.uasset' is outside repository
+[2016.02.19-16.46.07:475][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EditorMaterials/Thumbnails/FloorPlaneMaterial.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EditorMaterials/Thumbnails/FloorPlaneMaterial.uasset' is outside repository
+[2016.02.19-16.46.07:475][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EditorMaterials/Utilities/ImageReflectionPreview.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EditorMaterials/Utilities/ImageReflectionPreview.uasset' is outside repository
+[2016.02.19-16.46.07:475][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EditorMeshes/AnimTreeEd_PreviewFloor.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EditorMeshes/AnimTreeEd_PreviewFloor.uasset' is outside repository
+[2016.02.19-16.46.07:475][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EditorMeshes/Cascade/BackgroundCube.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EditorMeshes/Cascade/BackgroundCube.uasset' is outside repository
+[2016.02.19-16.46.07:475][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EditorMeshes/ColorCalibrator/M_ChromeBall.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EditorMeshes/ColorCalibrator/M_ChromeBall.uasset' is outside repository
+[2016.02.19-16.46.07:475][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EditorMeshes/SkeletalMesh/DefaultSkeletalMesh.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EditorMeshes/SkeletalMesh/DefaultSkeletalMesh.uasset' is outside repository
+[2016.02.19-16.46.07:475][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EditorResources/Ai_Spawnpoint.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EditorResources/Ai_Spawnpoint.uasset' is outside repository
+[2016.02.19-16.46.07:475][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EditorResources/S_Trigger.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EditorResources/S_Trigger.uasset' is outside repository
+[2016.02.19-16.46.07:475][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EditorResources/AI/S_NavLink.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EditorResources/AI/S_NavLink.uasset' is outside repository
+[2016.02.19-16.46.07:475][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EditorResources/AudioIcons/S_Ambient_Sound_Moveable.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EditorResources/AudioIcons/S_Ambient_Sound_Moveable.uasset' is outside repository
+[2016.02.19-16.46.07:475][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EditorResources/Crowd/T_Crowd_Spline.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EditorResources/Crowd/T_Crowd_Spline.uasset' is outside repository
+[2016.02.19-16.46.07:475][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EditorResources/LightIcons/Light_Point_Stationary_Statics.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EditorResources/LightIcons/Light_Point_Stationary_Statics.uasset' is outside repository
+[2016.02.19-16.46.07:475][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EditorResources/Spline/T_Loft_Spline.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EditorResources/Spline/T_Loft_Spline.uasset' is outside repository
+[2016.02.19-16.46.07:475][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EditorShapes/Materials/MI_ShapeInstance.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EditorShapes/Materials/MI_ShapeInstance.uasset' is outside repository
+[2016.02.19-16.46.07:475][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EditorShapes/Textures/T_ShapeDiffuse.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EditorShapes/Textures/T_ShapeDiffuse.uasset' is outside repository
+[2016.02.19-16.46.07:475][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EditorShellMaterials/MI_BaseFlat.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EditorShellMaterials/MI_BaseFlat.uasset' is outside repository
+[2016.02.19-16.46.07:475][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EditorShellMaterials/ManualUVs/MI_BaseGrid_MUV.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EditorShellMaterials/ManualUVs/MI_BaseGrid_MUV.uasset' is outside repository
+[2016.02.19-16.46.07:475][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EditorShellMaterials/SketchUp/MI_BaseGrid_WUV_SketchUp.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EditorShellMaterials/SketchUp/MI_BaseGrid_WUV_SketchUp.uasset' is outside repository
+[2016.02.19-16.46.07:475][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EditorShellMaterials/WorldUVs/MI_BaseGrid_WUV.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EditorShellMaterials/WorldUVs/MI_BaseGrid_WUV.uasset' is outside repository
+[2016.02.19-16.46.07:475][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EditorSounds/GamePreview/EjectFromPlayer.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EditorSounds/GamePreview/EjectFromPlayer.uasset' is outside repository
+[2016.02.19-16.46.07:475][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EditorSounds/Notifications/CompileFailed.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EditorSounds/Notifications/CompileFailed.uasset' is outside repository
+[2016.02.19-16.46.07:475][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EngineAnimNotifies/AnimNotify_PlayParticleEffect.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EngineAnimNotifies/AnimNotify_PlayParticleEffect.uasset' is outside repository
+[2016.02.19-16.46.07:475][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EngineDamageTypes/DmgTypeBP_Environmental.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EngineDamageTypes/DmgTypeBP_Environmental.uasset' is outside repository
+[2016.02.19-16.46.07:475][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EngineDebugMaterials/BlackUnlitMaterial.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EngineDebugMaterials/BlackUnlitMaterial.uasset' is outside repository
+[2016.02.19-16.46.07:475][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EngineDebugMaterials/LightingModels/M_TextureDefinedSpecularReflecti.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EngineDebugMaterials/LightingModels/M_TextureDefinedSpecularReflecti.uasset' is outside repository
+[2016.02.19-16.46.07:475][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EngineFonts/Roboto.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EngineFonts/Roboto.uasset' is outside repository
+[2016.02.19-16.46.07:475][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EngineLightProfiles/180Degree_IES.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EngineLightProfiles/180Degree_IES.uasset' is outside repository
+[2016.02.19-16.46.07:475][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EngineMaterials/AntiAliasedTextMaterialTranslucent.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EngineMaterials/AntiAliasedTextMaterialTranslucent.uasset' is outside repository
+[2016.02.19-16.46.07:475][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EngineMaterials/RandomMirrorDisc.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EngineMaterials/RandomMirrorDisc.uasset' is outside repository
+[2016.02.19-16.46.07:475][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EngineMeshes/BackgroundCube.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EngineMeshes/BackgroundCube.uasset' is outside repository
+[2016.02.19-16.46.07:475][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EngineProduction/ReferenceNormalMap.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EngineProduction/ReferenceNormalMap.uasset' is outside repository
+[2016.02.19-16.46.07:475][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EngineResources/AICON-Green.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EngineResources/AICON-Green.uasset' is outside repository
+[2016.02.19-16.46.07:475][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EngineResources/Cursors/Arrow.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EngineResources/Cursors/Arrow.uasset' is outside repository
+[2016.02.19-16.46.07:475][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EngineSky/BP_Sky_Shere.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EngineSky/BP_Sky_Shere.uasset' is outside repository
+[2016.02.19-16.46.07:475][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EngineSounds/Duck_Normal_Attack_MixMod.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EngineSounds/Duck_Normal_Attack_MixMod.uasset' is outside repository
+[2016.02.19-16.46.07:475][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EngineSounds/ReverbSettings/Alley.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EngineSounds/ReverbSettings/Alley.uasset' is outside repository
+[2016.02.19-16.46.07:475][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EngineTireTypes/DefaultTireType.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EngineTireTypes/DefaultTireType.uasset' is outside repository
+[2016.02.19-16.46.07:475][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EngineVolumetrics/FalloffSphere/Materials/M_EV_FalloffSphere_Master_01.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EngineVolumetrics/FalloffSphere/Materials/M_EV_FalloffSphere_Master_01.uasset' is outside repository
+[2016.02.19-16.46.07:475][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EngineVolumetrics/FalloffSphere/Mesh/S_EV_FalloffSphere_Mesh_01.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EngineVolumetrics/FalloffSphere/Mesh/S_EV_FalloffSphere_Mesh_01.uasset' is outside repository
+[2016.02.19-16.46.07:475][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EngineVolumetrics/FogEnvironment/Materials/M_EV_FogEnvironment_Master_01.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EngineVolumetrics/FogEnvironment/Materials/M_EV_FogEnvironment_Master_01.uasset' is outside repository
+[2016.02.19-16.46.07:475][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EngineVolumetrics/FogEnvironment/Mesh/S_EV_FogEnvironment_01_Mesh.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EngineVolumetrics/FogEnvironment/Mesh/S_EV_FogEnvironment_01_Mesh.uasset' is outside repository
+[2016.02.19-16.46.07:475][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EngineVolumetrics/Fogsheet/T_EV_Fogsheet_FlareColors_01.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EngineVolumetrics/Fogsheet/T_EV_Fogsheet_FlareColors_01.uasset' is outside repository
+[2016.02.19-16.46.07:475][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EngineVolumetrics/Fogsheet/Materials/M_EV_FogSheet_1sided_Master_01.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EngineVolumetrics/Fogsheet/Materials/M_EV_FogSheet_1sided_Master_01.uasset' is outside repository
+[2016.02.19-16.46.07:475][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EngineVolumetrics/Fogsheet/Mesh/MI_Fogsheet_HideClose.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EngineVolumetrics/Fogsheet/Mesh/MI_Fogsheet_HideClose.uasset' is outside repository
+[2016.02.19-16.46.07:475][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EngineVolumetrics/LightBeam/Materials/M_EV_Lightbeam_Master_01.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EngineVolumetrics/LightBeam/Materials/M_EV_Lightbeam_Master_01.uasset' is outside repository
+[2016.02.19-16.46.07:475][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EngineVolumetrics/LightBeam/Mesh/S_EV_SimpleLightBeam_01.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/EngineVolumetrics/LightBeam/Mesh/S_EV_SimpleLightBeam_01.uasset' is outside repository
+[2016.02.19-16.46.07:475][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Engine_MI_Shaders/MI_Shader_BaseTileEx.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Engine_MI_Shaders/MI_Shader_BaseTileEx.uasset' is outside repository
+[2016.02.19-16.46.07:475][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Engine_MI_Shaders/Instances/M_ES_Phong_Opaque_INST_01.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Engine_MI_Shaders/Instances/M_ES_Phong_Opaque_INST_01.uasset' is outside repository
+[2016.02.19-16.46.07:475][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Engine_MI_Shaders/Textures/Bokeh.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Engine_MI_Shaders/Textures/Bokeh.uasset' is outside repository
+[2016.02.19-16.46.07:475][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/FunctionalTesting/Blueprints/AITesting_MoveGoal.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/FunctionalTesting/Blueprints/AITesting_MoveGoal.uasset' is outside repository
+[2016.02.19-16.46.07:475][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Functions/DistanceFields/Combiners/DistanceField_Intersection.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Functions/DistanceFields/Combiners/DistanceField_Intersection.uasset' is outside repository
+[2016.02.19-16.46.07:475][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Functions/DistanceFields/Shapes/DistanceField_Capsule.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Functions/DistanceFields/Shapes/DistanceField_Capsule.uasset' is outside repository
+[2016.02.19-16.46.07:475][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions01/AlphaBlend/World_Aligned_Blend.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions01/AlphaBlend/World_Aligned_Blend.uasset' is outside repository
+[2016.02.19-16.46.07:475][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions01/Coordinates/DrawLine-2D.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions01/Coordinates/DrawLine-2D.uasset' is outside repository
+[2016.02.19-16.46.07:475][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions01/Debug/FunctionGraphSetup.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions01/Debug/FunctionGraphSetup.uasset' is outside repository
+[2016.02.19-16.46.07:475][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions01/Density/ExponentialDensity.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions01/Density/ExponentialDensity.uasset' is outside repository
+[2016.02.19-16.46.07:475][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/BellCurve.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/BellCurve.uasset' is outside repository
+[2016.02.19-16.46.07:475][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions01/ImageAdjustment/3ColorBlend.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions01/ImageAdjustment/3ColorBlend.uasset' is outside repository
+[2016.02.19-16.46.07:475][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions01/Lighting/PixelDepthOffset_Foliage.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions01/Lighting/PixelDepthOffset_Foliage.uasset' is outside repository
+[2016.02.19-16.46.07:475][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions01/Opacity/AlphaOffset.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions01/Opacity/AlphaOffset.uasset' is outside repository
+[2016.02.19-16.46.07:475][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions01/Reflections/ReflectionVectorSoft.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions01/Reflections/ReflectionVectorSoft.uasset' is outside repository
+[2016.02.19-16.46.07:475][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions01/Shading/CalcLightsourceAngle.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions01/Shading/CalcLightsourceAngle.uasset' is outside repository
+[2016.02.19-16.46.07:475][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions01/SpeedTree/SpeedTreeColorVariation.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions01/SpeedTree/SpeedTreeColorVariation.uasset' is outside repository
+[2016.02.19-16.46.07:475][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions01/Texturing/BakedDisplacement.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions01/Texturing/BakedDisplacement.uasset' is outside repository
+[2016.02.19-16.46.07:475][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions01/Vectors/MF_RotateVector_90.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions01/Vectors/MF_RotateVector_90.uasset' is outside repository
+[2016.02.19-16.46.07:475][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions01/WorldPositionOffset/ConstantScalebyDistance.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions01/WorldPositionOffset/ConstantScalebyDistance.uasset' is outside repository
+[2016.02.19-16.46.07:475][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions02/3PointLevels.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions02/3PointLevels.uasset' is outside repository
+[2016.02.19-16.46.07:475][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/3dParticleOpacityInstance.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/3dParticleOpacityInstance.uasset' is outside repository
+[2016.02.19-16.46.07:475][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/MacroUVs/MacroUVs.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/MacroUVs/MacroUVs.uasset' is outside repository
+[2016.02.19-16.46.07:475][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/TextureBasedWPO/DemoBox.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/TextureBasedWPO/DemoBox.uasset' is outside repository
+[2016.02.19-16.46.07:475][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/DebugNumberPeriod.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/DebugNumberPeriod.uasset' is outside repository
+[2016.02.19-16.46.07:475][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions02/Gradients/GradientMap_Multi.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions02/Gradients/GradientMap_Multi.uasset' is outside repository
+[2016.02.19-16.46.07:475][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions02/Math/AddComponents.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions02/Math/AddComponents.uasset' is outside repository
+[2016.02.19-16.46.07:475][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions02/MAXScripts/MeshSequenceFlipbook_Script.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions02/MAXScripts/MeshSequenceFlipbook_Script.uasset' is outside repository
+[2016.02.19-16.46.07:476][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions02/Normals/RotateNormalWhileMasking.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions02/Normals/RotateNormalWhileMasking.uasset' is outside repository
+[2016.02.19-16.46.07:476][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions02/NotInUse/WorldAlignedNormals_HighQuality_optimizationAttempt.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions02/NotInUse/WorldAlignedNormals_HighQuality_optimizationAttempt.uasset' is outside repository
+[2016.02.19-16.46.07:476][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions02/PivotPainter/PivotPainter_HierarchyData.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions02/PivotPainter/PivotPainter_HierarchyData.uasset' is outside repository
+[2016.02.19-16.46.07:476][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions02/Texturing/3dParticleOpacity.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions02/Texturing/3dParticleOpacity.uasset' is outside repository
+[2016.02.19-16.46.07:476][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions02/Utility/Append4.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions02/Utility/Append4.uasset' is outside repository
+[2016.02.19-16.46.07:476][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions02/UVs/BoundingBoxBased_0-1_UVW.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions02/UVs/BoundingBoxBased_0-1_UVW.uasset' is outside repository
+[2016.02.19-16.46.07:476][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions02/WorldPositionOffset/AdjustNormalsToCompensateForRotateAboutAxisOffset.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions02/WorldPositionOffset/AdjustNormalsToCompensateForRotateAboutAxisOffset.uasset' is outside repository
+[2016.02.19-16.46.07:476][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions03/Blends/Blend_ColorBurn.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions03/Blends/Blend_ColorBurn.uasset' is outside repository
+[2016.02.19-16.46.07:476][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions03/ComplexMotion/Motion_4WayChaos.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions03/ComplexMotion/Motion_4WayChaos.uasset' is outside repository
+[2016.02.19-16.46.07:476][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions03/Particles/Distance_Blend.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions03/Particles/Distance_Blend.uasset' is outside repository
+[2016.02.19-16.46.07:476][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions03/Procedurals/ComputeFilterWidth.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions03/Procedurals/ComputeFilterWidth.uasset' is outside repository
+[2016.02.19-16.46.07:476][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions03/Texturing/CameraWorldBlend.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Functions/Engine_MaterialFunctions03/Texturing/CameraWorldBlend.uasset' is outside repository
+[2016.02.19-16.46.07:476][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Functions/GetPostProcessFunctions/GetAmbientCubemapIntensity.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Functions/GetPostProcessFunctions/GetAmbientCubemapIntensity.uasset' is outside repository
+[2016.02.19-16.46.07:476][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Functions/MaterialLayerFunctions/MatLayerBlend_AddWorldPositionOffset.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Functions/MaterialLayerFunctions/MatLayerBlend_AddWorldPositionOffset.uasset' is outside repository
+[2016.02.19-16.46.07:476][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Maps/Entry.umap: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Maps/Entry.umap' is outside repository
+[2016.02.19-16.46.07:476][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Maps/Templates/Template_Default.umap: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Maps/Templates/Template_Default.umap' is outside repository
+[2016.02.19-16.46.07:476][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Maps/Templates/Thumbnails/Default.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Maps/Templates/Thumbnails/Default.uasset' is outside repository
+[2016.02.19-16.46.07:476][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/MapTemplates/Bokeh_5Sides.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/MapTemplates/Bokeh_5Sides.uasset' is outside repository
+[2016.02.19-16.46.07:476][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/MapTemplates/lut/LUT_Afternoon.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/MapTemplates/lut/LUT_Afternoon.uasset' is outside repository
+[2016.02.19-16.46.07:476][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/MapTemplates/Materials/BasicAsset01.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/MapTemplates/Materials/BasicAsset01.uasset' is outside repository
+[2016.02.19-16.46.07:476][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/MapTemplates/Sky/DaylightAmbientCubemap.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/MapTemplates/Sky/DaylightAmbientCubemap.uasset' is outside repository
+[2016.02.19-16.46.07:476][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/MaterialTemplates/Gradients/Gradient_Linear.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/MaterialTemplates/Gradients/Gradient_Linear.uasset' is outside repository
+[2016.02.19-16.46.07:476][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/MaterialTemplates/PerfTricks/MultiChannelMask.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/MaterialTemplates/PerfTricks/MultiChannelMask.uasset' is outside repository
+[2016.02.19-16.46.07:476][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/MaterialTemplates/Textures/T_multiMask.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/MaterialTemplates/Textures/T_multiMask.uasset' is outside repository
+[2016.02.19-16.46.07:476][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/MaterialTemplates/VertexAnimation/AdvancedFlag.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/MaterialTemplates/VertexAnimation/AdvancedFlag.uasset' is outside repository
+[2016.02.19-16.46.07:476][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/MobileResources/T_MobileControls_texture.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/MobileResources/T_MobileControls_texture.uasset' is outside repository
+[2016.02.19-16.46.07:476][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/MobileResources/HUD/AnalogHat.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/MobileResources/HUD/AnalogHat.uasset' is outside repository
+[2016.02.19-16.46.07:476][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/TemplateResources/MI_Template_BaseBlue.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/TemplateResources/MI_Template_BaseBlue.uasset' is outside repository
+[2016.02.19-16.46.07:476][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Tutorial/ContentIntroCurve.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Tutorial/ContentIntroCurve.uasset' is outside repository
+[2016.02.19-16.46.07:476][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Tutorial/Audio/Audience.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Tutorial/Audio/Audience.uasset' is outside repository
+[2016.02.19-16.46.07:476][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Tutorial/Basics/ContentBrowserOverview.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Tutorial/Basics/ContentBrowserOverview.uasset' is outside repository
+[2016.02.19-16.46.07:476][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Tutorial/Basics/TutorialAssets/CameraActor_64x.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Tutorial/Basics/TutorialAssets/CameraActor_64x.uasset' is outside repository
+[2016.02.19-16.46.07:476][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Tutorial/BlueprintTutorials/BlueprintEditorTutorial.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Tutorial/BlueprintTutorials/BlueprintEditorTutorial.uasset' is outside repository
+[2016.02.19-16.46.07:476][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/BlueprintFunctionLibrary_64x.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/BlueprintFunctionLibrary_64x.uasset' is outside repository
+[2016.02.19-16.46.07:476][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Tutorial/Code/AddingCode.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Tutorial/Code/AddingCode.uasset' is outside repository
+[2016.02.19-16.46.07:476][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Tutorial/Foliage/FoliageWalkThrough.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Tutorial/Foliage/FoliageWalkThrough.uasset' is outside repository
+[2016.02.19-16.46.07:476][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Tutorial/Foliage/TutorialAssets/Foliage.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Tutorial/Foliage/TutorialAssets/Foliage.uasset' is outside repository
+[2016.02.19-16.46.07:476][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Tutorial/Installation/InstallingVisualStudioTutorial.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Tutorial/Installation/InstallingVisualStudioTutorial.uasset' is outside repository
+[2016.02.19-16.46.07:476][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Tutorial/InWorldBlueprintEditing/IWBE_Tutorial.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Tutorial/InWorldBlueprintEditing/IWBE_Tutorial.uasset' is outside repository
+[2016.02.19-16.46.07:476][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.uasset' is outside repository
+[2016.02.19-16.46.07:476][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Tutorial/Landscape/LandscapeWalkThrough.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Tutorial/Landscape/LandscapeWalkThrough.uasset' is outside repository
+[2016.02.19-16.46.07:476][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Tutorial/Landscape/TutorialAssets/Landscape.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Tutorial/Landscape/TutorialAssets/Landscape.uasset' is outside repository
+[2016.02.19-16.46.07:476][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Tutorial/Mobile/CreatingSigningCertAndProvisionTutorial.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Tutorial/Mobile/CreatingSigningCertAndProvisionTutorial.uasset' is outside repository
+[2016.02.19-16.46.07:476][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Tutorial/Mobile/TutorialAssets/android_Icon.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Tutorial/Mobile/TutorialAssets/android_Icon.uasset' is outside repository
+[2016.02.19-16.46.07:476][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Tutorial/Paper2D/FlipbookEditorTutorial.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Tutorial/Paper2D/FlipbookEditorTutorial.uasset' is outside repository
+[2016.02.19-16.46.07:476][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Tutorial/Paper2D/TutorialAssets/Paper2DFlipbook_TutorialIcon.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Tutorial/Paper2D/TutorialAssets/Paper2DFlipbook_TutorialIcon.uasset' is outside repository
+[2016.02.19-16.46.07:476][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Tutorial/SubEditors/DestructibleMeshEditorTutorial.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Tutorial/SubEditors/DestructibleMeshEditorTutorial.uasset' is outside repository
+[2016.02.19-16.46.07:476][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Tutorial/SubEditors/TutorialAssets/icon_Editor_Preferences_General_40x.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Tutorial/SubEditors/TutorialAssets/icon_Editor_Preferences_General_40x.uasset' is outside repository
+[2016.02.19-16.46.07:476][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/NewBlendSpace1D.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/NewBlendSpace1D.uasset' is outside repository
+[2016.02.19-16.46.07:476][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Plugins/2D/Paper2D/Content/DefaultLitSpriteMaterial.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Plugins/2D/Paper2D/Content/DefaultLitSpriteMaterial.uasset' is outside repository
+[2016.02.19-16.46.07:476][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Plugins/2D/Paper2D/Content/PlaceholderTextures/DummySpriteTexture.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Plugins/2D/Paper2D/Content/PlaceholderTextures/DummySpriteTexture.uasset' is outside repository
+[2016.02.19-16.46.07:476][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Plugins/Runtime/LeapMotionController/Content/LM_CapsuleMesh.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Plugins/Runtime/LeapMotionController/Content/LM_CapsuleMesh.uasset' is outside repository
+[2016.02.19-16.46.07:476][295]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/' is outside repository
+[2016.02.19-16.46.24:097][295]LogSourceControl: FGitCheckInWorker: commit successful
+[2016.02.19-16.46.24:542][295]SourceControl: Info [master eff76e2] Planning Buss layout (2/19/2016 @11:45) •	Used graph paper to measure buss layout for busses
+[2016.02.19-16.46.24:542][295]SourceControl: Info  4 files changed, 0 insertions(+), 0 deletions(-)
+[2016.02.19-16.46.24:542][295]SourceControl: Info  create mode 100644 Content/Sprites/vehicle/buss/BussBase_Sprite.uasset
+[2016.02.19-16.46.24:542][295]SourceControl: Info  create mode 100644 Content/Textures/vehicle/buss/BussBase.uasset
+[2016.02.19-16.46.24:542][295]SourceControl: Info  create mode 100644 Content/Textures/vehicle/buss/BussBase_Sprite.uasset
+[2016.02.19-16.46.24:560][295]SourceControl: Info Commited [master eff76e2] Planning Buss layout (2/19/2016 @11:45) •	Used graph paper to measure buss layout for busses.
+[2016.02.19-16.46.29:985][337]Cmd: QUIT_EDITOR
+[2016.02.19-16.46.30:461][337]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.02.19-16.46.30:642][337]LogExit: Preparing to exit.
+[2016.02.19-16.46.31:294][337]LogExit: Editor shut down
+[2016.02.19-16.46.31:297][337]LogExit: Transaction tracking system shut down
+[2016.02.19-16.46.31:312][337]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002753B4AA980
+[2016.02.19-16.46.31:313][337]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000027544BB3880
+[2016.02.19-16.46.31:593][337]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002753B3C4360
+[2016.02.19-16.46.31:593][337]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000275517C27A0
+[2016.02.19-16.46.31:593][337]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000275268682C0
+[2016.02.19-16.46.31:593][337]LogExit: Object subsystem successfully closed.
+[2016.02.19-16.46.31:621][337]LogD3D11RHI: Shutdown
+[2016.02.19-16.46.31:621][337]LogD3D11RHI: CleanupD3DDevice
+[2016.02.19-16.46.31:846][337]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.02.19-16.46.31:877][337]LogModuleManager: Shutting down and abandoning module CookingStats (200)
+[2016.02.19-16.46.31:877][337]LogModuleManager: Shutting down and abandoning module CrashTracker (199)
+[2016.02.19-16.46.31:877][337]LogModuleManager: Shutting down and abandoning module SceneOutliner (198)
+[2016.02.19-16.46.31:877][337]LogModuleManager: Shutting down and abandoning module SuperSearch (197)
+[2016.02.19-16.46.31:877][337]LogModuleManager: Shutting down and abandoning module WidgetCarousel (196)
+[2016.02.19-16.46.31:877][337]LogModuleManager: Shutting down and abandoning module AddContentDialog (195)
+[2016.02.19-16.46.31:890][337]LogModuleManager: Shutting down and abandoning module EditorWidgets (194)
+[2016.02.19-16.46.31:890][337]LogModuleManager: Shutting down and abandoning module CollectionManager (193)
+[2016.02.19-16.46.31:891][337]LogModuleManager: Shutting down and abandoning module StatsViewer (192)
+[2016.02.19-16.46.31:891][337]LogModuleManager: Shutting down and abandoning module FoliageEdit (191)
+[2016.02.19-16.46.31:891][337]LogModuleManager: Shutting down and abandoning module LandscapeEditor (190)
+[2016.02.19-16.46.31:892][337]LogModuleManager: Shutting down and abandoning module ActorPickerMode (189)
+[2016.02.19-16.46.31:892][337]LogModuleManager: Shutting down and abandoning module GeometryMode (188)
+[2016.02.19-16.46.31:892][337]LogModuleManager: Shutting down and abandoning module TextureAlignMode (187)
+[2016.02.19-16.46.31:892][337]LogModuleManager: Shutting down and abandoning module BspMode (186)
+[2016.02.19-16.46.31:892][337]LogModuleManager: Shutting down and abandoning module PlacementMode (185)
+[2016.02.19-16.46.31:892][337]LogModuleManager: Shutting down and abandoning module AutomationWorker (184)
+[2016.02.19-16.46.31:892][337]LogModuleManager: Shutting down and abandoning module CharacterAI (183)
+[2016.02.19-16.46.31:892][337]LogModuleManager: Shutting down and abandoning module SmartSnapping (182)
+[2016.02.19-16.46.31:892][337]LogModuleManager: Shutting down and abandoning module ViewportSnapping (181)
+[2016.02.19-16.46.31:892][337]LogModuleManager: Shutting down and abandoning module LogVisualizer (180)
+[2016.02.19-16.46.31:892][337]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (179)
+[2016.02.19-16.46.31:893][337]LogModuleManager: Shutting down and abandoning module IntroTutorials (178)
+[2016.02.19-16.46.31:893][337]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (177)
+[2016.02.19-16.46.31:893][337]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (176)
+[2016.02.19-16.46.31:893][337]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (175)
+[2016.02.19-16.46.31:893][337]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (174)
+[2016.02.19-16.46.32:424][337]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (173)
+[2016.02.19-16.46.32:424][337]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (172)
+[2016.02.19-16.46.32:424][337]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (171)
+[2016.02.19-16.46.32:424][337]LogModuleManager: Shutting down and abandoning module MergeActors (170)
+[2016.02.19-16.46.32:424][337]LogModuleManager: Shutting down and abandoning module SizeMap (169)
+[2016.02.19-16.46.32:424][337]LogModuleManager: Shutting down and abandoning module TreeMap (168)
+[2016.02.19-16.46.32:424][337]LogModuleManager: Shutting down and abandoning module ReferenceViewer (167)
+[2016.02.19-16.46.32:424][337]LogModuleManager: Shutting down and abandoning module LocalizationService (166)
+[2016.02.19-16.46.32:424][337]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (165)
+[2016.02.19-16.46.32:431][337]LogModuleManager: Shutting down and abandoning module HardwareTargeting (164)
+[2016.02.19-16.46.32:431][337]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (163)
+[2016.02.19-16.46.32:431][337]LogModuleManager: Shutting down and abandoning module UndoHistory (162)
+[2016.02.19-16.46.32:431][337]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (161)
+[2016.02.19-16.46.32:431][337]LogModuleManager: Shutting down and abandoning module UserFeedback (160)
+[2016.02.19-16.46.32:431][337]LogModuleManager: Shutting down and abandoning module XmlParser (159)
+[2016.02.19-16.46.32:431][337]LogModuleManager: Shutting down and abandoning module Blutility (158)
+[2016.02.19-16.46.32:431][337]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (157)
+[2016.02.19-16.46.32:431][337]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (156)
+[2016.02.19-16.46.32:431][337]LogModuleManager: Shutting down and abandoning module InputBindingEditor (155)
+[2016.02.19-16.46.32:431][337]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (154)
+[2016.02.19-16.46.32:431][337]LogModuleManager: Shutting down and abandoning module SettingsEditor (153)
+[2016.02.19-16.46.32:431][337]LogModuleManager: Shutting down and abandoning module ProjectLauncher (152)
+[2016.02.19-16.46.32:432][337]LogModuleManager: Shutting down and abandoning module SessionFrontend (151)
+[2016.02.19-16.46.32:432][337]LogModuleManager: Shutting down and abandoning module ProfilerClient (150)
+[2016.02.19-16.46.32:433][337]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (149)
+[2016.02.19-16.46.32:433][337]LogModuleManager: Shutting down and abandoning module DeviceManager (148)
+[2016.02.19-16.46.32:433][337]LogModuleManager: Shutting down and abandoning module AutomationController (147)
+[2016.02.19-16.46.32:433][337]LogModuleManager: Shutting down and abandoning module AutomationWindow (146)
+[2016.02.19-16.46.32:434][337]LogModuleManager: Shutting down and abandoning module Layers (145)
+[2016.02.19-16.46.32:436][337]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (144)
+[2016.02.19-16.46.32:436][337]LogModuleManager: Shutting down and abandoning module DetailCustomizations (143)
+[2016.02.19-16.46.32:436][337]LogModuleManager: Shutting down and abandoning module PackagesDialog (142)
+[2016.02.19-16.46.32:436][337]LogModuleManager: Shutting down and abandoning module Persona (141)
+[2016.02.19-16.46.32:438][337]LogModuleManager: Shutting down and abandoning module Kismet (140)
+[2016.02.19-16.46.32:438][337]LogModuleManager: Shutting down and abandoning module GraphEditor (139)
+[2016.02.19-16.46.32:440][337]LogModuleManager: Shutting down and abandoning module ClassViewer (138)
+[2016.02.19-16.46.32:440][337]LogModuleManager: Shutting down and abandoning module Toolbox (137)
+[2016.02.19-16.46.32:440][337]LogModuleManager: Shutting down and abandoning module ModuleUI (136)
+[2016.02.19-16.46.32:441][337]LogModuleManager: Shutting down and abandoning module MovieSceneTools (135)
+[2016.02.19-16.46.32:441][337]LogModuleManager: Shutting down and abandoning module OutputLog (134)
+[2016.02.19-16.46.32:441][337]LogModuleManager: Shutting down and abandoning module GammaUI (133)
+[2016.02.19-16.46.32:442][337]LogModuleManager: Shutting down and abandoning module Documentation (132)
+[2016.02.19-16.46.32:442][337]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (131)
+[2016.02.19-16.46.32:442][337]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (130)
+[2016.02.19-16.46.32:442][337]LogModuleManager: Shutting down and abandoning module AnalyticsET (129)
+[2016.02.19-16.46.32:442][337]LogModuleManager: Shutting down and abandoning module Analytics (128)
+[2016.02.19-16.46.32:442][337]LogModuleManager: Shutting down and abandoning module AITestSuite (127)
+[2016.02.19-16.46.32:442][337]LogModuleManager: Shutting down and abandoning module GameplayDebugger (126)
+[2016.02.19-16.46.32:442][337]LogModuleManager: Shutting down and abandoning module AIModule (125)
+[2016.02.19-16.46.32:442][337]LogModuleManager: Shutting down and abandoning module ProfilerService (124)
+[2016.02.19-16.46.32:593][337]LogModuleManager: Shutting down and abandoning module TaskGraph (123)
+[2016.02.19-16.46.32:593][337]LogModuleManager: Shutting down and abandoning module SlateRemote (122)
+[2016.02.19-16.46.32:594][337]LogModuleManager: Shutting down and abandoning module SteamVRController (121)
+[2016.02.19-16.46.32:594][337]LogModuleManager: Shutting down and abandoning module SteamVR (120)
+[2016.02.19-16.46.32:594][337]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (119)
+[2016.02.19-16.46.32:594][337]LogModuleManager: Shutting down and abandoning module OculusLibrary (118)
+[2016.02.19-16.46.32:594][337]LogModuleManager: Shutting down and abandoning module OculusInput (117)
+[2016.02.19-16.46.32:594][337]LogModuleManager: Shutting down and abandoning module LeapMotionController (116)
+[2016.02.19-16.46.32:610][337]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (115)
+[2016.02.19-16.46.32:610][337]LogModuleManager: Shutting down and abandoning module CableComponent (114)
+[2016.02.19-16.46.32:610][337]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (113)
+[2016.02.19-16.46.32:610][337]LogModuleManager: Shutting down and abandoning module MessagingDebugger (112)
+[2016.02.19-16.46.32:611][337]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (111)
+[2016.02.19-16.46.32:611][337]LogModuleManager: Shutting down and abandoning module HTML5Networking (110)
+[2016.02.19-16.46.32:611][337]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (109)
+[2016.02.19-16.46.32:611][337]LogModuleManager: Shutting down and abandoning module PluginBrowser (108)
+[2016.02.19-16.46.32:612][337]LogModuleManager: Shutting down and abandoning module EpicSurvey (107)
+[2016.02.19-16.46.32:612][337]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (106)
+[2016.02.19-16.46.32:612][337]LogModuleManager: Shutting down and abandoning module UObjectPlugin (105)
+[2016.02.19-16.46.32:612][337]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (104)
+[2016.02.19-16.46.32:612][337]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (103)
+[2016.02.19-16.46.32:612][337]LogModuleManager: Shutting down and abandoning module SourceControl (102)
+[2016.02.19-16.46.32:612][337]LogModuleManager: Shutting down and abandoning module GitSourceControl (101)
+[2016.02.19-16.46.32:612][337]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (100)
+[2016.02.19-16.46.32:612][337]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (99)
+[2016.02.19-16.46.32:612][337]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (98)
+[2016.02.19-16.46.32:612][337]LogModuleManager: Shutting down and abandoning module MeshPaint (97)
+[2016.02.19-16.46.32:612][337]LogModuleManager: Shutting down and abandoning module SlateReflector (96)
+[2016.02.19-16.46.32:613][337]LogModuleManager: Shutting down and abandoning module HotReload (95)
+[2016.02.19-16.46.32:613][337]LogModuleManager: Shutting down and abandoning module MainFrame (94)
+[2016.02.19-16.46.32:613][337]LogModuleManager: Shutting down and abandoning module LevelEditor (93)
+[2016.02.19-16.46.32:615][337]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (92)
+[2016.02.19-16.46.32:619][337]LogModuleManager: Shutting down and abandoning module AssetRegistry (91)
+[2016.02.19-16.46.32:731][337]LogModuleManager: Shutting down and abandoning module ContentBrowser (90)
+[2016.02.19-16.46.32:731][337]LogModuleManager: Shutting down and abandoning module Paper2DEditor (89)
+[2016.02.19-16.46.32:732][337]LogModuleManager: Shutting down and abandoning module Game_GT (88)
+[2016.02.19-16.46.32:732][337]LogModuleManager: Shutting down and abandoning module UdpMessaging (87)
+[2016.02.19-16.46.32:834][337]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (86)
+[2016.02.19-16.46.32:834][337]LogModuleManager: Shutting down and abandoning module Paper2D (85)
+[2016.02.19-16.46.32:834][337]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (84)
+[2016.02.19-16.46.32:893][337]LogModuleManager: Shutting down and abandoning module Media (83)
+[2016.02.19-16.46.32:893][337]LogModuleManager: Shutting down and abandoning module WmfMedia (82)
+[2016.02.19-16.46.32:893][337]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (81)
+[2016.02.19-16.46.32:893][337]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (80)
+[2016.02.19-16.46.32:893][337]LogModuleManager: Shutting down and abandoning module PropertyEditor (79)
+[2016.02.19-16.46.32:893][337]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (78)
+[2016.02.19-16.46.32:895][337]LogModuleManager: Shutting down and abandoning module FunctionalTesting (77)
+[2016.02.19-16.46.32:895][337]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (76)
+[2016.02.19-16.46.32:895][337]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (75)
+[2016.02.19-16.46.32:895][337]LogModuleManager: Shutting down and abandoning module MessageLog (74)
+[2016.02.19-16.46.32:896][337]LogModuleManager: Shutting down and abandoning module Sequencer (73)
+[2016.02.19-16.46.32:899][337]LogModuleManager: Shutting down and abandoning module AssetTools (72)
+[2016.02.19-16.46.32:899][337]LogModuleManager: Shutting down and abandoning module UMGEditor (71)
+[2016.02.19-16.46.32:900][337]LogModuleManager: Shutting down and abandoning module UMG (70)
+[2016.02.19-16.46.32:900][337]LogModuleManager: Shutting down and abandoning module Slate (69)
+[2016.02.19-16.46.32:900][337]LogModuleManager: Shutting down and abandoning module EditorStyle (68)
+[2016.02.19-16.46.32:914][337]LogModuleManager: Shutting down and abandoning module SessionServices (67)
+[2016.02.19-16.46.32:914][337]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (66)
+[2016.02.19-16.46.32:914][337]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (65)
+[2016.02.19-16.46.32:914][337]LogModuleManager: Shutting down and abandoning module XAudio2 (64)
+[2016.02.19-16.46.32:914][337]LogModuleManager: Shutting down and abandoning module Networking (62)
+[2016.02.19-16.46.32:915][337]LogModuleManager: Shutting down and abandoning module Core (61)
+[2016.02.19-16.46.32:915][337]LogModuleManager: Shutting down and abandoning module KismetCompiler (60)
+[2016.02.19-16.46.32:915][337]LogModuleManager: Shutting down and abandoning module PhysXFormats (59)
+[2016.02.19-16.46.32:915][337]LogModuleManager: Shutting down and abandoning module MeshUtilities (58)
+[2016.02.19-16.46.32:915][337]LogModuleManager: Shutting down and abandoning module DerivedDataCache (57)
+[2016.02.19-16.46.32:943][337]LogDerivedDataCache: Shutdown
+[2016.02.19-16.46.32:943][337]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2016.02.19-16.46.32:944][337]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2016.02.19-16.46.32:944][337]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2016.02.19-16.46.32:945][337]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2016.02.19-16.46.32:945][337]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2016.02.19-16.46.32:946][337]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2016.02.19-16.46.32:946][337]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2016.02.19-16.46.32:946][337]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2016.02.19-16.46.32:946][337]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2016.02.19-16.46.32:946][337]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2016.02.19-16.46.32:946][337]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2016.02.19-16.46.32:946][337]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2016.02.19-16.46.32:946][337]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2016.02.19-16.46.32:946][337]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2016.02.19-16.46.32:946][337]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2016.02.19-16.46.32:947][337]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2016.02.19-16.46.32:947][337]LogModuleManager: Shutting down and abandoning module Messaging (40)
+[2016.02.19-16.46.32:947][337]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (39)
+[2016.02.19-16.46.32:947][337]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (38)
+[2016.02.19-16.46.32:947][337]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (37)
+[2016.02.19-16.46.32:947][337]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (36)
+[2016.02.19-16.46.32:947][337]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (35)
+[2016.02.19-16.46.32:947][337]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (34)
+[2016.02.19-16.46.32:947][337]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (33)
+[2016.02.19-16.46.32:947][337]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (32)
+[2016.02.19-16.46.32:947][337]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (31)
+[2016.02.19-16.46.32:947][337]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (30)
+[2016.02.19-16.46.32:947][337]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (29)
+[2016.02.19-16.46.32:947][337]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (28)
+[2016.02.19-16.46.32:947][337]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (27)
+[2016.02.19-16.46.32:947][337]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (26)
+[2016.02.19-16.46.32:947][337]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (25)
+[2016.02.19-16.46.32:947][337]LogModuleManager: Shutting down and abandoning module TargetPlatform (24)
+[2016.02.19-16.46.32:948][337]LogModuleManager: Shutting down and abandoning module InputCore (23)
+[2016.02.19-16.46.32:948][337]LogModuleManager: Shutting down and abandoning module Settings (22)
+[2016.02.19-16.46.32:949][337]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (20)
+[2016.02.19-16.46.32:949][337]LogModuleManager: Shutting down and abandoning module HTTP (19)
+[2016.02.19-16.46.34:958][337]LogModuleManager: Shutting down and abandoning module XMPP (18)
+[2016.02.19-16.46.34:958][337]LogModuleManager: Shutting down and abandoning module OculusRift (17)
+[2016.02.19-16.46.34:959][337]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (16)
+[2016.02.19-16.46.34:959][337]LogModuleManager: Shutting down and abandoning module DesktopPlatform (15)
+[2016.02.19-16.46.34:959][337]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.02.19-16.46.34:959][337]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.02.19-16.46.34:959][337]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.02.19-16.46.34:959][337]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.02.19-16.46.34:961][337]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.02.19-16.46.34:962][337]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.02.19-16.46.34:962][337]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.02.19-16.46.34:962][337]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.02.19-16.46.34:962][337]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.02.19-16.46.34:962][337]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.02.19-16.46.34:962][337]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.02.19-16.46.34:963][337]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.02.19-16.46.34:963][337]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.02.19-16.46.34:963][337]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.02.19-16.46.34:964][337]LogExit: Exiting.
+[2016.02.19-16.46.35:007][337]Log file closed, 02/19/16 11:46:35
