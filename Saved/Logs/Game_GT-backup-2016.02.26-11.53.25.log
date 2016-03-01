@@ -1,0 +1,977 @@
+﻿[2016.02.26-15.53.24:653][  0]Log file open, 02/26/16 10:53:24
+[2016.02.26-15.53.24:653][  0]LogInit:Display: Running engine for game: Game_GT
+[2016.02.26-15.53.24:653][  0]LogPlatformFile: Not using cached read wrapper
+[2016.02.26-15.53.24:653][  0]LogInit:Display: RandInit(-1668716907) SRandInit(-1668716906).
+[2016.02.26-15.53.24:653][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.02.26-15.53.24:653][  0]LogStats: Stats thread started at 0.504229
+[2016.02.26-15.53.24:653][  0]LogInit: Version: 4.10.1-2791327+++depot+UE4-Releases+4.10
+[2016.02.26-15.53.24:653][  0]LogInit: API Version: 2758231
+[2016.02.26-15.53.24:653][  0]LogInit: Compiled (64-bit): Dec  4 2015 19:44:40
+[2016.02.26-15.53.24:653][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.02.26-15.53.24:653][  0]LogInit: Build Configuration: Development
+[2016.02.26-15.53.24:653][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.02.26-15.53.24:653][  0]LogInit: Command line:  
+[2016.02.26-15.53.24:653][  0]LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.02.26-15.53.24:653][  0]LogInit: Rocket: 1
+[2016.02.26-15.53.24:680][  0]LogInit: Using libcurl 7.41.0
+[2016.02.26-15.53.24:680][  0]LogInit:  - built for x86_64-pc-win32
+[2016.02.26-15.53.24:680][  0]LogInit:  - supports SSL with WinSSL
+[2016.02.26-15.53.24:680][  0]LogInit:  - other features:
+[2016.02.26-15.53.24:680][  0]LogInit:      CURL_VERSION_SSL
+[2016.02.26-15.53.24:680][  0]LogInit:      CURL_VERSION_IPV6
+[2016.02.26-15.53.24:680][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.02.26-15.53.24:680][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.02.26-15.53.24:680][  0]LogInit:      CURL_VERSION_IDN
+[2016.02.26-15.53.24:682][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.02.26-15.53.24:682][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.02.26-15.53.24:682][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.02.26-15.53.24:682][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.02.26-15.53.24:682][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.02.26-15.53.24:723][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.02.26-15.53.24:734][  0]LogInit: Object subsystem initialized
+[2016.02.26-15.53.24:746][  0]LogInit: Selected Device Profile: [Windows]
+[2016.02.26-15.53.24:746][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.02.26-15.53.24:766][  0]LogInit: Computer: APPLEEATER-V2
+[2016.02.26-15.53.24:766][  0]LogInit: User: dacos
+[2016.02.26-15.53.24:766][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.02.26-15.53.24:766][  0]LogInit: High frequency timer resolution =2.533210 MHz
+[2016.02.26-15.53.24:766][  0]LogMemory: Memory total: Physical=11.9GB (12GB approx)
+[2016.02.26-15.53.24:766][  0]LogMemory: Platform Memory Stats for Windows
+[2016.02.26-15.53.24:766][  0]LogMemory: Process Physical Memory: 60.35 MB used, 60.35 MB peak
+[2016.02.26-15.53.24:766][  0]LogMemory: Process Virtual Memory: 57.97 MB used, 57.97 MB peak
+[2016.02.26-15.53.24:766][  0]LogMemory: Physical Memory: 4897.93 MB used, 12177.01 MB total
+[2016.02.26-15.53.24:766][  0]LogMemory: Virtual Memory: 383.91 MB used, 134217728.00 MB total
+[2016.02.26-15.53.25:013][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.02.26-15.53.25:503][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 960M        (Feature Level 11_0)
+[2016.02.26-15.53.25:503][  0]LogD3D11RHI: Adapter has 1995MB of dedicated video memory, 0MB of dedicated system memory, and 6088MB of shared system memory, 1 output[s]
+[2016.02.26-15.53.25:508][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2016.02.26-15.53.25:508][  0]LogD3D11RHI: Adapter has 112MB of dedicated video memory, 0MB of dedicated system memory, and 6088MB of shared system memory, 0 output[s]
+[2016.02.26-15.53.25:509][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.02.26-15.53.25:509][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 6088MB of shared system memory, 0 output[s]
+[2016.02.26-15.53.25:509][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.02.26-15.53.25:518][  0]LogD3D11RHI: !Direct3DDevice
+[2016.02.26-15.53.25:518][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.02.26-15.53.25:530][  0]LogD3D11RHI: Async texture creation enabled
+[2016.02.26-15.53.26:154][  0]LogShaderCompilers: Guid format shader working directory is -26 characters bigger than the processId version (../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Intermediate/Shaders/WorkingDirectory/7812/).
+[2016.02.26-15.53.26:154][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/dacos/AppData/Local/Temp/UnrealShaderWorkingDir/91682AA740894B2CC409FDB8B42E750B/'.
+[2016.02.26-15.53.26:155][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.02.26-15.53.28:176][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.02.26-15.53.28:180][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.02.26-15.53.28:184][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.02.26-15.53.28:188][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.02.26-15.53.28:195][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.02.26-15.53.28:202][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.02.26-15.53.28:205][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.02.26-15.53.28:209][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.02.26-15.53.28:212][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.02.26-15.53.28:216][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.02.26-15.53.28:220][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.02.26-15.53.28:228][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.02.26-15.53.28:228][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.02.26-15.53.28:229][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.02.26-15.53.28:272][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.02.26-15.53.28:275][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.02.26-15.53.28:278][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.02.26-15.53.28:284][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.02.26-15.53.28:284][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.02.26-15.53.28:621][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.02.26-15.53.28:918][  0]LogDerivedDataCache: Loaded boot cache 0.30s 42MB C:/Users/dacos/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.02.26-15.53.28:918][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/dacos/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.02.26-15.53.28:918][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.02.26-15.53.28:918][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.02.26-15.53.28:918][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.02.26-15.53.28:918][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.02.26-15.53.28:988][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.02.26-15.53.29:001][  0]LogDerivedDataCache: Using Local data cache path C:/Users/dacos/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.02.26-15.53.31:644][  0]LogInit: Selected Device Profile: [Windows]
+[2016.02.26-15.53.31:652][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.02.26-15.53.31:849][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.02.26-15.53.31:849][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.02.26-15.53.32:452][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.02.26-15.53.34:605][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.02.26-15.53.34:681][  0]LogLinker:Warning: Asset '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.26-15.53.34:687][  0]LogLinker:Warning: Asset '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Mannequin/Animations/ThirdPerson_Jump.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.26-15.53.34:696][  0]LogLinker:Warning: Asset '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.26-15.53.34:702][  0]LogLinker:Warning: Asset '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.26-15.53.34:707][  0]LogLinker:Warning: Asset '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.26-15.53.34:710][  0]LogLinker:Warning: Asset '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Mannequin/Animations/ThirdPersonIdle.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.26-15.53.34:715][  0]LogLinker:Warning: Asset '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Mannequin/Animations/ThirdPersonRun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.26-15.53.34:720][  0]LogLinker:Warning: Asset '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Mannequin/Animations/ThirdPersonWalk.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.26-15.53.35:245][  0]LogAssetRegistry: FAssetRegistry took 0.0133 seconds to start up
+[2016.02.26-15.53.35:588][  0]SourceControl: Info Source control is disabled
+[2016.02.26-15.53.36:473][  0]LogObj: 31636 objects as part of root set at end of initial load.
+[2016.02.26-15.53.36:473][  0]LogUObjectAllocator: 7168912 out of 0 bytes used by permanent object pool.
+[2016.02.26-15.53.36:581][  0]LogEngine: Initializing Engine...
+[2016.02.26-15.53.36:587][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.02.26-15.53.36:597][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.02.26-15.53.36:806][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.02.26-15.53.36:831][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.26-15.53.36:844][  0]LogInit: FAudioDevice initialized.
+[2016.02.26-15.53.36:873][  0]LogDerivedDataCache: Saved boot cache 0.03s 42MB C:/Users/dacos/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.02.26-15.53.36:880][  0]LogInit: Texture streaming: Enabled
+[2016.02.26-15.53.36:892][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.02.26-15.53.36:892][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.1-2791327+++depot+UE4-Releases+4.10
+[2016.02.26-15.53.36:893][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 7271a55c42ba7649a468ef8135f6e487|72e7fe8abf234c00b7d4ff8eb3462f9c|ed1d22c6-da52-4d8a-a8db-03a689afc6c5
+[2016.02.26-15.53.36:893][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.02.26-15.53.36:935][  0]LogInit: Transaction tracking system initialized
+[2016.02.26-15.53.36:995][  0]BlueprintLog: New page: Editor Load
+[2016.02.26-15.53.37:219][  0]LocalizationService: Info Localization service is disabled
+[2016.02.26-15.53.37:352][  0]LogConsoleResponse:Display: 
+[2016.02.26-15.53.37:563][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.02.26-15.53.37:826][  0]LogFileCache: Scanning file cache for directory 'C:/Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/' took 0.02s
+[2016.02.26-15.53.37:828][  0]Cmd: MAP LOAD FILE="../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/TopDownCPP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.02.26-15.53.37:829][  0]LightingResults: New page: Lighting Build
+[2016.02.26-15.53.37:839][  0]MapCheck: New page: Map Check
+[2016.02.26-15.53.37:839][  0]LightingResults: New page: Lighting Build
+[2016.02.26-15.53.37:859][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000020B762BDB20
+[2016.02.26-15.53.39:520][  0]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2016.02.26-15.53.39:643][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.02.26-15.53.39:647][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.02.26-15.53.39:718][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 70.938ms to complete.
+[2016.02.26-15.53.39:718][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 1.890
+[2016.02.26-15.53.40:150][  0]LogCollectionManager: Loaded 0 collections in 0.012798 seconds
+[2016.02.26-15.53.40:242][  0]LogFileCache: Scanning file cache for directory 'C:/Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Saved/Collections/' took 0.01s
+[2016.02.26-15.53.40:242][  0]LogFileCache: Scanning file cache for directory 'C:/Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Developers/dacos/Collections/' took 0.01s
+[2016.02.26-15.53.40:242][  0]LogFileCache: Scanning file cache for directory 'C:/Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Collections/' took 0.01s
+[2016.02.26-15.53.40:243][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000043 seconds
+[2016.02.26-15.53.40:292][  0]LogContentBrowser: Native class hierarchy populated in 0.0479 seconds. Added 1897 classes and 340 folders.
+[2016.02.26-15.53.40:324][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0024 seconds. Added 0 classes and 0 folders.
+[2016.02.26-15.53.40:726][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2016.02.26-15.53.40:737][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0012 seconds. Added 1 classes and 2 folders.
+[2016.02.26-15.53.40:793][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.02.26-15.53.40:813][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.02.26-15.53.40:839][  0]LogLoad: Full Startup: 18.27 seconds (BP compile: 0.56 seconds)
+[2016.02.26-15.53.41:188][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.02.26-15.53.41:293][  0]SourceControl: Info On branch master
+[2016.02.26-15.53.41:293][  0]SourceControl: Info Your branch is up-to-date with 'origin/master'.
+[2016.02.26-15.53.41:293][  0]SourceControl: Info Changes not staged for commit:
+[2016.02.26-15.53.41:293][  0]SourceControl: Info   (use "git add/rm <file>..." to update what will be committed)
+[2016.02.26-15.53.41:293][  0]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2016.02.26-15.53.41:293][  0]SourceControl: Info 	modified:   Intermediate/Config/CoalescedSourceConfigs/Engine.ini
+[2016.02.26-15.53.41:293][  0]SourceControl: Info 	modified:   Intermediate/Config/CoalescedSourceConfigs/Game.ini
+[2016.02.26-15.53.41:293][  0]SourceControl: Info 	modified:   Saved/Config/Windows/Editor.ini
+[2016.02.26-15.53.41:293][  0]SourceControl: Info 	modified:   Saved/Config/Windows/Engine.ini
+[2016.02.26-15.53.41:293][  0]SourceControl: Info 	deleted:    Saved/Logs/Game_GT-backup-2016.02.19-10.52.03.log
+[2016.02.26-15.53.41:293][  0]SourceControl: Info 	deleted:    Saved/Logs/Game_GT-backup-2016.02.19-11.06.31.log
+[2016.02.26-15.53.41:293][  0]SourceControl: Info 	deleted:    Saved/Logs/Game_GT-backup-2016.02.19-11.51.06.log
+[2016.02.26-15.53.41:293][  0]SourceControl: Info 	modified:   Saved/Logs/Game_GT.log
+[2016.02.26-15.53.41:293][  0]SourceControl: Info Untracked files:
+[2016.02.26-15.53.41:293][  0]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2016.02.26-15.53.41:293][  0]SourceControl: Info 	Saved/Logs/Game_GT-backup-2016.02.26-10.53.24.log
+[2016.02.26-15.53.41:293][  0]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
+[2016.02.26-15.53.41:293][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.02.26-15.53.41:443][  0]LogRenderer: Reallocating scene render targets to support 1604x544 (Frame:2).
+[2016.02.26-15.53.42:840][ 15]LogAssetRegistry: Asset discovery search completed in 7.6069 seconds
+[2016.02.26-15.53.42:841][ 15]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.02.26-15.53.42:841][ 15]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000430 seconds (updated 0 objects)
+[2016.02.26-15.54.00:368][448]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.02.26-15.54.00:368][448]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.26-15.54.00:370][448]PIE: New page: PIE session: TopDownExampleMap (Feb 26, 2016, 5:54:00 AM)
+[2016.02.26-15.54.00:370][448]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap
+[2016.02.26-15.54.00:399][448]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029325s)
+[2016.02.26-15.54.00:401][448]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2016.02.26-15.54.00:402][448]LogPlayLevel: PIE: World Init took: (0.002211s)
+[2016.02.26-15.54.00:402][448]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.032220s)
+[2016.02.26-15.54.00:551][448]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.26-15.54.00:567][448]LogInit: FAudioDevice initialized.
+[2016.02.26-15.54.00:645][448]LogWorld: Game class is '2DTopDown_Style_C'
+[2016.02.26-15.54.00:674][448]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2016.02.26-10.54.00
+[2016.02.26-15.54.00:675][448]LogActor:Warning: GameSession /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.26-15.54.00:675][448]LogActor:Warning: GameNetworkManager /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.26-15.54.00:689][448]LogWorld: Bringing up level for play took: 0.039930
+[2016.02.26-15.54.00:706][448]PIE: Info Play in editor start time for /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap -0.436
+[2016.02.26-15.54.00:706][448]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.02.26-15.54.11:367][712]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.02.26-15.54.11:459][712]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.02.26-15.54.11:500][712]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000020B72A93BA0
+[2016.02.26-15.54.20:453][897]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.02.26-15.54.20:453][897]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.26-15.54.20:454][897]PIE: New page: PIE session: TopDownExampleMap (Feb 26, 2016, 5:54:20 AM)
+[2016.02.26-15.54.20:454][897]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap
+[2016.02.26-15.54.20:479][897]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024886s)
+[2016.02.26-15.54.20:480][897]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2016.02.26-15.54.20:481][897]LogPlayLevel: PIE: World Init took: (0.001842s)
+[2016.02.26-15.54.20:481][897]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.027244s)
+[2016.02.26-15.54.20:533][897]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.26-15.54.20:546][897]LogInit: FAudioDevice initialized.
+[2016.02.26-15.54.20:600][897]LogWorld: Game class is '2DTopDown_Style_C'
+[2016.02.26-15.54.20:629][897]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2016.02.26-10.54.20
+[2016.02.26-15.54.20:629][897]LogActor:Warning: GameSession /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.26-15.54.20:630][897]LogActor:Warning: GameNetworkManager /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.26-15.54.20:641][897]LogWorld: Bringing up level for play took: 0.038725
+[2016.02.26-15.54.20:653][897]PIE: Info Play in editor start time for /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap -0.489
+[2016.02.26-15.54.20:653][897]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.02.26-15.54.31:535][160]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.02.26-15.54.31:622][160]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.02.26-15.54.31:660][160]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000020B665AC9A0
+[2016.02.26-15.54.42:725][404]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.02.26-15.54.42:725][404]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.26-15.54.42:725][404]PIE: New page: PIE session: TopDownExampleMap (Feb 26, 2016, 5:54:42 AM)
+[2016.02.26-15.54.42:725][404]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap
+[2016.02.26-15.54.42:753][404]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027513s)
+[2016.02.26-15.54.42:754][404]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2016.02.26-15.54.42:754][404]LogPlayLevel: PIE: World Init took: (0.001257s)
+[2016.02.26-15.54.42:754][404]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.029157s)
+[2016.02.26-15.54.42:816][404]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.26-15.54.42:829][404]LogInit: FAudioDevice initialized.
+[2016.02.26-15.54.42:875][404]LogWorld: Game class is '2DTopDown_Style_C'
+[2016.02.26-15.54.42:902][404]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2016.02.26-10.54.42
+[2016.02.26-15.54.42:903][404]LogActor:Warning: GameSession /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.26-15.54.42:903][404]LogActor:Warning: GameNetworkManager /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.26-15.54.42:910][404]LogWorld: Bringing up level for play took: 0.032198
+[2016.02.26-15.54.42:921][404]PIE: Info Play in editor start time for /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap -0.221
+[2016.02.26-15.54.42:921][404]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.02.26-15.55.08:862][132]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.02.26-15.55.08:931][132]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.02.26-15.55.08:978][132]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000020B67EA5D00
+[2016.02.26-15.55.27:100][565]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.02.26-15.55.27:100][565]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.26-15.55.27:100][565]PIE: New page: PIE session: TopDownExampleMap (Feb 26, 2016, 5:55:27 AM)
+[2016.02.26-15.55.27:100][565]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap
+[2016.02.26-15.55.27:121][565]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021100s)
+[2016.02.26-15.55.27:122][565]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2016.02.26-15.55.27:123][565]LogPlayLevel: PIE: World Init took: (0.001082s)
+[2016.02.26-15.55.27:123][565]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.022525s)
+[2016.02.26-15.55.27:160][565]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.26-15.55.27:171][565]LogInit: FAudioDevice initialized.
+[2016.02.26-15.55.27:217][565]LogWorld: Game class is '2DTopDown_Style_C'
+[2016.02.26-15.55.27:238][565]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2016.02.26-10.55.27
+[2016.02.26-15.55.27:238][565]LogActor:Warning: GameSession /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.26-15.55.27:239][565]LogActor:Warning: GameNetworkManager /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.26-15.55.27:244][565]LogWorld: Bringing up level for play took: 0.025791
+[2016.02.26-15.55.27:254][565]PIE: Info Play in editor start time for /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap 0.112
+[2016.02.26-15.55.27:254][565]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.02.26-15.55.33:855][727]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.02.26-15.55.33:931][727]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.02.26-15.55.34:029][728]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000020B665899E0
+[2016.02.26-15.59.29:258][639]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.02.26-15.59.29:258][639]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.26-15.59.29:258][639]PIE: New page: PIE session: TopDownExampleMap (Feb 26, 2016, 5:59:29 AM)
+[2016.02.26-15.59.29:259][639]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap
+[2016.02.26-15.59.29:303][639]LogPlayLevel: PIE: StaticDuplicateObject took: (0.044097s)
+[2016.02.26-15.59.29:305][639]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2016.02.26-15.59.29:305][639]LogPlayLevel: PIE: World Init took: (0.002487s)
+[2016.02.26-15.59.29:306][639]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.047294s)
+[2016.02.26-15.59.29:377][639]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.26-15.59.29:399][639]LogInit: FAudioDevice initialized.
+[2016.02.26-15.59.29:457][639]LogWorld: Game class is '2DTopDown_Style_C'
+[2016.02.26-15.59.29:485][639]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2016.02.26-10.59.29
+[2016.02.26-15.59.29:485][639]LogActor:Warning: GameSession /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.26-15.59.29:485][639]LogActor:Warning: GameNetworkManager /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.26-15.59.29:487][639]LogWorld: Bringing up level for play took: 0.026347
+[2016.02.26-15.59.29:490][639]PIE: Info Play in editor start time for /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap 0.348
+[2016.02.26-15.59.29:490][639]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.02.26-15.59.44:344][992]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.02.26-15.59.44:421][992]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.02.26-15.59.44:520][993]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000020B67EA6660
+[2016.02.26-16.00.02:614][402]LogSavePackage: Save=176.733871ms
+[2016.02.26-16.00.02:614][402]LogSavePackage: Moving '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Saved/TopDownExampleMap0305D8C247E26F93D4535A802F90C727.tmp' to '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/TopDownCPP/Maps/TopDownExampleMap.umap'
+[2016.02.26-16.00.02:619][402]LogSavePackage: Total save time: 314.574394ms
+[2016.02.26-16.00.02:619][402]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/TopDownCPP/Maps/TopDownExampleMap.umap
+[2016.02.26-16.00.05:832][447]SourceControl:Error: Error Operation 'Sync' not supported by source control provider 'Git'
+[2016.02.26-16.04.03:749][ 60]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:\Users\dacos\OneDrive\Documents\Unreal Projects\Game_GT\TempResources\veicles\buss\BussEnSide.png)
+[2016.02.26-16.04.03:751][ 60]LogTexture:Display: Building textures: BussEnSide (AutoDXT)
+[2016.02.26-16.04.20:922][422]SourceControl: Info On branch master
+[2016.02.26-16.04.20:922][422]SourceControl: Info Your branch is up-to-date with 'origin/master'.
+[2016.02.26-16.04.20:922][422]SourceControl: Info Changes not staged for commit:
+[2016.02.26-16.04.20:922][422]SourceControl: Info   (use "git add/rm <file>..." to update what will be committed)
+[2016.02.26-16.04.20:922][422]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2016.02.26-16.04.20:922][422]SourceControl: Info 	modified:   Content/TopDownCPP/Maps/TopDownExampleMap.umap
+[2016.02.26-16.04.20:922][422]SourceControl: Info 	modified:   Intermediate/CachedAssetRegistry.bin
+[2016.02.26-16.04.20:922][422]SourceControl: Info 	modified:   Intermediate/Config/CoalescedSourceConfigs/Engine.ini
+[2016.02.26-16.04.20:922][422]SourceControl: Info 	modified:   Intermediate/Config/CoalescedSourceConfigs/Game.ini
+[2016.02.26-16.04.20:922][422]SourceControl: Info 	modified:   Saved/Autosaves/PackageRestoreData.json
+[2016.02.26-16.04.20:922][422]SourceControl: Info 	deleted:    Saved/Backup/RadaBancroft_2015-12-15-11-50-09.uasset
+[2016.02.26-16.04.20:922][422]SourceControl: Info 	deleted:    Saved/Backup/RadaBancroft_2015-12-15-12-04-00.uasset
+[2016.02.26-16.04.20:922][422]SourceControl: Info 	modified:   Saved/Config/Windows/Editor.ini
+[2016.02.26-16.04.20:922][422]SourceControl: Info 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2016.02.26-16.04.20:922][422]SourceControl: Info 	modified:   Saved/Config/Windows/Engine.ini
+[2016.02.26-16.04.20:922][422]SourceControl: Info 	deleted:    Saved/Logs/Game_GT-backup-2016.02.19-10.52.03.log
+[2016.02.26-16.04.20:922][422]SourceControl: Info 	deleted:    Saved/Logs/Game_GT-backup-2016.02.19-11.06.31.log
+[2016.02.26-16.04.20:922][422]SourceControl: Info 	deleted:    Saved/Logs/Game_GT-backup-2016.02.19-11.51.06.log
+[2016.02.26-16.04.20:922][422]SourceControl: Info 	modified:   Saved/Logs/Game_GT.log
+[2016.02.26-16.04.20:922][422]SourceControl: Info Untracked files:
+[2016.02.26-16.04.20:922][422]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2016.02.26-16.04.20:922][422]SourceControl: Info 	Saved/Backup/TopDownExampleMap_2016-02-26-11-00-02.umap
+[2016.02.26-16.04.20:922][422]SourceControl: Info 	Saved/Logs/Game_GT-backup-2016.02.26-10.53.24.log
+[2016.02.26-16.04.20:922][422]SourceControl: Info 	TempResources/veicles/buss/BussEnSide.png
+[2016.02.26-16.04.20:922][422]SourceControl: Info 	TempResources/veicles/buss/BussEnSide.psd
+[2016.02.26-16.04.20:923][422]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
+[2016.02.26-16.04.21:554][422]LogSavePackage: Save=21.714741ms
+[2016.02.26-16.04.21:554][422]LogSavePackage: Moving '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Saved/BussEnSide_Sprite7452F3D84144F05D5C69AE922AE2DAB2.tmp' to '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Sprites/vehicle/buss/BussEnSide_Sprite.uasset'
+[2016.02.26-16.04.21:561][422]LogSavePackage: Total save time: 29.024046ms
+[2016.02.26-16.04.21:561][422]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Sprites/vehicle/buss/BussEnSide_Sprite.uasset
+[2016.02.26-16.04.46:809][ 20]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.26-16.04.47:665][ 20]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0015 seconds. Added 107 classes and 0 folders.
+[2016.02.26-16.04.52:373][195]LogRenderer: Reallocating scene render targets to support 1604x696 (Frame:13069).
+[2016.02.26-16.05.37:645][364]LogEditorTransaction: Undo Modify Component(s)
+[2016.02.26-16.05.49:928][983]LogEditorTransaction: Undo Modify Component(s)
+[2016.02.26-16.05.58:365][346]BlueprintLog: New page: Compile Buss
+[2016.02.26-16.05.58:640][346]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/vehicles/Buss" FILE="../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Blueprints/vehicles/Buss.uasset" SILENT=true
+[2016.02.26-16.05.58:693][346]LogSavePackage: Save=11.919265ms
+[2016.02.26-16.05.58:693][346]LogSavePackage: Moving '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Saved/BussB8F3999E466A742C6BE8BF8A1BC41A99.tmp' to '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Blueprints/vehicles/Buss.uasset'
+[2016.02.26-16.05.58:696][346]LogSavePackage: Total save time: 54.633841ms
+[2016.02.26-16.05.58:696][346]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Blueprints/vehicles/Buss.uasset
+[2016.02.26-16.05.58:700][346]BlueprintEditorCompileResults: Info [0756.14] Compile of Buss successful! [in 334 ms]
+[2016.02.26-16.06.12:910][668]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.02.26-16.06.12:911][668]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.26-16.06.12:911][668]PIE: New page: PIE session: TopDownExampleMap (Feb 26, 2016, 6:06:12 AM)
+[2016.02.26-16.06.12:911][668]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap
+[2016.02.26-16.06.12:936][668]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025447s)
+[2016.02.26-16.06.12:938][668]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2016.02.26-16.06.12:938][668]LogPlayLevel: PIE: World Init took: (0.001906s)
+[2016.02.26-16.06.12:939][668]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.027927s)
+[2016.02.26-16.06.13:012][668]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.26-16.06.13:026][668]LogInit: FAudioDevice initialized.
+[2016.02.26-16.06.13:081][668]LogWorld: Game class is '2DTopDown_Style_C'
+[2016.02.26-16.06.13:106][668]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2016.02.26-11.06.13
+[2016.02.26-16.06.13:106][668]LogActor:Warning: GameSession /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.26-16.06.13:106][668]LogActor:Warning: GameNetworkManager /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.26-16.06.13:111][668]LogWorld: Bringing up level for play took: 0.027709
+[2016.02.26-16.06.13:118][668]PIE: Info Play in editor start time for /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap -0.023
+[2016.02.26-16.06.13:118][668]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.02.26-16.06.22:508][913]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.02.26-16.06.22:592][913]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.02.26-16.06.22:649][913]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000020B67A758A0
+[2016.02.26-16.06.47:017][510]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (NetworkPlayerStart)
+[2016.02.26-16.06.52:258][631]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.02.26-16.06.56:694][734]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.02.26-16.06.56:911][737]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.02.26-16.06.57:017][737]LogEditorViewport: Clicking on Actor (double click): Buss_C (Buss)
+[2016.02.26-16.06.57:914][761]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (NetworkPlayerStart)
+[2016.02.26-16.06.59:361][794]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.02.26-16.06.59:361][794]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.26-16.06.59:362][794]PIE: New page: PIE session: TopDownExampleMap (Feb 26, 2016, 6:06:59 AM)
+[2016.02.26-16.06.59:362][794]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap
+[2016.02.26-16.06.59:389][794]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027183s)
+[2016.02.26-16.06.59:391][794]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2016.02.26-16.06.59:391][794]LogPlayLevel: PIE: World Init took: (0.002050s)
+[2016.02.26-16.06.59:391][794]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.029841s)
+[2016.02.26-16.06.59:472][794]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.26-16.06.59:487][794]LogInit: FAudioDevice initialized.
+[2016.02.26-16.06.59:541][794]LogWorld: Game class is '2DTopDown_Style_C'
+[2016.02.26-16.06.59:567][794]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2016.02.26-11.06.59
+[2016.02.26-16.06.59:567][794]LogActor:Warning: GameSession /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.26-16.06.59:567][794]LogActor:Warning: GameNetworkManager /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.26-16.06.59:574][794]LogWorld: Bringing up level for play took: 0.030216
+[2016.02.26-16.06.59:584][794]PIE: Info Play in editor start time for /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap 0.443
+[2016.02.26-16.06.59:584][794]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.02.26-16.07.21:520][390]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.02.26-16.07.21:610][390]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.02.26-16.07.21:681][390]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000020B0EE5D080
+[2016.02.26-16.07.22:207][403]LogEditorViewport: Clicking on Actor (LMB): Buss_C (Buss)
+[2016.02.26-16.08.02:994][325]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.02.26-16.08.02:994][325]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.26-16.08.02:994][325]PIE: New page: PIE session: TopDownExampleMap (Feb 26, 2016, 6:08:02 AM)
+[2016.02.26-16.08.02:994][325]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap
+[2016.02.26-16.08.03:029][325]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034490s)
+[2016.02.26-16.08.03:031][325]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2016.02.26-16.08.03:031][325]LogPlayLevel: PIE: World Init took: (0.002433s)
+[2016.02.26-16.08.03:032][325]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.037706s)
+[2016.02.26-16.08.03:120][325]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.26-16.08.03:139][325]LogInit: FAudioDevice initialized.
+[2016.02.26-16.08.03:199][325]LogWorld: Game class is '2DTopDown_Style_C'
+[2016.02.26-16.08.03:232][325]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2016.02.26-11.08.03
+[2016.02.26-16.08.03:232][325]LogActor:Warning: GameSession /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.26-16.08.03:233][325]LogActor:Warning: GameNetworkManager /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.26-16.08.03:243][325]LogWorld: Bringing up level for play took: 0.041138
+[2016.02.26-16.08.03:257][325]PIE: Info Play in editor start time for /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap 0.115
+[2016.02.26-16.08.03:257][325]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.02.26-16.08.03:295][326]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.089706 > MaxSimulationTimeStep (0.050) for 'LizardMan_PaperCharacter_C_7'
+[2016.02.26-16.13.03:064][988]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.02.26-16.13.03:160][988]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.02.26-16.13.03:236][988]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000020B0F669260
+[2016.02.26-16.13.09:507][125]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0043 seconds. Added 1 classes and 2 folders.
+[2016.02.26-16.13.11:814][289]LogEditorFactories: Performing atomic reimport of [C:/Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/TempResources/veicles/buss/BussEnSide.png]
+[2016.02.26-16.13.11:814][289]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 C:/Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/TempResources/veicles/buss/BussEnSide.png)
+[2016.02.26-16.13.11:815][289]LogTexture:Display: Building textures: BussEnSide (BGRA8)
+[2016.02.26-16.13.11:821][289]LogTexture:Display: Building textures: BussEnSide (BGRA8)
+[2016.02.26-16.13.11:824][289]LogEditorFactories: -- imported successfully
+[2016.02.26-16.13.14:304][358]LogSavePackage: Save=331.080322ms
+[2016.02.26-16.13.14:305][358]LogSavePackage: Moving '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Saved/TopDownExampleMapF54478D04570AE388252D9BF8F56E25D.tmp' to '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/TopDownCPP/Maps/TopDownExampleMap.umap'
+[2016.02.26-16.13.14:310][358]LogSavePackage: Total save time: 433.011871ms
+[2016.02.26-16.13.14:310][358]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/TopDownCPP/Maps/TopDownExampleMap.umap
+[2016.02.26-16.13.17:523][445]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.02.26-16.13.17:523][445]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.26-16.13.17:524][445]PIE: New page: PIE session: TopDownExampleMap (Feb 26, 2016, 6:13:17 AM)
+[2016.02.26-16.13.17:524][445]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap
+[2016.02.26-16.13.17:545][445]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021437s)
+[2016.02.26-16.13.17:546][445]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2016.02.26-16.13.17:547][445]LogPlayLevel: PIE: World Init took: (0.001255s)
+[2016.02.26-16.13.17:547][445]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.023186s)
+[2016.02.26-16.13.17:599][445]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.26-16.13.17:608][445]LogInit: FAudioDevice initialized.
+[2016.02.26-16.13.17:646][445]LogWorld: Game class is '2DTopDown_Style_C'
+[2016.02.26-16.13.17:661][445]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2016.02.26-11.13.17
+[2016.02.26-16.13.17:661][445]LogActor:Warning: GameSession /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.26-16.13.17:662][445]LogActor:Warning: GameNetworkManager /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.26-16.13.17:666][445]LogWorld: Bringing up level for play took: 0.018993
+[2016.02.26-16.13.17:673][445]PIE: Info Play in editor start time for /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap 0.532
+[2016.02.26-16.13.17:673][445]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.02.26-16.13.19:870][493]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.02.26-16.13.19:961][493]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.02.26-16.13.20:020][493]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000020B0EE5CCC0
+[2016.02.26-16.13.33:120][ 93]BlueprintLog: New page: Compile Buss
+[2016.02.26-16.13.33:440][ 93]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/vehicles/Buss" FILE="../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Blueprints/vehicles/Buss.uasset" SILENT=true
+[2016.02.26-16.13.33:548][ 93]LogSavePackage: Save=22.614784ms
+[2016.02.26-16.13.33:548][ 93]LogSavePackage: Moving '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Saved/Buss58CBDBC442F848A1965F449AA88DDBCD.tmp' to '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Blueprints/vehicles/Buss.uasset'
+[2016.02.26-16.13.33:553][ 93]LogSavePackage: Total save time: 110.510383ms
+[2016.02.26-16.13.33:553][ 93]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Blueprints/vehicles/Buss.uasset
+[2016.02.26-16.13.33:559][ 93]BlueprintEditorCompileResults: Info [1210.99] Compile of Buss successful! [in 438 ms]
+[2016.02.26-16.13.52:016][979]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.02.26-16.13.52:016][979]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.26-16.13.52:017][979]PIE: New page: PIE session: TopDownExampleMap (Feb 26, 2016, 6:13:52 AM)
+[2016.02.26-16.13.52:017][979]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap
+[2016.02.26-16.13.52:050][979]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032906s)
+[2016.02.26-16.13.52:053][979]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2016.02.26-16.13.52:053][979]LogPlayLevel: PIE: World Init took: (0.003444s)
+[2016.02.26-16.13.52:054][979]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.037162s)
+[2016.02.26-16.13.52:132][979]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.26-16.13.52:137][979]LogInit: FAudioDevice initialized.
+[2016.02.26-16.13.52:174][979]LogWorld: Game class is '2DTopDown_Style_C'
+[2016.02.26-16.13.52:182][979]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2016.02.26-11.13.52
+[2016.02.26-16.13.52:182][979]LogActor:Warning: GameSession /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameSession_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.26-16.13.52:182][979]LogActor:Warning: GameNetworkManager /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameNetworkManager_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.26-16.13.52:184][979]LogWorld: Bringing up level for play took: 0.009333
+[2016.02.26-16.13.52:187][979]PIE: Info Play in editor start time for /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap 1.045
+[2016.02.26-16.13.52:187][979]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.02.26-16.13.55:626][ 54]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.02.26-16.13.55:721][ 54]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.02.26-16.13.55:778][ 54]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000020B6FE73CE0
+[2016.02.26-16.14.18:019][ 14]BlueprintLog: New page: Compile Buss
+[2016.02.26-16.14.18:374][ 14]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/vehicles/Buss" FILE="../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Blueprints/vehicles/Buss.uasset" SILENT=true
+[2016.02.26-16.14.18:496][ 14]LogSavePackage: Save=28.632841ms
+[2016.02.26-16.14.18:496][ 14]LogSavePackage: Moving '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Saved/Buss7596FF9B489AEBC6308D8A9B861405E0.tmp' to '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Blueprints/vehicles/Buss.uasset'
+[2016.02.26-16.14.18:502][ 14]LogSavePackage: Total save time: 124.917004ms
+[2016.02.26-16.14.18:502][ 14]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Blueprints/vehicles/Buss.uasset
+[2016.02.26-16.14.18:509][ 14]BlueprintEditorCompileResults: Info [1255.94] Compile of Buss successful! [in 489 ms]
+[2016.02.26-16.14.20:533][ 60]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.02.26-16.14.20:533][ 60]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.26-16.14.20:533][ 60]PIE: New page: PIE session: TopDownExampleMap (Feb 26, 2016, 6:14:20 AM)
+[2016.02.26-16.14.20:533][ 60]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap
+[2016.02.26-16.14.20:556][ 60]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023021s)
+[2016.02.26-16.14.20:557][ 60]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2016.02.26-16.14.20:558][ 60]LogPlayLevel: PIE: World Init took: (0.001342s)
+[2016.02.26-16.14.20:558][ 60]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.024770s)
+[2016.02.26-16.14.20:633][ 60]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.26-16.14.20:645][ 60]LogInit: FAudioDevice initialized.
+[2016.02.26-16.14.20:695][ 60]LogWorld: Game class is '2DTopDown_Style_C'
+[2016.02.26-16.14.20:716][ 60]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2016.02.26-11.14.20
+[2016.02.26-16.14.20:716][ 60]LogActor:Warning: GameSession /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameSession_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.26-16.14.20:717][ 60]LogActor:Warning: GameNetworkManager /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameNetworkManager_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.26-16.14.20:720][ 60]LogWorld: Bringing up level for play took: 0.023462
+[2016.02.26-16.14.20:727][ 60]PIE: Info Play in editor start time for /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap -0.415
+[2016.02.26-16.14.20:727][ 60]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.02.26-16.19.31:930][379]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.02.26-16.19.32:011][379]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.02.26-16.19.32:094][379]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000020B7AAACC20
+[2016.02.26-16.19.33:004][396]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.02.26-16.19.33:004][396]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.26-16.19.33:004][396]PIE: New page: PIE session: TopDownExampleMap (Feb 26, 2016, 6:19:33 AM)
+[2016.02.26-16.19.33:005][396]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap
+[2016.02.26-16.19.33:056][396]LogPlayLevel: PIE: StaticDuplicateObject took: (0.051768s)
+[2016.02.26-16.19.33:058][396]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2016.02.26-16.19.33:059][396]LogPlayLevel: PIE: World Init took: (0.002577s)
+[2016.02.26-16.19.33:059][396]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.055003s)
+[2016.02.26-16.19.33:159][396]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.26-16.19.33:180][396]LogInit: FAudioDevice initialized.
+[2016.02.26-16.19.33:240][396]LogWorld: Game class is '2DTopDown_Style_C'
+[2016.02.26-16.19.33:276][396]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2016.02.26-11.19.33
+[2016.02.26-16.19.33:277][396]LogActor:Warning: GameSession /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameSession_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.26-16.19.33:277][396]LogActor:Warning: GameNetworkManager /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameNetworkManager_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.26-16.19.33:283][396]LogWorld: Bringing up level for play took: 0.038865
+[2016.02.26-16.19.33:293][396]PIE: Info Play in editor start time for /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap 0.151
+[2016.02.26-16.19.33:293][396]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.02.26-16.19.33:327][397]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.061041 > MaxSimulationTimeStep (0.050) for 'LizardMan_PaperCharacter_C_11'
+[2016.02.26-16.19.48:943][741]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.02.26-16.19.49:038][741]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.02.26-16.19.49:187][742]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000020B0F6C94E0
+[2016.02.26-16.19.53:384][837]LogEditorViewport: Clicking on Actor (LMB): RoadStrait_C (RoadStrait3)
+[2016.02.26-16.19.58:583][958]LogEditorViewport: Clicking on Actor (LMB): RoadStrait_C (RoadStrait)
+[2016.02.26-16.20.03:796][ 84]LogEditorViewport: Clicking on Actor (LMB): RoadStrait_C (RoadStrait3)
+[2016.02.26-16.20.07:734][175]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.02.26-16.20.07:735][175]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.26-16.20.07:735][175]PIE: New page: PIE session: TopDownExampleMap (Feb 26, 2016, 6:20:07 AM)
+[2016.02.26-16.20.07:735][175]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap
+[2016.02.26-16.20.07:774][175]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039360s)
+[2016.02.26-16.20.07:776][175]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2016.02.26-16.20.07:777][175]LogPlayLevel: PIE: World Init took: (0.002528s)
+[2016.02.26-16.20.07:778][175]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.042687s)
+[2016.02.26-16.20.07:874][175]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.26-16.20.07:893][175]LogInit: FAudioDevice initialized.
+[2016.02.26-16.20.07:952][175]LogWorld: Game class is '2DTopDown_Style_C'
+[2016.02.26-16.20.07:984][175]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2016.02.26-11.20.07
+[2016.02.26-16.20.07:985][175]LogActor:Warning: GameSession /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameSession_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.26-16.20.07:985][175]LogActor:Warning: GameNetworkManager /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameNetworkManager_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.26-16.20.07:991][175]LogWorld: Bringing up level for play took: 0.036550
+[2016.02.26-16.20.08:001][175]PIE: Info Play in editor start time for /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap 0.859
+[2016.02.26-16.20.08:001][175]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.02.26-16.20.08:039][176]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.081783 > MaxSimulationTimeStep (0.050) for 'LizardMan_PaperCharacter_C_12'
+[2016.02.26-16.22.16:207][ 74]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.02.26-16.22.16:295][ 74]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.02.26-16.22.16:375][ 74]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000020B2F300400
+[2016.02.26-16.25.35:925][521]LogEditorViewport: Clicking on Actor (LMB): Buss_C (Buss)
+[2016.02.26-16.26.20:808][550]LogEditorViewport: Clicking on Actor (context menu): RoadStrait_C (RoadStrait6)
+[2016.02.26-16.26.22:755][581]LogEditorViewport: Clicking on Actor (LMB): Buss_C (Buss)
+[2016.02.26-16.28.15:076][370]Cmd: DELETE
+[2016.02.26-16.28.15:076][370]Cmd: ACTOR DELETE
+[2016.02.26-16.28.15:078][370]LogEditorActor: Deleted Actor: Buss_C
+[2016.02.26-16.28.15:167][370]LogEditorActor: Deleted 1 Actors (0.091 secs)
+[2016.02.26-16.28.21:016][494]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2016.02.26-16.29.11:861][539]LogSavePackage: Save=217.593094ms
+[2016.02.26-16.29.11:861][539]LogSavePackage: Moving '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Saved/TopDownExampleMap0061D5C349E39F29CEC12091643AA494.tmp' to '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/TopDownCPP/Maps/TopDownExampleMap.umap'
+[2016.02.26-16.29.11:864][539]LogSavePackage: Total save time: 344.821788ms
+[2016.02.26-16.29.11:864][539]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/TopDownCPP/Maps/TopDownExampleMap.umap
+[2016.02.26-16.30.21:860][ 48]LogSavePackage: Save=274.816925ms
+[2016.02.26-16.30.21:860][ 48]LogSavePackage: Moving '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Saved/CharacterTest143AF46554D9A7ABA4303139C19F59209.tmp' to '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Blueprints/vehicles/CharacterTest1.uasset'
+[2016.02.26-16.30.21:862][ 48]LogSavePackage: Total save time: 277.624439ms
+[2016.02.26-16.30.21:862][ 48]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Blueprints/vehicles/CharacterTest1.uasset
+[2016.02.26-16.30.30:285][181]SourceControl: Info On branch master
+[2016.02.26-16.30.30:285][181]SourceControl: Info Your branch is up-to-date with 'origin/master'.
+[2016.02.26-16.30.30:285][181]SourceControl: Info Changes to be committed:
+[2016.02.26-16.30.30:286][181]SourceControl: Info   (use "git reset HEAD <file>..." to unstage)
+[2016.02.26-16.30.30:286][181]SourceControl: Info 	new file:   Content/Blueprints/vehicles/CharacterTest1.uasset
+[2016.02.26-16.30.30:286][181]SourceControl: Info 	new file:   Content/Sprites/vehicle/buss/BussEnSide_Sprite.uasset
+[2016.02.26-16.30.30:286][181]SourceControl: Info Changes not staged for commit:
+[2016.02.26-16.30.30:286][181]SourceControl: Info   (use "git add/rm <file>..." to update what will be committed)
+[2016.02.26-16.30.30:286][181]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2016.02.26-16.30.30:286][181]SourceControl: Info 	modified:   Content/Blueprints/vehicles/Buss.uasset
+[2016.02.26-16.30.30:286][181]SourceControl: Info 	modified:   Content/TopDownCPP/Maps/TopDownExampleMap.umap
+[2016.02.26-16.30.30:286][181]SourceControl: Info 	modified:   Intermediate/CachedAssetRegistry.bin
+[2016.02.26-16.30.30:286][181]SourceControl: Info 	modified:   Intermediate/Config/CoalescedSourceConfigs/Engine.ini
+[2016.02.26-16.30.30:286][181]SourceControl: Info 	modified:   Intermediate/Config/CoalescedSourceConfigs/Game.ini
+[2016.02.26-16.30.30:286][181]SourceControl: Info 	modified:   Saved/Autosaves/PackageRestoreData.json
+[2016.02.26-16.30.30:286][181]SourceControl: Info 	deleted:    Saved/Backup/RadaBancroft_2015-12-15-11-50-09.uasset
+[2016.02.26-16.30.30:286][181]SourceControl: Info 	deleted:    Saved/Backup/RadaBancroft_2015-12-15-12-04-00.uasset
+[2016.02.26-16.30.30:286][181]SourceControl: Info 	deleted:    Saved/Backup/RadaBancroft_2015-12-21-11-26-42.uasset
+[2016.02.26-16.30.30:286][181]SourceControl: Info 	modified:   Saved/Config/Windows/Editor.ini
+[2016.02.26-16.30.30:286][181]SourceControl: Info 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2016.02.26-16.30.30:286][181]SourceControl: Info 	modified:   Saved/Config/Windows/Engine.ini
+[2016.02.26-16.30.30:286][181]SourceControl: Info 	deleted:    Saved/Logs/Game_GT-backup-2016.02.19-10.52.03.log
+[2016.02.26-16.30.30:286][181]SourceControl: Info 	deleted:    Saved/Logs/Game_GT-backup-2016.02.19-11.06.31.log
+[2016.02.26-16.30.30:286][181]SourceControl: Info 	deleted:    Saved/Logs/Game_GT-backup-2016.02.19-11.51.06.log
+[2016.02.26-16.30.30:286][181]SourceControl: Info 	modified:   Saved/Logs/Game_GT.log
+[2016.02.26-16.30.30:286][181]SourceControl: Info Untracked files:
+[2016.02.26-16.30.30:286][181]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2016.02.26-16.30.30:286][181]SourceControl: Info 	Saved/Backup/Buss_2016-02-26-11-05-58.uasset
+[2016.02.26-16.30.30:287][181]SourceControl: Info 	Saved/Backup/Buss_2016-02-26-11-13-33.uasset
+[2016.02.26-16.30.30:287][181]SourceControl: Info 	Saved/Backup/TopDownExampleMap_2016-02-26-11-00-02.umap
+[2016.02.26-16.30.30:287][181]SourceControl: Info 	Saved/Backup/TopDownExampleMap_2016-02-26-11-13-13.umap
+[2016.02.26-16.30.30:287][181]SourceControl: Info 	Saved/Backup/TopDownExampleMap_2016-02-26-11-29-11.umap
+[2016.02.26-16.30.30:287][181]SourceControl: Info 	Saved/Logs/Game_GT-backup-2016.02.26-10.53.24.log
+[2016.02.26-16.30.30:287][181]SourceControl: Info 	TempResources/veicles/buss/BussEnSide.png
+[2016.02.26-16.30.30:287][181]SourceControl: Info 	TempResources/veicles/buss/BussEnSide.psd
+[2016.02.26-16.30.31:225][181]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/vehicles/Bussold" FILE="../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Blueprints/vehicles/Bussold.uasset" SILENT=true
+[2016.02.26-16.30.31:243][181]LogSavePackage: Save=15.779979ms
+[2016.02.26-16.30.31:243][181]LogSavePackage: Moving '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Saved/BussoldFDD8AEEE45437491D3680FBC6A402DEE.tmp' to '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Blueprints/vehicles/Bussold.uasset'
+[2016.02.26-16.30.31:246][181]LogSavePackage: Total save time: 19.081324ms
+[2016.02.26-16.30.31:246][181]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Blueprints/vehicles/Bussold.uasset
+[2016.02.26-16.30.31:394][181]LogMetaData: Removing '/Game/Blueprints/vehicles/Bussold.Bussold:UserConstructionScript.K2Node_FunctionEntry_126' ref from Metadata '/Game/Blueprints/vehicles/Buss.PackageMetaData'
+[2016.02.26-16.30.31:394][181]LogMetaData: Removing '/Game/Blueprints/vehicles/Bussold.Bussold_C' ref from Metadata '/Game/Blueprints/vehicles/Buss.PackageMetaData'
+[2016.02.26-16.30.31:394][181]LogMetaData: Removing '/Game/Blueprints/vehicles/Bussold.Bussold:EventGraph.K2Node_Event_54' ref from Metadata '/Game/Blueprints/vehicles/Buss.PackageMetaData'
+[2016.02.26-16.30.31:394][181]LogMetaData: Removing '/Game/Blueprints/vehicles/Bussold.Bussold:EventGraph.K2Node_Event_55' ref from Metadata '/Game/Blueprints/vehicles/Buss.PackageMetaData'
+[2016.02.26-16.30.31:394][181]LogMetaData: Removing '/Game/Blueprints/vehicles/Bussold.Bussold:EventGraph.K2Node_Event_56' ref from Metadata '/Game/Blueprints/vehicles/Buss.PackageMetaData'
+[2016.02.26-16.30.31:394][181]LogMetaData: Removing '/Game/Blueprints/vehicles/Bussold.SKEL_Bussold_C' ref from Metadata '/Game/Blueprints/vehicles/Buss.PackageMetaData'
+[2016.02.26-16.30.31:469][181]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/vehicles/Bussold" FILE="../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Blueprints/vehicles/Bussold.uasset" SILENT=true
+[2016.02.26-16.30.31:528][181]LogSavePackage: Save=12.472318ms
+[2016.02.26-16.30.31:528][181]LogSavePackage: Moving '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Saved/BussoldBD058A9C4424636FAA3B57B72AC33159.tmp' to '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Blueprints/vehicles/Bussold.uasset'
+[2016.02.26-16.30.31:531][181]LogSavePackage: Total save time: 54.166060ms
+[2016.02.26-16.30.31:531][181]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Blueprints/vehicles/Bussold.uasset
+[2016.02.26-16.30.31:539][181]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/vehicles/Buss" FILE="../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Blueprints/vehicles/Buss.uasset" SILENT=true
+[2016.02.26-16.30.31:585][181]LogSavePackage: Save=3.998089ms
+[2016.02.26-16.30.31:585][181]LogSavePackage: Moving '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Saved/Buss36F2B1564080EED22DDDB1A32D37009C.tmp' to '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Blueprints/vehicles/Buss.uasset'
+[2016.02.26-16.30.31:588][181]LogSavePackage: Total save time: 47.488365ms
+[2016.02.26-16.30.31:588][181]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Blueprints/vehicles/Buss.uasset
+[2016.02.26-16.30.59:511][748]SourceControl: Info On branch master
+[2016.02.26-16.30.59:511][748]SourceControl: Info Your branch is up-to-date with 'origin/master'.
+[2016.02.26-16.30.59:511][748]SourceControl: Info Changes to be committed:
+[2016.02.26-16.30.59:511][748]SourceControl: Info   (use "git reset HEAD <file>..." to unstage)
+[2016.02.26-16.30.59:511][748]SourceControl: Info 	modified:   Content/Blueprints/vehicles/Buss.uasset
+[2016.02.26-16.30.59:511][748]SourceControl: Info 	new file:   Content/Blueprints/vehicles/Bussold.uasset
+[2016.02.26-16.30.59:511][748]SourceControl: Info 	new file:   Content/Blueprints/vehicles/CharacterTest1.uasset
+[2016.02.26-16.30.59:511][748]SourceControl: Info 	new file:   Content/Sprites/vehicle/buss/BussEnSide_Sprite.uasset
+[2016.02.26-16.30.59:511][748]SourceControl: Info Changes not staged for commit:
+[2016.02.26-16.30.59:511][748]SourceControl: Info   (use "git add/rm <file>..." to update what will be committed)
+[2016.02.26-16.30.59:511][748]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2016.02.26-16.30.59:511][748]SourceControl: Info 	modified:   Content/Blueprints/vehicles/Bussold.uasset
+[2016.02.26-16.30.59:511][748]SourceControl: Info 	modified:   Content/TopDownCPP/Maps/TopDownExampleMap.umap
+[2016.02.26-16.30.59:511][748]SourceControl: Info 	modified:   Intermediate/CachedAssetRegistry.bin
+[2016.02.26-16.30.59:511][748]SourceControl: Info 	modified:   Intermediate/Config/CoalescedSourceConfigs/Engine.ini
+[2016.02.26-16.30.59:511][748]SourceControl: Info 	modified:   Intermediate/Config/CoalescedSourceConfigs/Game.ini
+[2016.02.26-16.30.59:511][748]SourceControl: Info 	modified:   Saved/Autosaves/PackageRestoreData.json
+[2016.02.26-16.30.59:511][748]SourceControl: Info 	deleted:    Saved/Backup/RadaBancroft_2015-12-15-11-50-09.uasset
+[2016.02.26-16.30.59:511][748]SourceControl: Info 	deleted:    Saved/Backup/RadaBancroft_2015-12-15-12-04-00.uasset
+[2016.02.26-16.30.59:511][748]SourceControl: Info 	deleted:    Saved/Backup/RadaBancroft_2015-12-21-11-26-42.uasset
+[2016.02.26-16.30.59:512][748]SourceControl: Info 	modified:   Saved/Config/Windows/Editor.ini
+[2016.02.26-16.30.59:512][748]SourceControl: Info 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2016.02.26-16.30.59:512][748]SourceControl: Info 	modified:   Saved/Config/Windows/Engine.ini
+[2016.02.26-16.30.59:512][748]SourceControl: Info 	deleted:    Saved/Logs/Game_GT-backup-2016.02.19-10.52.03.log
+[2016.02.26-16.30.59:512][748]SourceControl: Info 	deleted:    Saved/Logs/Game_GT-backup-2016.02.19-11.06.31.log
+[2016.02.26-16.30.59:512][748]SourceControl: Info 	deleted:    Saved/Logs/Game_GT-backup-2016.02.19-11.51.06.log
+[2016.02.26-16.30.59:512][748]SourceControl: Info 	modified:   Saved/Logs/Game_GT.log
+[2016.02.26-16.30.59:512][748]SourceControl: Info Untracked files:
+[2016.02.26-16.30.59:512][748]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2016.02.26-16.30.59:512][748]SourceControl: Info 	Saved/Backup/Buss_2016-02-26-11-05-58.uasset
+[2016.02.26-16.30.59:512][748]SourceControl: Info 	Saved/Backup/Buss_2016-02-26-11-13-33.uasset
+[2016.02.26-16.30.59:512][748]SourceControl: Info 	Saved/Backup/Buss_2016-02-26-11-30-31.uasset
+[2016.02.26-16.30.59:512][748]SourceControl: Info 	Saved/Backup/Bussold_2016-02-26-11-30-31.uasset
+[2016.02.26-16.30.59:512][748]SourceControl: Info 	Saved/Backup/TopDownExampleMap_2016-02-26-11-00-02.umap
+[2016.02.26-16.30.59:512][748]SourceControl: Info 	Saved/Backup/TopDownExampleMap_2016-02-26-11-13-13.umap
+[2016.02.26-16.30.59:512][748]SourceControl: Info 	Saved/Backup/TopDownExampleMap_2016-02-26-11-29-11.umap
+[2016.02.26-16.30.59:512][748]SourceControl: Info 	Saved/Logs/Game_GT-backup-2016.02.26-10.53.24.log
+[2016.02.26-16.30.59:512][748]SourceControl: Info 	TempResources/veicles/buss/BussEnSide.png
+[2016.02.26-16.30.59:512][748]SourceControl: Info 	TempResources/veicles/buss/BussEnSide.psd
+[2016.02.26-16.31.00:319][748]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/vehicles/bussNew" FILE="../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Blueprints/vehicles/bussNew.uasset" SILENT=true
+[2016.02.26-16.31.00:468][748]LogSavePackage: Save=147.969177ms
+[2016.02.26-16.31.00:469][748]LogSavePackage: Moving '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Saved/bussNew50BF64AD4EBC7EC6CA02B9A393C8D39F.tmp' to '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Blueprints/vehicles/bussNew.uasset'
+[2016.02.26-16.31.00:471][748]LogSavePackage: Total save time: 150.961824ms
+[2016.02.26-16.31.00:471][748]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Blueprints/vehicles/bussNew.uasset
+[2016.02.26-16.31.00:618][748]LogMetaData: Removing '/Game/Blueprints/vehicles/bussNew.SKEL_bussNew_C' ref from Metadata '/Game/Blueprints/vehicles/CharacterTest1.PackageMetaData'
+[2016.02.26-16.31.00:618][748]LogMetaData: Removing '/Game/Blueprints/vehicles/bussNew.bussNew_C' ref from Metadata '/Game/Blueprints/vehicles/CharacterTest1.PackageMetaData'
+[2016.02.26-16.31.00:690][748]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/vehicles/bussNew" FILE="../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Blueprints/vehicles/bussNew.uasset" SILENT=true
+[2016.02.26-16.31.00:866][748]LogSavePackage: Save=134.341415ms
+[2016.02.26-16.31.00:866][748]LogSavePackage: Moving '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Saved/bussNewF73CA52843F06CE793F4F4A7E89B730B.tmp' to '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Blueprints/vehicles/bussNew.uasset'
+[2016.02.26-16.31.00:868][748]LogSavePackage: Total save time: 177.343372ms
+[2016.02.26-16.31.00:869][748]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Blueprints/vehicles/bussNew.uasset
+[2016.02.26-16.31.01:441][748]SourceControl:Error: Error error: pathspec 'C:/Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Blueprints/vehicles/CharacterTest1.uasset' did not match any file(s) known to git.
+[2016.02.26-16.31.40:410][230]BlueprintLog: New page: Compile bussNew
+[2016.02.26-16.31.40:703][230]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/vehicles/bussNew" FILE="../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Blueprints/vehicles/bussNew.uasset" SILENT=true
+[2016.02.26-16.31.40:877][230]LogSavePackage: Save=134.110870ms
+[2016.02.26-16.31.40:877][230]LogSavePackage: Moving '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Saved/bussNew330C184E452E4BA0FFB18E932D9EE599.tmp' to '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Blueprints/vehicles/bussNew.uasset'
+[2016.02.26-16.31.40:880][230]LogSavePackage: Total save time: 175.868168ms
+[2016.02.26-16.31.40:880][230]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Blueprints/vehicles/bussNew.uasset
+[2016.02.26-16.31.40:884][230]BlueprintEditorCompileResults: Info Event BeginPlay (K2Node_Event_37) had an invalid function signature - it has now been fixed.
+[2016.02.26-16.31.40:884][230]BlueprintEditorCompileResults: Info Event Tick (K2Node_Event_39) had an invalid function signature - it has now been fixed.
+[2016.02.26-16.31.40:884][230]BlueprintEditorCompileResults: Info [2298.32] Compile of bussNew successful! [in 473 ms]
+[2016.02.26-16.31.45:538][427]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/vehicles/bussNew" FILE="../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Blueprints/vehicles/bussNew.uasset" SILENT=true
+[2016.02.26-16.31.45:727][427]LogSavePackage: Save=136.838242ms
+[2016.02.26-16.31.45:727][427]LogSavePackage: Moving '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Saved/bussNew2E3425FC430614D5DACBF5A261F74092.tmp' to '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Blueprints/vehicles/bussNew.uasset'
+[2016.02.26-16.31.45:728][427]LogSavePackage: Total save time: 188.688263ms
+[2016.02.26-16.31.45:728][427]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Blueprints/vehicles/bussNew.uasset
+[2016.02.26-16.31.46:208][450]BlueprintLog: New page: Compile bussNew
+[2016.02.26-16.31.46:339][450]BlueprintEditorCompileResults: Info Event BeginPlay (K2Node_Event_37) had an invalid function signature - it has now been fixed.
+[2016.02.26-16.31.46:339][450]BlueprintEditorCompileResults: Info Event Tick (K2Node_Event_39) had an invalid function signature - it has now been fixed.
+[2016.02.26-16.31.46:339][450]BlueprintEditorCompileResults: Info [2303.77] Compile of bussNew successful! [in 130 ms]
+[2016.02.26-16.31.51:514][582]LogEditorViewport: Clicking on Actor (LMB): Bussold_C (Buss)
+[2016.02.26-16.31.52:466][601]Cmd: DELETE
+[2016.02.26-16.31.52:467][601]Cmd: ACTOR DELETE
+[2016.02.26-16.31.52:468][601]LogEditorActor: Deleted Actor: Bussold_C
+[2016.02.26-16.31.52:545][601]LogEditorActor: Deleted 1 Actors (0.078 secs)
+[2016.02.26-16.31.57:920][700]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.02.26-16.31.57:920][700]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.26-16.31.57:921][700]PIE: New page: PIE session: TopDownExampleMap (Feb 26, 2016, 6:31:57 AM)
+[2016.02.26-16.31.57:921][700]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap
+[2016.02.26-16.31.57:951][700]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030570s)
+[2016.02.26-16.31.57:953][700]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2016.02.26-16.31.57:954][700]LogPlayLevel: PIE: World Init took: (0.002406s)
+[2016.02.26-16.31.57:954][700]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.033647s)
+[2016.02.26-16.31.58:039][700]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.26-16.31.58:055][700]LogInit: FAudioDevice initialized.
+[2016.02.26-16.31.58:104][700]LogWorld: Game class is '2DTopDown_Style_C'
+[2016.02.26-16.31.58:133][700]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2016.02.26-11.31.58
+[2016.02.26-16.31.58:133][700]LogActor:Warning: GameSession /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameSession_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.26-16.31.58:134][700]LogActor:Warning: GameNetworkManager /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameNetworkManager_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.26-16.31.58:142][700]LogWorld: Bringing up level for play took: 0.035818
+[2016.02.26-16.31.58:155][700]PIE: Info Play in editor start time for /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap 1.013
+[2016.02.26-16.31.58:155][700]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.02.26-16.31.58:185][701]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.081725 > MaxSimulationTimeStep (0.050) for 'LizardMan_PaperCharacter_C_13'
+[2016.02.26-16.32.07:841][926]LogCharacterMovement: LizardMan_PaperCharacter_C_13 is stuck and failed to move!
+[2016.02.26-16.32.07:876][927]LogCharacterMovement: LizardMan_PaperCharacter_C_13 is stuck and failed to move!
+[2016.02.26-16.32.07:912][928]LogCharacterMovement: LizardMan_PaperCharacter_C_13 is stuck and failed to move!
+[2016.02.26-16.32.07:947][929]LogCharacterMovement: LizardMan_PaperCharacter_C_13 is stuck and failed to move!
+[2016.02.26-16.32.07:986][930]LogCharacterMovement: LizardMan_PaperCharacter_C_13 is stuck and failed to move!
+[2016.02.26-16.32.08:022][931]LogCharacterMovement: LizardMan_PaperCharacter_C_13 is stuck and failed to move!
+[2016.02.26-16.32.16:965][150]LogCharacterMovement: LizardMan_PaperCharacter_C_13 is stuck and failed to move!
+[2016.02.26-16.32.16:997][151]LogCharacterMovement: LizardMan_PaperCharacter_C_13 is stuck and failed to move!
+[2016.02.26-16.32.17:037][152]LogCharacterMovement: LizardMan_PaperCharacter_C_13 is stuck and failed to move!
+[2016.02.26-16.32.17:080][153]LogCharacterMovement: LizardMan_PaperCharacter_C_13 is stuck and failed to move!
+[2016.02.26-16.32.17:110][154]LogCharacterMovement: LizardMan_PaperCharacter_C_13 is stuck and failed to move!
+[2016.02.26-16.32.17:145][155]LogCharacterMovement: LizardMan_PaperCharacter_C_13 is stuck and failed to move!
+[2016.02.26-16.32.17:182][156]LogCharacterMovement: LizardMan_PaperCharacter_C_13 is stuck and failed to move!
+[2016.02.26-16.32.17:255][158]LogCharacterMovement: LizardMan_PaperCharacter_C_13 is stuck and failed to move!
+[2016.02.26-16.32.17:290][159]LogCharacterMovement: LizardMan_PaperCharacter_C_13 is stuck and failed to move!
+[2016.02.26-16.32.17:328][160]LogCharacterMovement: LizardMan_PaperCharacter_C_13 is stuck and failed to move!
+[2016.02.26-16.32.17:364][161]LogCharacterMovement: LizardMan_PaperCharacter_C_13 is stuck and failed to move!
+[2016.02.26-16.32.33:392][553]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.02.26-16.32.33:545][553]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.02.26-16.32.33:616][553]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000020B8A29E700
+[2016.02.26-16.33.07:904][543]LogSavePackage: Save=14.466230ms
+[2016.02.26-16.33.07:904][543]LogSavePackage: Moving '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Saved/VehicleTargetPoint58074DAD4038E685EF595E97FEF8A567.tmp' to '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/TestContent/VehicleTargetPoint.uasset'
+[2016.02.26-16.33.07:907][543]LogSavePackage: Total save time: 17.395716ms
+[2016.02.26-16.33.07:907][543]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/TestContent/VehicleTargetPoint.uasset
+[2016.02.26-16.33.37:414][145]LogEditorViewport: Clicking on Actor (LMB): VehicleTargetPoint_C (VehicleTargetPoint)
+[2016.02.26-16.33.38:416][167]Cmd: DELETE
+[2016.02.26-16.33.38:416][167]Cmd: ACTOR DELETE
+[2016.02.26-16.33.38:417][167]LogEditorActor: Deleted Actor: VehicleTargetPoint_C
+[2016.02.26-16.33.38:503][167]LogEditorActor: Deleted 1 Actors (0.087 secs)
+[2016.02.26-16.33.39:203][185]LogEditorViewport: Clicking on Actor (LMB): RoadStrait_C (RoadStrait3)
+[2016.02.26-16.34.31:238][208]LogRenderer: Reallocating scene render targets to support 1604x700 (Frame:58057).
+[2016.02.26-16.34.43:533][404]LogSCSEditor:Warning: Calling UpdateTree() from Tick() more frequently than expected due to invalid tree node state. This might be a performance issue.
+[2016.02.26-16.34.47:726][490]LogRenderer: Reallocating scene render targets to support 1604x712 (Frame:58665).
+[2016.02.26-16.35.29:355][231]LogSCSEditor:Warning: Calling UpdateTree() from Tick() more frequently than expected due to invalid tree node state. This might be a performance issue.
+[2016.02.26-16.35.42:934][488]LogSCSEditor:Warning: Calling UpdateTree() from Tick() more frequently than expected due to invalid tree node state. This might be a performance issue.
+[2016.02.26-16.35.49:465][608]BlueprintLog: New page: Compile RoadStrait
+[2016.02.26-16.35.50:037][608]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/RoadStrait" FILE="../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Blueprints/RoadStrait.uasset" SILENT=true
+[2016.02.26-16.35.50:175][608]LogSavePackage: Save=41.732033ms
+[2016.02.26-16.35.50:175][608]LogSavePackage: Moving '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Saved/RoadStraitAA768560420A8173ACE97585F28DCC00.tmp' to '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Blueprints/RoadStrait.uasset'
+[2016.02.26-16.35.50:181][608]LogSavePackage: Total save time: 141.508602ms
+[2016.02.26-16.35.50:182][608]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Blueprints/RoadStrait.uasset
+[2016.02.26-16.35.50:194][608]BlueprintEditorCompileResults: Info [2547.63] Compile of RoadStrait successful! [in 728 ms]
+[2016.02.26-16.36.10:286][902]LogEditorViewport: Clicking on Actor (LMB): VehicleTargetPoint_C (VehicleTargetPoint243)
+[2016.02.26-16.36.11:302][923]LogEditorViewport: Clicking on Actor (LMB): VehicleTargetPoint_C (VehicleTargetPoint243)
+[2016.02.26-16.36.18:648][ 78]LogEditorViewport: Clicking on Actor (LMB): RoadStrait_C (RoadStrait3)
+[2016.02.26-16.36.20:432][111]Cmd: DELETE
+[2016.02.26-16.36.20:432][111]Cmd: ACTOR DELETE
+[2016.02.26-16.36.20:434][111]LogEditorActor: Deleted Actor: RoadStrait_C
+[2016.02.26-16.36.20:499][111]LogEditorActor: Deleted 1 Actors (0.066 secs)
+[2016.02.26-16.36.21:415][129]LogEditorViewport: Clicking on Actor (LMB): RoadStrait_C (RoadStrait6)
+[2016.02.26-16.36.22:136][143]Cmd: DELETE
+[2016.02.26-16.36.22:136][143]Cmd: ACTOR DELETE
+[2016.02.26-16.36.22:138][143]LogEditorActor: Deleted Actor: RoadStrait_C
+[2016.02.26-16.36.22:223][143]LogEditorActor: Deleted 1 Actors (0.086 secs)
+[2016.02.26-16.36.22:907][160]LogEditorViewport: Clicking on Actor (LMB): RoadStrait_C (RoadStrait4)
+[2016.02.26-16.36.23:372][168]Cmd: DELETE
+[2016.02.26-16.36.23:372][168]Cmd: ACTOR DELETE
+[2016.02.26-16.36.23:374][168]LogEditorActor: Deleted Actor: RoadStrait_C
+[2016.02.26-16.36.23:454][168]LogEditorActor: Deleted 1 Actors (0.081 secs)
+[2016.02.26-16.36.23:916][180]LogEditorViewport: Clicking on Actor (LMB): RoadStrait_C (RoadStrait5)
+[2016.02.26-16.36.24:300][187]Cmd: DELETE
+[2016.02.26-16.36.24:300][187]Cmd: ACTOR DELETE
+[2016.02.26-16.36.24:302][187]LogEditorActor: Deleted Actor: RoadStrait_C
+[2016.02.26-16.36.24:383][187]LogEditorActor: Deleted 1 Actors (0.082 secs)
+[2016.02.26-16.36.28:220][283]LogEditorViewport: Clicking on Actor (LMB): VehicleTargetPoint_C (VehicleTargetPoint140)
+[2016.02.26-16.36.37:845][516]LogEditorViewport: Clicking on Actor (LMB): VehicleTargetPoint_C (VehicleTargetPoint140)
+[2016.02.26-16.37.03:660][487]LogEditorViewport: Clicking on Actor (LMB): RoadStrait_C (RoadStrait)
+[2016.02.26-16.37.04:464][506]LogEditorViewport: Clicking on Actor (LMB): VehicleTargetPoint_C (VehicleTargetPoint140)
+[2016.02.26-16.40.13:081][434]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000020B90315940
+[2016.02.26-16.40.13:268][434]LogSavePackage: Save=136.414673ms
+[2016.02.26-16.40.13:268][434]LogSavePackage: Moving '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Saved/TopDownExampleMap_Auto15C07CA9042AAED9C7C96D49FC7767AA6.tmp' to '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Saved/Autosaves/Game/TopDownCPP/Maps/TopDownExampleMap_Auto1.umap'
+[2016.02.26-16.40.13:270][434]LogSavePackage: Total save time: 179.589137ms
+[2016.02.26-16.40.13:270][434]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Saved/Autosaves/Game/TopDownCPP/Maps/TopDownExampleMap_Auto1.umap
+[2016.02.26-16.40.13:272][434]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownCPP/Maps/TopDownExampleMap' took 0.226
+[2016.02.26-16.40.13:272][434]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.226
+[2016.02.26-16.40.13:285][434]LogSavePackage: Save=3.542936ms
+[2016.02.26-16.40.13:285][434]LogSavePackage: Moving '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Saved/BussEnSide_Sprite_Auto155D792B24C6429D8678E65853F97FA35.tmp' to '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Saved/Autosaves/Game/Textures/vehicle/buss/BussEnSide_Sprite_Auto1.uasset'
+[2016.02.26-16.40.13:288][434]LogSavePackage: Total save time: 6.306227ms
+[2016.02.26-16.40.13:288][434]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Saved/Autosaves/Game/Textures/vehicle/buss/BussEnSide_Sprite_Auto1.uasset
+[2016.02.26-16.40.13:294][434]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/vehicle/buss/BussEnSide] ([1] browsable assets)...
+[2016.02.26-16.40.13:300][434]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/vehicle/buss/BussEnSide.BussEnSide]
+[2016.02.26-16.40.13:300][434]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/vehicle/buss/BussEnSide]
+[2016.02.26-16.40.13:303][434]LogTexture:Display: Building textures: BussEnSide (AutoDXT)
+[2016.02.26-16.40.13:328][434]LogSavePackage: Save=26.254831ms
+[2016.02.26-16.40.13:328][434]LogSavePackage: Moving '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Saved/BussEnSide_Auto166F941854A330DF98281A2AA74A2EFE1.tmp' to '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Saved/Autosaves/Game/Textures/vehicle/buss/BussEnSide_Auto1.uasset'
+[2016.02.26-16.40.13:329][434]LogSavePackage: Total save time: 27.418178ms
+[2016.02.26-16.40.13:329][434]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Saved/Autosaves/Game/Textures/vehicle/buss/BussEnSide_Auto1.uasset
+[2016.02.26-16.40.13:329][434]LogFileHelpers: Auto-saving content packages took 0.054
+[2016.02.26-16.42.25:429][ 59]LogRenderer: Reallocating scene render targets to support 1604x728 (Frame:63462).
+[2016.02.26-16.42.25:583][ 61]LogRenderer: Reallocating scene render targets to support 1604x964 (Frame:63464).
+[2016.02.26-16.42.55:987][109]LogEditorViewport: Clicking on Actor (LMB): VehicleTargetPoint_C (VehicleTargetPoint140)
+[2016.02.26-16.43.51:328][956]BlueprintLog: New page: Compile RoadStrait
+[2016.02.26-16.43.51:747][956]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/RoadStrait" FILE="../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Blueprints/RoadStrait.uasset" SILENT=true
+[2016.02.26-16.43.51:812][956]LogSavePackage: Save=21.617632ms
+[2016.02.26-16.43.51:812][956]LogSavePackage: Moving '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Saved/RoadStraitFCE9EF16494C9EC0C69D6491CA0AA8A2.tmp' to '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Blueprints/RoadStrait.uasset'
+[2016.02.26-16.43.51:815][956]LogSavePackage: Total save time: 66.386126ms
+[2016.02.26-16.43.51:815][956]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Blueprints/RoadStrait.uasset
+[2016.02.26-16.43.51:819][956]BlueprintEditorCompileResults: Info [3029.25] Compile of RoadStrait successful! [in 490 ms]
+[2016.02.26-16.44.11:898][417]LogSavePackage: Save=488.445496ms
+[2016.02.26-16.44.11:898][417]LogSavePackage: Moving '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Saved/TopDownExampleMap4923DFFC4DD82621A27CF58FA4AE1D1F.tmp' to '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/TopDownCPP/Maps/TopDownExampleMap.umap'
+[2016.02.26-16.44.11:913][417]LogSavePackage: Total save time: 647.456784ms
+[2016.02.26-16.44.11:913][417]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/TopDownCPP/Maps/TopDownExampleMap.umap
+[2016.02.26-16.44.18:658][559]LogEditorViewport: Clicking on Actor (LMB): VehicleTargetPoint_C (VehicleTargetPoint)
+[2016.02.26-16.44.40:248][ 27]LogEditorViewport: Clicking on Actor (LMB): VehicleTargetPoint_C (VehicleTargetPoint2)
+[2016.02.26-16.44.49:854][251]LogEditorViewport: Clicking on Actor (LMB): RoadStrait_C (RoadStrait)
+[2016.02.26-16.45.02:376][533]LogEditorViewport: Clicking on Actor (LMB): RoadStrait_C (RoadStrait2)
+[2016.02.26-16.45.06:776][626]LogEditorViewport: Clicking on Actor (LMB): bussNew_C (bussNew)
+[2016.02.26-16.45.10:451][702]LogEditorViewport: Clicking on Actor (LMB): VehicleTargetPoint_C (VehicleTargetPoint2)
+[2016.02.26-16.45.14:440][785]LogEditorViewport: Clicking on Actor (LMB): VehicleTargetPoint_C (VehicleTargetPoint)
+[2016.02.26-16.49.23:658][771]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.02.26-16.49.33:302][834]BlueprintLog: New page: Compile bussNew
+[2016.02.26-16.49.33:342][834]LogBlueprint:Warning: [compiler bussNew] Warning Can't connect pins  Out Actors  and  Target Array : Array of Vehicle Target Point References is not compatible with Array of Pedestrian Target Point References.
+[2016.02.26-16.49.33:342][834]LogBlueprint:Warning: [compiler bussNew] Warning Can't connect pins  Out Actors  and  Target Array : Array of Vehicle Target Point References is not compatible with Array of Pedestrian Target Point References.
+[2016.02.26-16.49.33:342][834]LogBlueprint:Error: [compiler bussNew] Error Invalid pin connection from ' Out Actors ' to ' Target Array '. You may have changed the type after the connections were made.
+[2016.02.26-16.49.33:342][834]LogBlueprint:Error: [compiler bussNew] Error Invalid pin connection from ' Out Actors ' to ' Target Array '. You may have changed the type after the connections were made.
+[2016.02.26-16.49.33:343][834]LogBlueprint:Warning: [compiler bussNew] Warning Can't connect pins  Target Array  and  Out Actors : Array of Pedestrian Target Point References is not compatible with Array of Vehicle Target Point References.
+[2016.02.26-16.49.33:343][834]LogBlueprint:Warning: [compiler bussNew] Warning Can't connect pins  Target Array  and  Out Actors : Array of Pedestrian Target Point References is not compatible with Array of Vehicle Target Point References.
+[2016.02.26-16.49.33:552][834]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/vehicles/bussNew" FILE="../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Blueprints/vehicles/bussNew.uasset" SILENT=true
+[2016.02.26-16.49.33:724][834]LogSavePackage: Save=128.675873ms
+[2016.02.26-16.49.33:724][834]LogSavePackage: Moving '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Saved/bussNew74D2FC06462B4D072E914B85034844D0.tmp' to '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Blueprints/vehicles/bussNew.uasset'
+[2016.02.26-16.49.33:727][834]LogSavePackage: Total save time: 174.164005ms
+[2016.02.26-16.49.33:727][834]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Blueprints/vehicles/bussNew.uasset
+[2016.02.26-16.49.33:778][834]LogBlueprint:Warning: [compiler bussNew] Warning [3371.21] Compile of bussNew failed. 2 Fatal Issue(s) 4 Warning(s) [in 475 ms]
+[2016.02.26-16.49.33:778][834]BlueprintEditorCompileResults: Info Event BeginPlay (K2Node_Event_37) had an invalid function signature - it has now been fixed.
+[2016.02.26-16.49.33:778][834]BlueprintEditorCompileResults: Info Event Tick (K2Node_Event_39) had an invalid function signature - it has now been fixed.
+[2016.02.26-16.49.33:778][834]BlueprintEditorCompileResults:Warning: Warning Can't connect pins  Out Actors  and  Target Array : Array of Vehicle Target Point References is not compatible with Array of Pedestrian Target Point References.
+[2016.02.26-16.49.33:778][834]BlueprintEditorCompileResults:Warning: Warning Can't connect pins  Out Actors  and  Target Array : Array of Vehicle Target Point References is not compatible with Array of Pedestrian Target Point References.
+[2016.02.26-16.49.33:778][834]BlueprintEditorCompileResults:Error: Error Invalid pin connection from ' Out Actors ' to ' Target Array '. You may have changed the type after the connections were made.
+[2016.02.26-16.49.33:778][834]BlueprintEditorCompileResults:Error: Error Invalid pin connection from ' Out Actors ' to ' Target Array '. You may have changed the type after the connections were made.
+[2016.02.26-16.49.33:778][834]BlueprintEditorCompileResults:Warning: Warning Can't connect pins  Target Array  and  Out Actors : Array of Pedestrian Target Point References is not compatible with Array of Vehicle Target Point References.
+[2016.02.26-16.49.33:778][834]BlueprintEditorCompileResults:Warning: Warning Can't connect pins  Target Array  and  Out Actors : Array of Pedestrian Target Point References is not compatible with Array of Vehicle Target Point References.
+[2016.02.26-16.49.33:778][834]BlueprintEditorCompileResults:Warning: Warning [3371.21] Compile of bussNew failed. 2 Fatal Issue(s) 4 Warning(s) [in 475 ms]
+[2016.02.26-16.49.50:990][500]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.02.26-16.49.52:422][634]BlueprintLog: New page: Compile bussNew
+[2016.02.26-16.49.52:453][634]LogBlueprint:Warning: [compiler bussNew] Warning Can't connect pins  Out Actors  and  Target Array : Array of Vehicle Target Point References is not compatible with Array of Pedestrian Target Point References.
+[2016.02.26-16.49.52:454][634]LogBlueprint:Warning: [compiler bussNew] Warning Can't connect pins  Out Actors  and  Target Array : Array of Vehicle Target Point References is not compatible with Array of Pedestrian Target Point References.
+[2016.02.26-16.49.52:454][634]LogBlueprint:Error: [compiler bussNew] Error Invalid pin connection from ' Out Actors ' to ' Target Array '. You may have changed the type after the connections were made.
+[2016.02.26-16.49.52:454][634]LogBlueprint:Error: [compiler bussNew] Error Invalid pin connection from ' Out Actors ' to ' Target Array '. You may have changed the type after the connections were made.
+[2016.02.26-16.49.52:454][634]LogBlueprint:Warning: [compiler bussNew] Warning Can't connect pins  Target Array  and  Out Actors : Array of Pedestrian Target Point References is not compatible with Array of Vehicle Target Point References.
+[2016.02.26-16.49.52:454][634]LogBlueprint:Warning: [compiler bussNew] Warning Can't connect pins  Target Array  and  Out Actors : Array of Pedestrian Target Point References is not compatible with Array of Vehicle Target Point References.
+[2016.02.26-16.49.52:654][634]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/vehicles/bussNew" FILE="../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Blueprints/vehicles/bussNew.uasset" SILENT=true
+[2016.02.26-16.49.52:830][634]LogSavePackage: Save=129.489456ms
+[2016.02.26-16.49.52:830][634]LogSavePackage: Moving '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Saved/bussNewD775C905422EF0FEEA0DBF840EB1B611.tmp' to '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Blueprints/vehicles/bussNew.uasset'
+[2016.02.26-16.49.52:832][634]LogSavePackage: Total save time: 176.316213ms
+[2016.02.26-16.49.52:832][634]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Blueprints/vehicles/bussNew.uasset
+[2016.02.26-16.49.52:877][634]LogBlueprint:Warning: [compiler bussNew] Warning [3390.31] Compile of bussNew failed. 2 Fatal Issue(s) 4 Warning(s) [in 454 ms]
+[2016.02.26-16.49.52:877][634]BlueprintEditorCompileResults: Info Event BeginPlay (K2Node_Event_37) had an invalid function signature - it has now been fixed.
+[2016.02.26-16.49.52:877][634]BlueprintEditorCompileResults: Info Event Tick (K2Node_Event_39) had an invalid function signature - it has now been fixed.
+[2016.02.26-16.49.52:877][634]BlueprintEditorCompileResults:Warning: Warning Can't connect pins  Out Actors  and  Target Array : Array of Vehicle Target Point References is not compatible with Array of Pedestrian Target Point References.
+[2016.02.26-16.49.52:877][634]BlueprintEditorCompileResults:Warning: Warning Can't connect pins  Out Actors  and  Target Array : Array of Vehicle Target Point References is not compatible with Array of Pedestrian Target Point References.
+[2016.02.26-16.49.52:877][634]BlueprintEditorCompileResults:Error: Error Invalid pin connection from ' Out Actors ' to ' Target Array '. You may have changed the type after the connections were made.
+[2016.02.26-16.49.52:877][634]BlueprintEditorCompileResults:Error: Error Invalid pin connection from ' Out Actors ' to ' Target Array '. You may have changed the type after the connections were made.
+[2016.02.26-16.49.52:877][634]BlueprintEditorCompileResults:Warning: Warning Can't connect pins  Target Array  and  Out Actors : Array of Pedestrian Target Point References is not compatible with Array of Vehicle Target Point References.
+[2016.02.26-16.49.52:877][634]BlueprintEditorCompileResults:Warning: Warning Can't connect pins  Target Array  and  Out Actors : Array of Pedestrian Target Point References is not compatible with Array of Vehicle Target Point References.
+[2016.02.26-16.49.52:877][634]BlueprintEditorCompileResults:Warning: Warning [3390.31] Compile of bussNew failed. 2 Fatal Issue(s) 4 Warning(s) [in 454 ms]
+[2016.02.26-16.49.53:544][698]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.02.26-16.50.06:057][ 76]BlueprintLog: New page: Compile bussNew
+[2016.02.26-16.50.06:269][ 76]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/vehicles/bussNew" FILE="../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Blueprints/vehicles/bussNew.uasset" SILENT=true
+[2016.02.26-16.50.06:445][ 76]LogSavePackage: Save=131.497986ms
+[2016.02.26-16.50.06:445][ 76]LogSavePackage: Moving '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Saved/bussNewA391DAD1452E473CF10CB480D9116E1A.tmp' to '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Blueprints/vehicles/bussNew.uasset'
+[2016.02.26-16.50.06:447][ 76]LogSavePackage: Total save time: 176.246740ms
+[2016.02.26-16.50.06:448][ 76]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Blueprints/vehicles/bussNew.uasset
+[2016.02.26-16.50.06:451][ 76]BlueprintEditorCompileResults: Info Event BeginPlay (K2Node_Event_37) had an invalid function signature - it has now been fixed.
+[2016.02.26-16.50.06:451][ 76]BlueprintEditorCompileResults: Info Event Tick (K2Node_Event_39) had an invalid function signature - it has now been fixed.
+[2016.02.26-16.50.06:451][ 76]BlueprintEditorCompileResults: Info [3403.89] Compile of bussNew successful! [in 393 ms]
+[2016.02.26-16.50.08:259][266]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.02.26-16.50.18:957][488]BlueprintLog: New page: Compile bussNew
+[2016.02.26-16.50.18:998][488]LogBlueprint:Warning: [compiler bussNew] Warning Can't connect pins  Out Actors  and  Target Array : Array of Vehicle Target Point References is not compatible with Array of Pedestrian Target Point References.
+[2016.02.26-16.50.18:998][488]LogBlueprint:Warning: [compiler bussNew] Warning Can't connect pins  Out Actors  and  Target Array : Array of Vehicle Target Point References is not compatible with Array of Pedestrian Target Point References.
+[2016.02.26-16.50.18:998][488]LogBlueprint:Error: [compiler bussNew] Error Invalid pin connection from ' Out Actors ' to ' Target Array '. You may have changed the type after the connections were made.
+[2016.02.26-16.50.18:999][488]LogBlueprint:Error: [compiler bussNew] Error Invalid pin connection from ' Out Actors ' to ' Target Array '. You may have changed the type after the connections were made.
+[2016.02.26-16.50.18:999][488]LogBlueprint:Warning: [compiler bussNew] Warning Can't connect pins  Target Array  and  Out Actors : Array of Pedestrian Target Point References is not compatible with Array of Vehicle Target Point References.
+[2016.02.26-16.50.18:999][488]LogBlueprint:Warning: [compiler bussNew] Warning Can't connect pins  Target Array  and  Out Actors : Array of Pedestrian Target Point References is not compatible with Array of Vehicle Target Point References.
+[2016.02.26-16.50.19:186][488]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/vehicles/bussNew" FILE="../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Blueprints/vehicles/bussNew.uasset" SILENT=true
+[2016.02.26-16.50.19:357][488]LogSavePackage: Save=131.234680ms
+[2016.02.26-16.50.19:357][488]LogSavePackage: Moving '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Saved/bussNew717C51E14A8ECF9128E55EA801261435.tmp' to '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Blueprints/vehicles/bussNew.uasset'
+[2016.02.26-16.50.19:360][488]LogSavePackage: Total save time: 172.663141ms
+[2016.02.26-16.50.19:360][488]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Blueprints/vehicles/bussNew.uasset
+[2016.02.26-16.50.19:402][488]LogBlueprint:Warning: [compiler bussNew] Warning [3416.84] Compile of bussNew failed. 2 Fatal Issue(s) 4 Warning(s) [in 445 ms]
+[2016.02.26-16.50.19:402][488]BlueprintEditorCompileResults: Info Event BeginPlay (K2Node_Event_37) had an invalid function signature - it has now been fixed.
+[2016.02.26-16.50.19:402][488]BlueprintEditorCompileResults: Info Event Tick (K2Node_Event_39) had an invalid function signature - it has now been fixed.
+[2016.02.26-16.50.19:402][488]BlueprintEditorCompileResults:Warning: Warning Can't connect pins  Out Actors  and  Target Array : Array of Vehicle Target Point References is not compatible with Array of Pedestrian Target Point References.
+[2016.02.26-16.50.19:402][488]BlueprintEditorCompileResults:Warning: Warning Can't connect pins  Out Actors  and  Target Array : Array of Vehicle Target Point References is not compatible with Array of Pedestrian Target Point References.
+[2016.02.26-16.50.19:402][488]BlueprintEditorCompileResults:Error: Error Invalid pin connection from ' Out Actors ' to ' Target Array '. You may have changed the type after the connections were made.
+[2016.02.26-16.50.19:402][488]BlueprintEditorCompileResults:Error: Error Invalid pin connection from ' Out Actors ' to ' Target Array '. You may have changed the type after the connections were made.
+[2016.02.26-16.50.19:402][488]BlueprintEditorCompileResults:Warning: Warning Can't connect pins  Target Array  and  Out Actors : Array of Pedestrian Target Point References is not compatible with Array of Vehicle Target Point References.
+[2016.02.26-16.50.19:402][488]BlueprintEditorCompileResults:Warning: Warning Can't connect pins  Target Array  and  Out Actors : Array of Pedestrian Target Point References is not compatible with Array of Vehicle Target Point References.
+[2016.02.26-16.50.19:402][488]BlueprintEditorCompileResults:Warning: Warning [3416.84] Compile of bussNew failed. 2 Fatal Issue(s) 4 Warning(s) [in 445 ms]
+[2016.02.26-16.50.36:356][882]BlueprintLog: New page: Compile VehicleTargetPoint
+[2016.02.26-16.50.36:447][882]BlueprintEditorCompileResults: Info [3433.88] Compile of VehicleTargetPoint successful! [in 90 ms]
+[2016.02.26-16.50.40:491][279]BlueprintLog: New page: Compile bussNew
+[2016.02.26-16.50.40:527][279]LogBlueprint:Warning: [compiler bussNew] Warning Can't connect pins  Out Actors  and  Target Array : Array of Vehicle Target Point References is not compatible with Array of Pedestrian Target Point References.
+[2016.02.26-16.50.40:527][279]LogBlueprint:Warning: [compiler bussNew] Warning Can't connect pins  Out Actors  and  Target Array : Array of Vehicle Target Point References is not compatible with Array of Pedestrian Target Point References.
+[2016.02.26-16.50.40:527][279]LogBlueprint:Error: [compiler bussNew] Error Invalid pin connection from ' Out Actors ' to ' Target Array '. You may have changed the type after the connections were made.
+[2016.02.26-16.50.40:527][279]LogBlueprint:Error: [compiler bussNew] Error Invalid pin connection from ' Out Actors ' to ' Target Array '. You may have changed the type after the connections were made.
+[2016.02.26-16.50.40:528][279]LogBlueprint:Warning: [compiler bussNew] Warning Can't connect pins  Target Array  and  Out Actors : Array of Pedestrian Target Point References is not compatible with Array of Vehicle Target Point References.
+[2016.02.26-16.50.40:528][279]LogBlueprint:Warning: [compiler bussNew] Warning Can't connect pins  Target Array  and  Out Actors : Array of Pedestrian Target Point References is not compatible with Array of Vehicle Target Point References.
+[2016.02.26-16.50.40:719][279]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/vehicles/bussNew" FILE="../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Blueprints/vehicles/bussNew.uasset" SILENT=true
+[2016.02.26-16.50.40:887][279]LogSavePackage: Save=127.651474ms
+[2016.02.26-16.50.40:887][279]LogSavePackage: Moving '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Saved/bussNew9512F1974BF6194357532B98C5E2D7C4.tmp' to '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Blueprints/vehicles/bussNew.uasset'
+[2016.02.26-16.50.40:890][279]LogSavePackage: Total save time: 169.304162ms
+[2016.02.26-16.50.40:890][279]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Blueprints/vehicles/bussNew.uasset
+[2016.02.26-16.50.40:934][279]LogBlueprint:Warning: [compiler bussNew] Warning [3438.37] Compile of bussNew failed. 2 Fatal Issue(s) 4 Warning(s) [in 442 ms]
+[2016.02.26-16.50.40:934][279]BlueprintEditorCompileResults: Info Event BeginPlay (K2Node_Event_37) had an invalid function signature - it has now been fixed.
+[2016.02.26-16.50.40:934][279]BlueprintEditorCompileResults: Info Event Tick (K2Node_Event_39) had an invalid function signature - it has now been fixed.
+[2016.02.26-16.50.40:934][279]BlueprintEditorCompileResults:Warning: Warning Can't connect pins  Out Actors  and  Target Array : Array of Vehicle Target Point References is not compatible with Array of Pedestrian Target Point References.
+[2016.02.26-16.50.40:934][279]BlueprintEditorCompileResults:Warning: Warning Can't connect pins  Out Actors  and  Target Array : Array of Vehicle Target Point References is not compatible with Array of Pedestrian Target Point References.
+[2016.02.26-16.50.40:934][279]BlueprintEditorCompileResults:Error: Error Invalid pin connection from ' Out Actors ' to ' Target Array '. You may have changed the type after the connections were made.
+[2016.02.26-16.50.40:934][279]BlueprintEditorCompileResults:Error: Error Invalid pin connection from ' Out Actors ' to ' Target Array '. You may have changed the type after the connections were made.
+[2016.02.26-16.50.40:934][279]BlueprintEditorCompileResults:Warning: Warning Can't connect pins  Target Array  and  Out Actors : Array of Pedestrian Target Point References is not compatible with Array of Vehicle Target Point References.
+[2016.02.26-16.50.40:934][279]BlueprintEditorCompileResults:Warning: Warning Can't connect pins  Target Array  and  Out Actors : Array of Pedestrian Target Point References is not compatible with Array of Vehicle Target Point References.
+[2016.02.26-16.50.40:934][279]BlueprintEditorCompileResults:Warning: Warning [3438.37] Compile of bussNew failed. 2 Fatal Issue(s) 4 Warning(s) [in 442 ms]
+[2016.02.26-16.51.10:410][708]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.02.26-16.51.19:941][793]BlueprintLog: New page: Compile bussNew
+[2016.02.26-16.51.19:981][793]LogBlueprint:Warning: [compiler bussNew] Warning Can't connect pins  Out Actors  and  Target Array : Array of Vehicle Target Point References is not compatible with Array of Pedestrian Target Point References.
+[2016.02.26-16.51.19:981][793]LogBlueprint:Warning: [compiler bussNew] Warning Can't connect pins  Out Actors  and  Target Array : Array of Vehicle Target Point References is not compatible with Array of Pedestrian Target Point References.
+[2016.02.26-16.51.19:981][793]LogBlueprint:Error: [compiler bussNew] Error Invalid pin connection from ' Out Actors ' to ' Target Array '. You may have changed the type after the connections were made.
+[2016.02.26-16.51.19:981][793]LogBlueprint:Error: [compiler bussNew] Error Invalid pin connection from ' Out Actors ' to ' Target Array '. You may have changed the type after the connections were made.
+[2016.02.26-16.51.19:981][793]LogBlueprint:Warning: [compiler bussNew] Warning Can't connect pins  Target Array  and  Out Actors : Array of Pedestrian Target Point References is not compatible with Array of Vehicle Target Point References.
+[2016.02.26-16.51.19:981][793]LogBlueprint:Warning: [compiler bussNew] Warning Can't connect pins  Target Array  and  Out Actors : Array of Pedestrian Target Point References is not compatible with Array of Vehicle Target Point References.
+[2016.02.26-16.51.20:169][793]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/vehicles/bussNew" FILE="../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Blueprints/vehicles/bussNew.uasset" SILENT=true
+[2016.02.26-16.51.20:341][793]LogSavePackage: Save=131.870239ms
+[2016.02.26-16.51.20:341][793]LogSavePackage: Moving '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Saved/bussNew081F57754A58C45D7568F2926C6197A9.tmp' to '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Blueprints/vehicles/bussNew.uasset'
+[2016.02.26-16.51.20:344][793]LogSavePackage: Total save time: 173.573844ms
+[2016.02.26-16.51.20:344][793]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Blueprints/vehicles/bussNew.uasset
+[2016.02.26-16.51.20:389][793]LogBlueprint:Warning: [compiler bussNew] Warning [3477.82] Compile of bussNew failed. 2 Fatal Issue(s) 4 Warning(s) [in 447 ms]
+[2016.02.26-16.51.20:389][793]BlueprintEditorCompileResults: Info Event BeginPlay (K2Node_Event_37) had an invalid function signature - it has now been fixed.
+[2016.02.26-16.51.20:389][793]BlueprintEditorCompileResults: Info Event Tick (K2Node_Event_39) had an invalid function signature - it has now been fixed.
+[2016.02.26-16.51.20:389][793]BlueprintEditorCompileResults:Warning: Warning Can't connect pins  Out Actors  and  Target Array : Array of Vehicle Target Point References is not compatible with Array of Pedestrian Target Point References.
+[2016.02.26-16.51.20:389][793]BlueprintEditorCompileResults:Warning: Warning Can't connect pins  Out Actors  and  Target Array : Array of Vehicle Target Point References is not compatible with Array of Pedestrian Target Point References.
+[2016.02.26-16.51.20:389][793]BlueprintEditorCompileResults:Error: Error Invalid pin connection from ' Out Actors ' to ' Target Array '. You may have changed the type after the connections were made.
+[2016.02.26-16.51.20:389][793]BlueprintEditorCompileResults:Error: Error Invalid pin connection from ' Out Actors ' to ' Target Array '. You may have changed the type after the connections were made.
+[2016.02.26-16.51.20:389][793]BlueprintEditorCompileResults:Warning: Warning Can't connect pins  Target Array  and  Out Actors : Array of Pedestrian Target Point References is not compatible with Array of Vehicle Target Point References.
+[2016.02.26-16.51.20:389][793]BlueprintEditorCompileResults:Warning: Warning Can't connect pins  Target Array  and  Out Actors : Array of Pedestrian Target Point References is not compatible with Array of Vehicle Target Point References.
+[2016.02.26-16.51.20:389][793]BlueprintEditorCompileResults:Warning: Warning [3477.82] Compile of bussNew failed. 2 Fatal Issue(s) 4 Warning(s) [in 447 ms]
+[2016.02.26-16.51.35:966][857]LogSavePackage: Save=138.776489ms
+[2016.02.26-16.51.35:966][857]LogSavePackage: Moving '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Saved/TopDownExampleMapEB6CB43F4FD764CA5EB85FB2B197EAF4.tmp' to '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/TopDownCPP/Maps/TopDownExampleMap.umap'
+[2016.02.26-16.51.35:969][857]LogSavePackage: Total save time: 185.035981ms
+[2016.02.26-16.51.35:969][857]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/TopDownCPP/Maps/TopDownExampleMap.umap
+[2016.02.26-16.51.39:469][ 43]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.02.26-16.51.39:469][ 43]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.26-16.51.42:191][ 43]PIE: New page: PIE session: TopDownExampleMap (Feb 26, 2016, 6:51:42 AM)
+[2016.02.26-16.51.42:191][ 43]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap
+[2016.02.26-16.51.42:201][ 43]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009942s)
+[2016.02.26-16.51.42:202][ 43]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2016.02.26-16.51.42:202][ 43]LogPlayLevel: PIE: World Init took: (0.000617s)
+[2016.02.26-16.51.42:202][ 43]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.010784s)
+[2016.02.26-16.51.42:253][ 43]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.26-16.51.42:258][ 43]LogInit: FAudioDevice initialized.
+[2016.02.26-16.51.42:300][ 43]LogWorld: Game class is '2DTopDown_Style_C'
+[2016.02.26-16.51.42:309][ 43]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2016.02.26-11.51.42
+[2016.02.26-16.51.42:309][ 43]LogActor:Warning: GameSession /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameSession_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.26-16.51.42:309][ 43]LogActor:Warning: GameNetworkManager /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameNetworkManager_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.26-16.51.42:311][ 43]LogWorld: Bringing up level for play took: 0.010120
+[2016.02.26-16.51.42:314][ 43]PIE: Info Play in editor start time for /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap 3.173
+[2016.02.26-16.51.42:314][ 43]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.02.26-16.51.42:439][ 44]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.068972 > MaxSimulationTimeStep (0.050) for 'LizardMan_PaperCharacter_C_14'
+[2016.02.26-16.51.51:195][463]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.02.26-16.51.51:277][463]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.02.26-16.51.51:307][463]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000020BC11A51C0
+[2016.02.26-16.52.05:892][138]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.02.26-16.52.05:893][138]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.26-16.52.05:893][138]PIE: New page: PIE session: TopDownExampleMap (Feb 26, 2016, 6:52:05 AM)
+[2016.02.26-16.52.05:893][138]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap
+[2016.02.26-16.52.05:902][138]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009082s)
+[2016.02.26-16.52.05:902][138]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2016.02.26-16.52.05:903][138]LogPlayLevel: PIE: World Init took: (0.000867s)
+[2016.02.26-16.52.05:903][138]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.010187s)
+[2016.02.26-16.52.05:942][138]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.26-16.52.05:948][138]LogInit: FAudioDevice initialized.
+[2016.02.26-16.52.05:984][138]LogWorld: Game class is '2DTopDown_Style_C'
+[2016.02.26-16.52.05:994][138]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2016.02.26-11.52.05
+[2016.02.26-16.52.05:995][138]LogActor:Warning: GameSession /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameSession_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.26-16.52.05:995][138]LogActor:Warning: GameNetworkManager /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameNetworkManager_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.26-16.52.05:998][138]LogWorld: Bringing up level for play took: 0.012180
+[2016.02.26-16.52.06:002][138]PIE: Info Play in editor start time for /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap 0.86
+[2016.02.26-16.52.06:002][138]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.02.26-16.52.08:975][277]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.02.26-16.52.09:051][277]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.02.26-16.52.09:105][278]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000020B427D44A0
+[2016.02.26-16.52.13:207][557]BlueprintLog: New page: Compile bussNew
+[2016.02.26-16.52.13:248][557]LogBlueprint:Warning: [compiler bussNew] Warning Can't connect pins  Out Actors  and  Target Array : Array of Vehicle Target Point References is not compatible with Array of Pedestrian Target Point References.
+[2016.02.26-16.52.13:248][557]LogBlueprint:Warning: [compiler bussNew] Warning Can't connect pins  Out Actors  and  Target Array : Array of Vehicle Target Point References is not compatible with Array of Pedestrian Target Point References.
+[2016.02.26-16.52.13:248][557]LogBlueprint:Error: [compiler bussNew] Error Invalid pin connection from ' Out Actors ' to ' Target Array '. You may have changed the type after the connections were made.
+[2016.02.26-16.52.13:249][557]LogBlueprint:Error: [compiler bussNew] Error Invalid pin connection from ' Out Actors ' to ' Target Array '. You may have changed the type after the connections were made.
+[2016.02.26-16.52.13:249][557]LogBlueprint:Warning: [compiler bussNew] Warning Can't connect pins  Target Array  and  Out Actors : Array of Pedestrian Target Point References is not compatible with Array of Vehicle Target Point References.
+[2016.02.26-16.52.13:249][557]LogBlueprint:Warning: [compiler bussNew] Warning Can't connect pins  Target Array  and  Out Actors : Array of Pedestrian Target Point References is not compatible with Array of Vehicle Target Point References.
+[2016.02.26-16.52.13:435][557]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/vehicles/bussNew" FILE="../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Blueprints/vehicles/bussNew.uasset" SILENT=true
+[2016.02.26-16.52.13:612][557]LogSavePackage: Save=135.268295ms
+[2016.02.26-16.52.13:612][557]LogSavePackage: Moving '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Saved/bussNew2CF42000497FACD23E0932B71C8AB51B.tmp' to '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Blueprints/vehicles/bussNew.uasset'
+[2016.02.26-16.52.13:615][557]LogSavePackage: Total save time: 178.947657ms
+[2016.02.26-16.52.13:615][557]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Blueprints/vehicles/bussNew.uasset
+[2016.02.26-16.52.13:662][557]LogBlueprint:Warning: [compiler bussNew] Warning [3531.10] Compile of bussNew failed. 2 Fatal Issue(s) 4 Warning(s) [in 454 ms]
+[2016.02.26-16.52.13:662][557]BlueprintEditorCompileResults: Info Event BeginPlay (K2Node_Event_37) had an invalid function signature - it has now been fixed.
+[2016.02.26-16.52.13:662][557]BlueprintEditorCompileResults: Info Event Tick (K2Node_Event_39) had an invalid function signature - it has now been fixed.
+[2016.02.26-16.52.13:662][557]BlueprintEditorCompileResults:Warning: Warning Can't connect pins  Out Actors  and  Target Array : Array of Vehicle Target Point References is not compatible with Array of Pedestrian Target Point References.
+[2016.02.26-16.52.13:662][557]BlueprintEditorCompileResults:Warning: Warning Can't connect pins  Out Actors  and  Target Array : Array of Vehicle Target Point References is not compatible with Array of Pedestrian Target Point References.
+[2016.02.26-16.52.13:662][557]BlueprintEditorCompileResults:Error: Error Invalid pin connection from ' Out Actors ' to ' Target Array '. You may have changed the type after the connections were made.
+[2016.02.26-16.52.13:662][557]BlueprintEditorCompileResults:Error: Error Invalid pin connection from ' Out Actors ' to ' Target Array '. You may have changed the type after the connections were made.
+[2016.02.26-16.52.13:662][557]BlueprintEditorCompileResults:Warning: Warning Can't connect pin
