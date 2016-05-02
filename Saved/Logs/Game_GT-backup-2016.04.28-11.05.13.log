@@ -1,0 +1,1142 @@
+﻿[2016.04.26-15.45.08:933][  0]Log file open, 04/26/16 11:45:08
+[2016.04.26-15.45.08:933][  0]LogInit:Display: Running engine for game: Game_GT
+[2016.04.26-15.45.08:933][  0]LogPlatformFile: Not using cached read wrapper
+[2016.04.26-15.45.08:933][  0]LogInit:Display: RandInit(119990495) SRandInit(119990501).
+[2016.04.26-15.45.08:933][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.04.26-15.45.08:933][  0]LogStats: Stats thread started at 6.497060
+[2016.04.26-15.45.08:933][  0]LogInit: Version: 4.10.1-2791327+++depot+UE4-Releases+4.10
+[2016.04.26-15.45.08:933][  0]LogInit: API Version: 2758231
+[2016.04.26-15.45.08:933][  0]LogInit: Compiled (64-bit): Dec  4 2015 19:44:40
+[2016.04.26-15.45.08:933][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.04.26-15.45.08:933][  0]LogInit: Build Configuration: Development
+[2016.04.26-15.45.08:933][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.04.26-15.45.08:933][  0]LogInit: Command line:  
+[2016.04.26-15.45.08:934][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.04.26-15.45.08:934][  0]LogInit: Rocket: 1
+[2016.04.26-15.45.09:166][  0]LogInit: Using libcurl 7.41.0
+[2016.04.26-15.45.09:166][  0]LogInit:  - built for x86_64-pc-win32
+[2016.04.26-15.45.09:166][  0]LogInit:  - supports SSL with WinSSL
+[2016.04.26-15.45.09:166][  0]LogInit:  - other features:
+[2016.04.26-15.45.09:166][  0]LogInit:      CURL_VERSION_SSL
+[2016.04.26-15.45.09:166][  0]LogInit:      CURL_VERSION_IPV6
+[2016.04.26-15.45.09:167][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.04.26-15.45.09:167][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.04.26-15.45.09:167][  0]LogInit:      CURL_VERSION_IDN
+[2016.04.26-15.45.09:168][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.04.26-15.45.09:168][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.04.26-15.45.09:168][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.04.26-15.45.09:168][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.04.26-15.45.09:168][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.04.26-15.45.09:475][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.04.26-15.45.09:647][  0]LogInit: Object subsystem initialized
+[2016.04.26-15.45.09:866][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.26-15.45.09:866][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.04.26-15.45.10:049][  0]LogInit: Computer: MATTHEWS_LAPTOP
+[2016.04.26-15.45.10:049][  0]LogInit: User: Matthew
+[2016.04.26-15.45.10:049][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.04.26-15.45.10:049][  0]LogInit: High frequency timer resolution =1.754522 MHz
+[2016.04.26-15.45.10:049][  0]LogMemory: Memory total: Physical=11.0GB (11GB approx)
+[2016.04.26-15.45.10:049][  0]LogMemory: Platform Memory Stats for Windows
+[2016.04.26-15.45.10:049][  0]LogMemory: Process Physical Memory: 57.28 MB used, 57.28 MB peak
+[2016.04.26-15.45.10:049][  0]LogMemory: Process Virtual Memory: 57.63 MB used, 57.63 MB peak
+[2016.04.26-15.45.10:050][  0]LogMemory: Physical Memory: 2659.16 MB used, 11225.23 MB total
+[2016.04.26-15.45.10:050][  0]LogMemory: Virtual Memory: 366.34 MB used, 134217728.00 MB total
+[2016.04.26-15.45.11:732][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.04.26-15.45.14:968][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon(TM) R4 Graphics (Feature Level 11_0)
+[2016.04.26-15.45.14:968][  0]LogD3D11RHI: Adapter has 1001MB of dedicated video memory, 0MB of dedicated system memory, and 5376MB of shared system memory, 1 output[s]
+[2016.04.26-15.45.14:972][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.04.26-15.45.14:973][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2016.04.26-15.45.14:973][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.04.26-15.45.14:990][  0]LogD3D11RHI: !Direct3DDevice
+[2016.04.26-15.45.14:992][  0]LogRHI: Texture pool is 701 MB (70% of 1001 MB)
+[2016.04.26-15.45.15:012][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2016.04.26-15.45.15:596][  0]LogShaderCompilers: Guid format shader working directory is -17 characters bigger than the processId version (../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Intermediate/Shaders/WorkingDirectory/6000/).
+[2016.04.26-15.45.15:597][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Matthew/AppData/Local/Temp/UnrealShaderWorkingDir/E9BA1F1F41E2C7BCFB379AAE818F969E/'.
+[2016.04.26-15.45.15:614][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.04.26-15.45.25:715][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.04.26-15.45.25:785][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.04.26-15.45.25:847][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.04.26-15.45.25:936][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.04.26-15.45.25:999][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.04.26-15.45.26:057][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.04.26-15.45.26:109][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.04.26-15.45.26:166][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.04.26-15.45.26:218][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.04.26-15.45.26:276][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.04.26-15.45.26:333][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.04.26-15.45.26:450][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.04.26-15.45.26:450][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.04.26-15.45.26:489][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.04.26-15.45.26:689][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.04.26-15.45.26:747][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.04.26-15.45.26:802][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.04.26-15.45.26:879][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.04.26-15.45.26:879][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.04.26-15.45.28:413][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.04.26-15.45.28:953][  0]LogDerivedDataCache: Loaded boot cache 0.53s 42MB C:/Users/Matthew/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.04.26-15.45.28:953][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Matthew/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.04.26-15.45.28:953][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.04.26-15.45.28:953][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.04.26-15.45.28:953][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.04.26-15.45.28:953][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.04.26-15.45.29:455][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.04.26-15.45.29:512][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Matthew/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.04.26-15.45.35:887][  0]LogModuleManager:Warning: Found module file ../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Binaries/Win64/UE4Editor-Game_GT-595.dll (API version 2672455), but it was incompatible with the current engine API version (2758231). This is likely a stale module that must be recompiled.
+[2016.04.26-15.45.40:542][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.26-15.45.40:676][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.04.26-15.45.43:117][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.04.26-15.45.43:117][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.04.26-15.45.48:845][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.04.26-15.46.41:703][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.04.26-15.46.41:967][  0]LogLinker:Warning: Asset '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.04.26-15.46.41:986][  0]LogLinker:Warning: Asset '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Mannequin/Animations/ThirdPerson_Jump.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.04.26-15.46.42:142][  0]LogLinker:Warning: Asset '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.04.26-15.46.42:176][  0]LogLinker:Warning: Asset '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.04.26-15.46.42:199][  0]LogLinker:Warning: Asset '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.04.26-15.46.42:207][  0]LogLinker:Warning: Asset '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Mannequin/Animations/ThirdPersonIdle.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.04.26-15.46.42:226][  0]LogLinker:Warning: Asset '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Mannequin/Animations/ThirdPersonRun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.04.26-15.46.42:253][  0]LogLinker:Warning: Asset '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Mannequin/Animations/ThirdPersonWalk.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.04.26-15.46.48:761][  0]LogAssetRegistry: FAssetRegistry took 0.0169 seconds to start up
+[2016.04.26-15.46.55:131][  0]SourceControl: Info Source control is disabled
+[2016.04.26-15.47.01:502][  0]LogObj: 31636 objects as part of root set at end of initial load.
+[2016.04.26-15.47.01:502][  0]LogUObjectAllocator: 7168920 out of 0 bytes used by permanent object pool.
+[2016.04.26-15.47.02:679][  0]LogEngine: Initializing Engine...
+[2016.04.26-15.47.02:749][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.04.26-15.47.02:849][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.04.26-15.47.05:154][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.04.26-15.47.05:630][  0]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.26-15.47.06:298][  0]LogInit: FAudioDevice initialized.
+[2016.04.26-15.47.06:432][  0]LogDerivedDataCache: Saved boot cache 0.13s 42MB C:/Users/Matthew/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.04.26-15.47.06:454][  0]LogInit: Texture streaming: Enabled
+[2016.04.26-15.47.08:469][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.04.26-15.47.08:469][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.1-2791327+++depot+UE4-Releases+4.10
+[2016.04.26-15.47.08:470][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 0f6494ba478205b31c12bcb954f201dd|3618349349de49478ca5873bc0511615|845c9a97-0eb3-4673-9ea5-2a4e662a88df
+[2016.04.26-15.47.08:613][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.04.26-15.47.09:621][  0]LogInit: Transaction tracking system initialized
+[2016.04.26-15.47.10:699][  0]BlueprintLog: New page: Editor Load
+[2016.04.26-15.47.15:931][  0]LocalizationService: Info Localization service is disabled
+[2016.04.26-15.47.17:695][  0]LogLinker:Warning: Asset '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/TopDownCPP/TopDownOverview.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.04.26-15.47.18:437][  0]LogConsoleResponse:Display: 
+[2016.04.26-15.47.21:882][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.04.26-15.47.23:593][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Matthew/Documents/Unreal Projects/Game_GT/Content/' took 0.03s
+[2016.04.26-15.47.24:972][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/TopDownCPP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.04.26-15.47.25:058][  0]LightingResults: New page: Lighting Build
+[2016.04.26-15.47.25:313][  0]MapCheck: New page: Map Check
+[2016.04.26-15.47.25:313][  0]LightingResults: New page: Lighting Build
+[2016.04.26-15.47.25:875][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AB3981DB20
+[2016.04.26-15.47.32:907][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Blueprints/NPC/RadaBancroft.RadaBancroft_C:UserConstructionScript; removing parent information, but keeping function
+[2016.04.26-15.47.34:691][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/TestContent/Lili_Jarvinen.Lili_Jarvinen_C:UserConstructionScript; removing parent information, but keeping function
+[2016.04.26-15.47.41:413][  0]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2016.04.26-15.47.42:309][  0]LogEditorServer: Finished looking for orphan Actors (0.001 secs)
+[2016.04.26-15.47.42:407][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.04.26-15.47.42:853][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 445.392ms to complete.
+[2016.04.26-15.47.42:854][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 17.890
+[2016.04.26-15.47.46:244][  0]LogCollectionManager: Loaded 0 collections in 0.012557 seconds
+[2016.04.26-15.47.46:530][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/Collections/' took 0.01s
+[2016.04.26-15.47.46:530][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Developers/Matthew/Collections/' took 0.01s
+[2016.04.26-15.47.46:530][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Collections/' took 0.01s
+[2016.04.26-15.47.46:530][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000009 seconds
+[2016.04.26-15.47.46:668][  0]LogContentBrowser: Native class hierarchy populated in 0.1197 seconds. Added 1897 classes and 340 folders.
+[2016.04.26-15.47.46:852][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0065 seconds. Added 0 classes and 0 folders.
+[2016.04.26-15.47.49:808][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0072 seconds. Added 0 classes and 0 folders.
+[2016.04.26-15.47.49:952][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0087 seconds. Added 1 classes and 2 folders.
+[2016.04.26-15.47.50:742][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.04.26-15.47.50:963][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.04.26-15.47.51:055][  0]LogLoad: Full Startup: 178.00 seconds (BP compile: 4.35 seconds)
+[2016.04.26-15.47.51:440][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.04.26-15.47.52:431][  0]SourceControl: Info On branch master
+[2016.04.26-15.47.52:431][  0]SourceControl: Info Your branch is up-to-date with 'origin/master'.
+[2016.04.26-15.47.52:431][  0]SourceControl: Info Changes not staged for commit:
+[2016.04.26-15.47.52:431][  0]SourceControl: Info   (use "git add <file>..." to update what will be committed)
+[2016.04.26-15.47.52:431][  0]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2016.04.26-15.47.52:431][  0]SourceControl: Info 	modified:   Intermediate/CachedAssetRegistry.bin
+[2016.04.26-15.47.52:431][  0]SourceControl: Info 	modified:   Saved/Config/Windows/Editor.ini
+[2016.04.26-15.47.52:431][  0]SourceControl: Info 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2016.04.26-15.47.52:431][  0]SourceControl: Info 	modified:   Saved/Config/Windows/Engine.ini
+[2016.04.26-15.47.52:432][  0]SourceControl: Info 	modified:   Saved/Logs/Game_GT.log
+[2016.04.26-15.47.52:432][  0]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
+[2016.04.26-15.47.52:432][  0]LogContentStreaming: Texture pool size now 200 MB
+[2016.04.26-15.47.53:570][  0]LogRenderer: Reallocating scene render targets to support 816x440 (Frame:2).
+[2016.04.26-15.48.03:951][ 27]LogAssetRegistry: Asset discovery search completed in 75.2032 seconds
+[2016.04.26-15.48.03:969][ 27]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000003 seconds (found 0 objects)
+[2016.04.26-15.48.03:969][ 27]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000234 seconds (updated 0 objects)
+[2016.04.26-15.49.54:642][443]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.04.26-15.49.57:989][443]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0091 seconds. Added 107 classes and 0 folders.
+[2016.04.26-15.50.17:922][634]LogRenderer: Reallocating scene render targets to support 816x460 (Frame:371).
+[2016.04.26-15.53.08:925][693]LogEditorFactories: Performing atomic reimport of [C:/Users/Matthew/Documents/Unreal Projects/Game_GT/TempResources/veicles/buss/BussThrusterSide.png]
+[2016.04.26-15.53.08:925][693]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 C:/Users/Matthew/Documents/Unreal Projects/Game_GT/TempResources/veicles/buss/BussThrusterSide.png)
+[2016.04.26-15.53.08:956][693]LogTexture:Display: Building textures: BussThrusterSide (BGRA8)
+[2016.04.26-15.53.08:973][693]LogEditorFactories: -- imported successfully
+[2016.04.26-15.53.12:397][772]LogEditorFactories: Performing atomic reimport of [C:/Users/Matthew/Documents/Unreal Projects/Game_GT/TempResources/veicles/buss/BussThrusterTop.png]
+[2016.04.26-15.53.12:398][772]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 C:/Users/Matthew/Documents/Unreal Projects/Game_GT/TempResources/veicles/buss/BussThrusterTop.png)
+[2016.04.26-15.53.12:403][772]LogTexture:Display: Building textures: BussThrusterTop (BGRA8)
+[2016.04.26-15.53.12:413][772]LogEditorFactories: -- imported successfully
+[2016.04.26-15.55.26:416][ 34]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.04.26-15.55.57:635][370]LogEditorViewport: Clicking on Actor (LMB): Club_MeetingRoom_C (Club_MeatingRoom)
+[2016.04.26-16.00.25:316][499]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AB4F8167A0
+[2016.04.26-16.00.26:366][499]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/vehicles/BussBody" FILE="../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Blueprints/vehicles/BussBody.uasset" SILENT=true
+[2016.04.26-16.00.26:782][499]LogSavePackage: Save=148.101303ms
+[2016.04.26-16.00.26:782][499]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/BussBody7C004E0645131B9A722431946DB2E00F.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Blueprints/vehicles/BussBody.uasset'
+[2016.04.26-16.00.26:793][499]LogSavePackage: Total save time: 420.743655ms
+[2016.04.26-16.00.26:793][499]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Blueprints/vehicles/BussBody.uasset
+[2016.04.26-16.00.27:544][499]LogSavePackage: Save=1713.910645ms
+[2016.04.26-16.00.27:544][499]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/TopDownExampleMap_Auto11A57FB7D431312DD9B3FE680047980E8.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/Autosaves/Game/TopDownCPP/Maps/TopDownExampleMap_Auto1.umap'
+[2016.04.26-16.00.27:555][499]LogSavePackage: Total save time: 2029.165778ms
+[2016.04.26-16.00.27:555][499]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/Autosaves/Game/TopDownCPP/Maps/TopDownExampleMap_Auto1.umap
+[2016.04.26-16.00.27:563][499]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownCPP/Maps/TopDownExampleMap' took 2.571
+[2016.04.26-16.00.27:563][499]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.571
+[2016.04.26-16.00.27:638][499]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/vehicle/buss/BussThrusterSide] ([1] browsable assets)...
+[2016.04.26-16.00.27:642][499]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/vehicle/buss/BussThrusterSide.BussThrusterSide]
+[2016.04.26-16.00.27:642][499]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/vehicle/buss/BussThrusterSide]
+[2016.04.26-16.00.27:937][499]LogSavePackage: Save=33.974495ms
+[2016.04.26-16.00.27:937][499]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/BussThrusterSide_Auto10217F66F4F218E1D90D3EE8AE299E9FC.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/Autosaves/Game/Textures/vehicle/buss/BussThrusterSide_Auto1.uasset'
+[2016.04.26-16.00.27:946][499]LogSavePackage: Total save time: 297.194906ms
+[2016.04.26-16.00.27:946][499]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/Autosaves/Game/Textures/vehicle/buss/BussThrusterSide_Auto1.uasset
+[2016.04.26-16.00.27:970][499]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/vehicle/buss/BussThrusterTop] ([1] browsable assets)...
+[2016.04.26-16.00.27:974][499]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/vehicle/buss/BussThrusterTop.BussThrusterTop]
+[2016.04.26-16.00.27:974][499]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/vehicle/buss/BussThrusterTop]
+[2016.04.26-16.00.28:249][499]LogSavePackage: Save=11.440722ms
+[2016.04.26-16.00.28:249][499]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/BussThrusterTop_Auto145E83AE34EFB19CB958B05A7733E699F.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/Autosaves/Game/Textures/vehicle/buss/BussThrusterTop_Auto1.uasset'
+[2016.04.26-16.00.28:258][499]LogSavePackage: Total save time: 277.236763ms
+[2016.04.26-16.00.28:258][499]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/Autosaves/Game/Textures/vehicle/buss/BussThrusterTop_Auto1.uasset
+[2016.04.26-16.00.28:258][499]LogFileHelpers: Auto-saving content packages took 0.690
+[2016.04.26-16.05.48:430][195]LogEditorTransaction: Undo Edit Properties
+[2016.04.26-16.05.49:311][207]LogEditorTransaction: Undo Edit Static Mesh
+[2016.04.26-16.05.50:075][214]LogEditorTransaction: Undo Edit Static Mesh
+[2016.04.26-16.05.51:150][223]LogEditorTransaction: Undo Edit Static Mesh
+[2016.04.26-16.06.28:631][662]LogRenderer: Reallocating scene render targets to support 1016x608 (Frame:13646).
+[2016.04.26-16.10.49:783][846]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AB295F84A0
+[2016.04.26-16.10.50:736][846]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/vehicles/BussThruster" FILE="../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Blueprints/vehicles/BussThruster.uasset" SILENT=true
+[2016.04.26-16.10.51:110][846]LogSavePackage: Save=85.053932ms
+[2016.04.26-16.10.51:111][846]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/BussThruster9D00965644628509FF60DD8815C428FF.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Blueprints/vehicles/BussThruster.uasset'
+[2016.04.26-16.10.51:121][846]LogSavePackage: Total save time: 368.319120ms
+[2016.04.26-16.10.51:121][846]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Blueprints/vehicles/BussThruster.uasset
+[2016.04.26-16.10.51:728][846]LogSavePackage: Save=1587.906006ms
+[2016.04.26-16.10.51:728][846]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/TopDownExampleMap_Auto2FFD5B28C4A6067BF82B3BDAE7E35D361.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/Autosaves/Game/TopDownCPP/Maps/TopDownExampleMap_Auto2.umap'
+[2016.04.26-16.10.51:739][846]LogSavePackage: Total save time: 1861.528669ms
+[2016.04.26-16.10.51:739][846]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/Autosaves/Game/TopDownCPP/Maps/TopDownExampleMap_Auto2.umap
+[2016.04.26-16.10.51:745][846]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownCPP/Maps/TopDownExampleMap' took 2.113
+[2016.04.26-16.10.51:745][846]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.113
+[2016.04.26-16.17.36:865][294]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/BasicShapes/Sphere.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/BasicShapes/Sphere.uasset' is outside repository
+[2016.04.26-16.20.52:995][712]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
+[2016.04.26-16.20.54:270][712]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/vehicles/BussThruster" FILE="../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Blueprints/vehicles/BussThruster.uasset" SILENT=true
+[2016.04.26-16.20.54:711][712]LogSavePackage: Save=129.138870ms
+[2016.04.26-16.20.54:711][712]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/BussThruster4ABD24374A370F9CFFFC449F4D73D8CF.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Blueprints/vehicles/BussThruster.uasset'
+[2016.04.26-16.20.54:727][712]LogSavePackage: Total save time: 446.494259ms
+[2016.04.26-16.20.54:727][712]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Blueprints/vehicles/BussThruster.uasset
+[2016.04.26-16.20.55:492][712]LogSavePackage: Save=1963.358154ms
+[2016.04.26-16.20.55:492][712]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/TopDownExampleMap_Auto360CD21014089D085263F339D34889B49.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/Autosaves/Game/TopDownCPP/Maps/TopDownExampleMap_Auto3.umap'
+[2016.04.26-16.20.55:509][712]LogSavePackage: Total save time: 2281.688120ms
+[2016.04.26-16.20.55:509][712]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/Autosaves/Game/TopDownCPP/Maps/TopDownExampleMap_Auto3.umap
+[2016.04.26-16.20.55:518][712]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownCPP/Maps/TopDownExampleMap' took 2.523
+[2016.04.26-16.20.55:518][712]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.523
+[2016.04.26-16.20.55:567][712]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Engine/BasicShapes/Sphere] ([1] browsable assets)...
+[2016.04.26-16.20.55:786][712]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Engine/BasicShapes/Sphere.Sphere]
+[2016.04.26-16.20.55:786][712]OBJ SavePackage: Finished generating thumbnails for package [/Engine/BasicShapes/Sphere]
+[2016.04.26-16.20.56:162][712]LogSavePackage: Save=61.880100ms
+[2016.04.26-16.20.56:163][712]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/Sphere_Auto329175243447BFAEEDFC2DFA8F1913D59.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/Autosaves/Engine/BasicShapes/Sphere_Auto3.uasset'
+[2016.04.26-16.20.56:170][712]LogSavePackage: Total save time: 372.669592ms
+[2016.04.26-16.20.56:170][712]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/Autosaves/Engine/BasicShapes/Sphere_Auto3.uasset
+[2016.04.26-16.20.56:171][712]LogFileHelpers: Auto-saving content packages took 0.638
+[2016.04.26-16.37.41:803][904]BlueprintLog: New page: Compile BussThruster
+[2016.04.26-16.37.42:432][904]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AB4EC22AC0
+[2016.04.26-16.37.42:529][904]BlueprintEditorCompileResults: Info [3169.48] Compile of BussThruster successful! [in 725 ms]
+[2016.04.26-16.37.45:702][930]BlueprintLog: New page: Compile BussBody
+[2016.04.26-16.37.46:279][930]BlueprintEditorCompileResults: Info [3173.23] Compile of BussBody successful! [in 577 ms]
+[2016.04.26-16.37.49:493][952]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/vehicles/BussThruster" FILE="../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Blueprints/vehicles/BussThruster.uasset" SILENT=true
+[2016.04.26-16.37.49:873][952]LogSavePackage: Save=109.742142ms
+[2016.04.26-16.37.49:873][952]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/BussThruster26C4E44245E0127A19AFEAACFC15996C.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Blueprints/vehicles/BussThruster.uasset'
+[2016.04.26-16.37.49:884][952]LogSavePackage: Total save time: 384.785715ms
+[2016.04.26-16.37.49:884][952]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Blueprints/vehicles/BussThruster.uasset
+[2016.04.26-16.38.38:734][286]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:\Users\Matthew\Documents\Unreal Projects\Game_GT\TempResources\veicles\buss\BussChairFront.png)
+[2016.04.26-16.38.38:739][286]LogTexture:Display: Building textures: BussChairFront (AutoDXT)
+[2016.04.26-16.38.38:922][286]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:\Users\Matthew\Documents\Unreal Projects\Game_GT\TempResources\veicles\buss\BussChairSeat.png)
+[2016.04.26-16.38.38:928][286]LogTexture:Display: Building textures: BussChairSeat (BGRA8)
+[2016.04.26-16.38.39:125][286]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:\Users\Matthew\Documents\Unreal Projects\Game_GT\TempResources\veicles\buss\BussChairSide.png)
+[2016.04.26-16.38.39:130][286]LogTexture:Display: Building textures: BussChairSide (BGRA8)
+[2016.04.26-16.38.39:283][286]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:\Users\Matthew\Documents\Unreal Projects\Game_GT\TempResources\veicles\buss\BussChairTop.png)
+[2016.04.26-16.38.39:287][286]LogTexture:Display: Building textures: BussChairTop (BGRA8)
+[2016.04.26-16.38.39:441][286]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:\Users\Matthew\Documents\Unreal Projects\Game_GT\TempResources\veicles\buss\BussChairBack.png)
+[2016.04.26-16.38.39:445][286]LogTexture:Display: Building textures: BussChairBack (AutoDXT)
+[2016.04.26-16.38.39:610][286]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:\Users\Matthew\Documents\Unreal Projects\Game_GT\TempResources\veicles\buss\BussChairBackFront.png)
+[2016.04.26-16.38.39:614][286]LogTexture:Display: Building textures: BussChairBackFront (BGRA8)
+[2016.04.26-16.38.39:768][286]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:\Users\Matthew\Documents\Unreal Projects\Game_GT\TempResources\veicles\buss\BussChairBottom.png)
+[2016.04.26-16.38.39:771][286]LogTexture:Display: Building textures: BussChairBottom (BGRA8)
+[2016.04.26-16.38.53:764][467]SourceControl: Info On branch master
+[2016.04.26-16.38.53:764][467]SourceControl: Info Your branch is up-to-date with 'origin/master'.
+[2016.04.26-16.38.53:764][467]SourceControl: Info Changes not staged for commit:
+[2016.04.26-16.38.53:764][467]SourceControl: Info   (use "git add/rm <file>..." to update what will be committed)
+[2016.04.26-16.38.53:765][467]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2016.04.26-16.38.53:765][467]SourceControl: Info 	modified:   Content/Blueprints/vehicles/BussBody.uasset
+[2016.04.26-16.38.53:765][467]SourceControl: Info 	modified:   Content/Blueprints/vehicles/BussThruster.uasset
+[2016.04.26-16.38.53:765][467]SourceControl: Info 	modified:   Intermediate/CachedAssetRegistry.bin
+[2016.04.26-16.38.53:765][467]SourceControl: Info 	modified:   Saved/Autosaves/Game/TopDownCPP/Maps/TopDownExampleMap_Auto1.umap
+[2016.04.26-16.38.53:765][467]SourceControl: Info 	modified:   Saved/Autosaves/Game/TopDownCPP/Maps/TopDownExampleMap_Auto2.umap
+[2016.04.26-16.38.53:765][467]SourceControl: Info 	modified:   Saved/Autosaves/Game/TopDownCPP/Maps/TopDownExampleMap_Auto3.umap
+[2016.04.26-16.38.53:765][467]SourceControl: Info 	modified:   Saved/Autosaves/PackageRestoreData.json
+[2016.04.26-16.38.53:765][467]SourceControl: Info 	deleted:    Saved/Backup/ConversationTestNPC_2016-02-03-11-32-40.uasset
+[2016.04.26-16.38.53:765][467]SourceControl: Info 	deleted:    Saved/Backup/TopDownExampleMap_2016-02-03-11-35-38.umap
+[2016.04.26-16.38.53:765][467]SourceControl: Info 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2016.04.26-16.38.53:765][467]SourceControl: Info 	modified:   Saved/Config/Windows/Engine.ini
+[2016.04.26-16.38.53:765][467]SourceControl: Info 	modified:   Saved/Logs/Game_GT.log
+[2016.04.26-16.38.53:766][467]SourceControl: Info 	modified:   TempResources/veicles/buss/BussThrusterSide.png
+[2016.04.26-16.38.53:766][467]SourceControl: Info 	modified:   TempResources/veicles/buss/BussThrusterTop.png
+[2016.04.26-16.38.53:766][467]SourceControl: Info Untracked files:
+[2016.04.26-16.38.53:766][467]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2016.04.26-16.38.53:766][467]SourceControl: Info 	Saved/Autosaves/Engine/
+[2016.04.26-16.38.53:766][467]SourceControl: Info 	Saved/Autosaves/Game/Textures/vehicle/buss/BussThrusterSide_Auto1.uasset
+[2016.04.26-16.38.53:766][467]SourceControl: Info 	Saved/Autosaves/Game/Textures/vehicle/buss/BussThrusterTop_Auto1.uasset
+[2016.04.26-16.38.53:766][467]SourceControl: Info 	Saved/Backup/BussBody_2016-04-26-12-00-26.uasset
+[2016.04.26-16.38.53:766][467]SourceControl: Info 	Saved/Backup/BussThrusterSide_2016-04-26-12-00-27.uasset
+[2016.04.26-16.38.53:766][467]SourceControl: Info 	Saved/Backup/BussThrusterTop_2016-04-26-12-00-28.uasset
+[2016.04.26-16.38.53:766][467]SourceControl: Info 	Saved/Backup/BussThruster_2016-04-26-12-10-51.uasset
+[2016.04.26-16.38.53:766][467]SourceControl: Info 	Saved/Backup/BussThruster_2016-04-26-12-20-54.uasset
+[2016.04.26-16.38.53:766][467]SourceControl: Info 	Saved/Backup/BussThruster_2016-04-26-12-37-49.uasset
+[2016.04.26-16.38.53:767][467]SourceControl: Info 	Saved/Backup/Sphere_2016-04-26-12-20-56.uasset
+[2016.04.26-16.38.53:767][467]SourceControl: Info 	Saved/Backup/TopDownExampleMap_2016-04-26-12-00-25.umap
+[2016.04.26-16.38.53:767][467]SourceControl: Info 	Saved/Backup/TopDownExampleMap_2016-04-26-12-10-50.umap
+[2016.04.26-16.38.53:767][467]SourceControl: Info 	Saved/Backup/TopDownExampleMap_2016-04-26-12-20-53.umap
+[2016.04.26-16.38.53:767][467]SourceControl: Info 	TempResources/veicles/buss/BussChairBack.png
+[2016.04.26-16.38.53:767][467]SourceControl: Info 	TempResources/veicles/buss/BussChairBackFront.png
+[2016.04.26-16.38.53:767][467]SourceControl: Info 	TempResources/veicles/buss/BussChairBottom.png
+[2016.04.26-16.38.53:767][467]SourceControl: Info 	TempResources/veicles/buss/BussChairFront.png
+[2016.04.26-16.38.53:767][467]SourceControl: Info 	TempResources/veicles/buss/BussChairSeat.png
+[2016.04.26-16.38.53:767][467]SourceControl: Info 	TempResources/veicles/buss/BussChairSide.png
+[2016.04.26-16.38.53:768][467]SourceControl: Info 	TempResources/veicles/buss/BussChairTop.png
+[2016.04.26-16.38.53:768][467]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
+[2016.04.26-16.38.55:725][467]LogSavePackage: Save=23.281555ms
+[2016.04.26-16.38.55:725][467]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/BussChairBack_Sprite245D53854A30E75B04B4959D3596DC34.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Sprites/vehicle/buss/BussChairBack_Sprite.uasset'
+[2016.04.26-16.38.55:741][467]LogSavePackage: Total save time: 39.747577ms
+[2016.04.26-16.38.55:741][467]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Sprites/vehicle/buss/BussChairBack_Sprite.uasset
+[2016.04.26-16.38.56:054][467]LogSavePackage: Save=20.973234ms
+[2016.04.26-16.38.56:054][467]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/BussChairBackFront_SpriteB679CB9C470214B29C4DFCA361F4D117.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Sprites/vehicle/buss/BussChairBackFront_Sprite.uasset'
+[2016.04.26-16.38.56:066][467]LogSavePackage: Total save time: 33.879884ms
+[2016.04.26-16.38.56:066][467]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Sprites/vehicle/buss/BussChairBackFront_Sprite.uasset
+[2016.04.26-16.38.56:413][467]LogSavePackage: Save=21.691378ms
+[2016.04.26-16.38.56:413][467]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/BussChairBottom_SpriteFEA2CF63489C94FF7F70A08CFB4E3B8A.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Sprites/vehicle/buss/BussChairBottom_Sprite.uasset'
+[2016.04.26-16.38.56:426][467]LogSavePackage: Total save time: 35.814315ms
+[2016.04.26-16.38.56:426][467]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Sprites/vehicle/buss/BussChairBottom_Sprite.uasset
+[2016.04.26-16.38.56:781][467]LogSavePackage: Save=21.406401ms
+[2016.04.26-16.38.56:781][467]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/BussChairFront_SpriteE92F9E384D1B01D2EBAB42B531E981A7.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Sprites/vehicle/buss/BussChairFront_Sprite.uasset'
+[2016.04.26-16.38.56:793][467]LogSavePackage: Total save time: 33.904392ms
+[2016.04.26-16.38.56:793][467]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Sprites/vehicle/buss/BussChairFront_Sprite.uasset
+[2016.04.26-16.38.57:117][467]LogSavePackage: Save=21.993454ms
+[2016.04.26-16.38.57:117][467]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/BussChairSeat_Sprite9B73816B42086B3F49D7BB85B434593F.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Sprites/vehicle/buss/BussChairSeat_Sprite.uasset'
+[2016.04.26-16.38.57:130][467]LogSavePackage: Total save time: 35.381146ms
+[2016.04.26-16.38.57:130][467]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Sprites/vehicle/buss/BussChairSeat_Sprite.uasset
+[2016.04.26-16.38.57:451][467]LogSavePackage: Save=22.215168ms
+[2016.04.26-16.38.57:451][467]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/BussChairSide_SpriteE18106944E1384E6B55027BEC857A73B.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Sprites/vehicle/buss/BussChairSide_Sprite.uasset'
+[2016.04.26-16.38.57:465][467]LogSavePackage: Total save time: 36.890391ms
+[2016.04.26-16.38.57:465][467]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Sprites/vehicle/buss/BussChairSide_Sprite.uasset
+[2016.04.26-16.38.57:833][467]LogSavePackage: Save=24.400377ms
+[2016.04.26-16.38.57:833][467]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/BussChairTop_SpriteA448FB1F4C799C17C9D3D5920626F0D0.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Sprites/vehicle/buss/BussChairTop_Sprite.uasset'
+[2016.04.26-16.38.57:847][467]LogSavePackage: Total save time: 39.203841ms
+[2016.04.26-16.38.57:847][467]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Sprites/vehicle/buss/BussChairTop_Sprite.uasset
+[2016.04.26-16.39.02:742][478]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0042 seconds. Added 1 classes and 2 folders.
+[2016.04.26-16.39.05:684][515]LogTexture:Display: Building textures: BussChairBack (BGRA8)
+[2016.04.26-16.39.05:704][515]LogMaterial: 0.009289 seconds spent updating 0 materials, 0 interfaces, 0 instances, 0 with static permutations.
+[2016.04.26-16.39.09:939][565]LogSavePackage: Save=47.830120ms
+[2016.04.26-16.39.09:939][565]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/BussChairBack87D4398740EFE591490C8CB6878AFDC2.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Textures/vehicle/buss/BussChairBack.uasset'
+[2016.04.26-16.39.09:950][565]LogSavePackage: Total save time: 60.235780ms
+[2016.04.26-16.39.09:950][565]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Textures/vehicle/buss/BussChairBack.uasset
+[2016.04.26-16.39.49:252][769]LogSavePackage: Save=1250.464233ms
+[2016.04.26-16.39.49:252][769]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/TopDownExampleMap_Auto46908CC724B5FB2AB719A28B736E26F5C.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/Autosaves/Game/TopDownCPP/Maps/TopDownExampleMap_Auto4.umap'
+[2016.04.26-16.39.49:283][769]LogSavePackage: Total save time: 1668.737128ms
+[2016.04.26-16.39.49:283][769]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/Autosaves/Game/TopDownCPP/Maps/TopDownExampleMap_Auto4.umap
+[2016.04.26-16.39.49:320][769]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownCPP/Maps/TopDownExampleMap' took 1.929
+[2016.04.26-16.39.49:320][769]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.929
+[2016.04.26-16.39.49:372][769]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/vehicle/buss/BussChairFront] ([1] browsable assets)...
+[2016.04.26-16.39.49:375][769]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/vehicle/buss/BussChairFront.BussChairFront]
+[2016.04.26-16.39.49:375][769]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/vehicle/buss/BussChairFront]
+[2016.04.26-16.39.49:394][769]LogSavePackage: Save=10.066560ms
+[2016.04.26-16.39.49:394][769]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/BussChairFront_Auto4DF1654F94CED9E30EC4C59B477928393.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/Autosaves/Game/Textures/vehicle/buss/BussChairFront_Auto4.uasset'
+[2016.04.26-16.39.49:405][769]LogSavePackage: Total save time: 22.229988ms
+[2016.04.26-16.39.49:405][769]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/Autosaves/Game/Textures/vehicle/buss/BussChairFront_Auto4.uasset
+[2016.04.26-16.39.49:435][769]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/vehicle/buss/BussChairSeat] ([1] browsable assets)...
+[2016.04.26-16.39.49:437][769]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/vehicle/buss/BussChairSeat.BussChairSeat]
+[2016.04.26-16.39.49:438][769]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/vehicle/buss/BussChairSeat]
+[2016.04.26-16.39.49:454][769]LogSavePackage: Save=7.693833ms
+[2016.04.26-16.39.49:454][769]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/BussChairSeat_Auto48F6A9BEC44C69E68EB232B9706F6CFF7.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/Autosaves/Game/Textures/vehicle/buss/BussChairSeat_Auto4.uasset'
+[2016.04.26-16.39.49:465][769]LogSavePackage: Total save time: 19.242279ms
+[2016.04.26-16.39.49:466][769]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/Autosaves/Game/Textures/vehicle/buss/BussChairSeat_Auto4.uasset
+[2016.04.26-16.39.49:499][769]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/vehicle/buss/BussChairSide] ([1] browsable assets)...
+[2016.04.26-16.39.49:504][769]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/vehicle/buss/BussChairSide.BussChairSide]
+[2016.04.26-16.39.49:504][769]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/vehicle/buss/BussChairSide]
+[2016.04.26-16.39.49:519][769]LogSavePackage: Save=9.371213ms
+[2016.04.26-16.39.49:519][769]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/BussChairSide_Auto4B8AA082F4033969F4C1B42BE65A5801C.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/Autosaves/Game/Textures/vehicle/buss/BussChairSide_Auto4.uasset'
+[2016.04.26-16.39.49:539][769]LogSavePackage: Total save time: 29.214796ms
+[2016.04.26-16.39.49:539][769]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/Autosaves/Game/Textures/vehicle/buss/BussChairSide_Auto4.uasset
+[2016.04.26-16.39.49:573][769]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/vehicle/buss/BussChairTop] ([1] browsable assets)...
+[2016.04.26-16.39.49:576][769]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/vehicle/buss/BussChairTop.BussChairTop]
+[2016.04.26-16.39.49:576][769]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/vehicle/buss/BussChairTop]
+[2016.04.26-16.39.49:612][769]LogSavePackage: Save=24.427736ms
+[2016.04.26-16.39.49:612][769]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/BussChairTop_Auto4F3C7A8524166D7AC0DC84BA3B734E013.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/Autosaves/Game/Textures/vehicle/buss/BussChairTop_Auto4.uasset'
+[2016.04.26-16.39.49:627][769]LogSavePackage: Total save time: 41.338325ms
+[2016.04.26-16.39.49:627][769]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/Autosaves/Game/Textures/vehicle/buss/BussChairTop_Auto4.uasset
+[2016.04.26-16.39.49:660][769]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/vehicle/buss/BussChairBackFront] ([1] browsable assets)...
+[2016.04.26-16.39.49:670][769]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/vehicle/buss/BussChairBackFront.BussChairBackFront]
+[2016.04.26-16.39.49:670][769]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/vehicle/buss/BussChairBackFront]
+[2016.04.26-16.39.49:691][769]LogSavePackage: Save=12.514520ms
+[2016.04.26-16.39.49:691][769]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/BussChairBackFront_Auto4BDA76EFB48FE8784A893B3A76E45FCE0.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/Autosaves/Game/Textures/vehicle/buss/BussChairBackFront_Auto4.uasset'
+[2016.04.26-16.39.49:705][769]LogSavePackage: Total save time: 27.951773ms
+[2016.04.26-16.39.49:705][769]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/Autosaves/Game/Textures/vehicle/buss/BussChairBackFront_Auto4.uasset
+[2016.04.26-16.39.49:757][769]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/vehicle/buss/BussChairBottom] ([1] browsable assets)...
+[2016.04.26-16.39.49:772][769]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/vehicle/buss/BussChairBottom.BussChairBottom]
+[2016.04.26-16.39.49:772][769]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/vehicle/buss/BussChairBottom]
+[2016.04.26-16.39.49:786][769]LogSavePackage: Save=6.604648ms
+[2016.04.26-16.39.49:786][769]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/BussChairBottom_Auto41BBB3FC94AD93C074A5F52BC7A37DB96.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/Autosaves/Game/Textures/vehicle/buss/BussChairBottom_Auto4.uasset'
+[2016.04.26-16.39.49:795][769]LogSavePackage: Total save time: 16.681466ms
+[2016.04.26-16.39.49:796][769]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/Autosaves/Game/Textures/vehicle/buss/BussChairBottom_Auto4.uasset
+[2016.04.26-16.39.49:835][769]LogSavePackage: Save=6.408013ms
+[2016.04.26-16.39.49:835][769]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/BussChairBack_Sprite_Auto4D7D876E941A079F1B08DCA826A5DAD47.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/Autosaves/Game/Textures/vehicle/buss/BussChairBack_Sprite_Auto4.uasset'
+[2016.04.26-16.39.49:844][769]LogSavePackage: Total save time: 16.375400ms
+[2016.04.26-16.39.49:845][769]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/Autosaves/Game/Textures/vehicle/buss/BussChairBack_Sprite_Auto4.uasset
+[2016.04.26-16.39.49:887][769]LogSavePackage: Save=6.352727ms
+[2016.04.26-16.39.49:887][769]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/BussChairBackFront_Sprite_Auto4AA73D9904A7443F2C483F3B3514C91FD.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/Autosaves/Game/Textures/vehicle/buss/BussChairBackFront_Sprite_Auto4.uasset'
+[2016.04.26-16.39.49:897][769]LogSavePackage: Total save time: 17.277639ms
+[2016.04.26-16.39.49:897][769]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/Autosaves/Game/Textures/vehicle/buss/BussChairBackFront_Sprite_Auto4.uasset
+[2016.04.26-16.39.49:935][769]LogSavePackage: Save=6.202829ms
+[2016.04.26-16.39.49:935][769]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/BussChairBottom_Sprite_Auto47E10767B495E5F27E6E6DFA1EC80D1BA.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/Autosaves/Game/Textures/vehicle/buss/BussChairBottom_Sprite_Auto4.uasset'
+[2016.04.26-16.39.49:942][769]LogSavePackage: Total save time: 14.143456ms
+[2016.04.26-16.39.49:943][769]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/Autosaves/Game/Textures/vehicle/buss/BussChairBottom_Sprite_Auto4.uasset
+[2016.04.26-16.39.49:989][769]LogSavePackage: Save=6.873667ms
+[2016.04.26-16.39.49:989][769]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/BussChairFront_Sprite_Auto485B08D05466C4F82F34F92A771920DB1.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/Autosaves/Game/Textures/vehicle/buss/BussChairFront_Sprite_Auto4.uasset'
+[2016.04.26-16.39.49:998][769]LogSavePackage: Total save time: 18.035684ms
+[2016.04.26-16.39.49:998][769]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/Autosaves/Game/Textures/vehicle/buss/BussChairFront_Sprite_Auto4.uasset
+[2016.04.26-16.39.50:034][769]LogSavePackage: Save=5.845467ms
+[2016.04.26-16.39.50:034][769]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/BussChairSeat_Sprite_Auto46FED4589484CD49CDC730A97BAB6CCA1.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/Autosaves/Game/Textures/vehicle/buss/BussChairSeat_Sprite_Auto4.uasset'
+[2016.04.26-16.39.50:041][769]LogSavePackage: Total save time: 13.665829ms
+[2016.04.26-16.39.50:041][769]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/Autosaves/Game/Textures/vehicle/buss/BussChairSeat_Sprite_Auto4.uasset
+[2016.04.26-16.39.50:075][769]LogSavePackage: Save=4.962605ms
+[2016.04.26-16.39.50:075][769]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/BussChairSide_Sprite_Auto4CCB1424A4443204E415F56A5BA13D9BF.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/Autosaves/Game/Textures/vehicle/buss/BussChairSide_Sprite_Auto4.uasset'
+[2016.04.26-16.39.50:084][769]LogSavePackage: Total save time: 14.609676ms
+[2016.04.26-16.39.50:084][769]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/Autosaves/Game/Textures/vehicle/buss/BussChairSide_Sprite_Auto4.uasset
+[2016.04.26-16.39.50:128][769]LogSavePackage: Save=8.225032ms
+[2016.04.26-16.39.50:129][769]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/BussChairTop_Sprite_Auto43D4E1A5E42DEFEFC1A37468CA0B8133B.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/Autosaves/Game/Textures/vehicle/buss/BussChairTop_Sprite_Auto4.uasset'
+[2016.04.26-16.39.50:141][769]LogSavePackage: Total save time: 21.628112ms
+[2016.04.26-16.39.50:141][769]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/Autosaves/Game/Textures/vehicle/buss/BussChairTop_Sprite_Auto4.uasset
+[2016.04.26-16.39.50:141][769]LogFileHelpers: Auto-saving content packages took 0.801
+[2016.04.26-16.40.20:724][877]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.04.26-16.40.25:992][942]LogMaterial: 0.007216 seconds spent updating 0 materials, 0 interfaces, 0 instances, 0 with static permutations.
+[2016.04.26-16.40.31:059][  0]LogSavePackage: Save=6.432521ms
+[2016.04.26-16.40.31:059][  0]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/BussChairBottomBF9DF8B145F44F514E936784AB6FBFBC.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Textures/vehicle/buss/BussChairBottom.uasset'
+[2016.04.26-16.40.31:072][  0]LogSavePackage: Total save time: 19.850422ms
+[2016.04.26-16.40.31:072][  0]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Textures/vehicle/buss/BussChairBottom.uasset
+[2016.04.26-16.40.35:610][ 56]LogMaterial: 0.005379 seconds spent updating 0 materials, 0 interfaces, 0 instances, 0 with static permutations.
+[2016.04.26-16.40.48:723][203]LogSavePackage: Save=7.273776ms
+[2016.04.26-16.40.48:723][203]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/BussChairBackFrontBEEE388549919AF04DBF92BEA9C3944A.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Textures/vehicle/buss/BussChairBackFront.uasset'
+[2016.04.26-16.40.48:735][203]LogSavePackage: Total save time: 20.497322ms
+[2016.04.26-16.40.48:735][203]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Textures/vehicle/buss/BussChairBackFront.uasset
+[2016.04.26-16.40.54:493][278]LogTexture:Display: Building textures: BussChairFront (BGRA8)
+[2016.04.26-16.40.54:507][278]LogMaterial: 0.007160 seconds spent updating 0 materials, 0 interfaces, 0 instances, 0 with static permutations.
+[2016.04.26-16.40.59:152][335]LogSavePackage: Save=8.432496ms
+[2016.04.26-16.40.59:152][335]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/BussChairFront9CF22F9642EFA94E02461BBE903DAF8A.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Textures/vehicle/buss/BussChairFront.uasset'
+[2016.04.26-16.40.59:169][335]LogSavePackage: Total save time: 26.399214ms
+[2016.04.26-16.40.59:170][335]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Textures/vehicle/buss/BussChairFront.uasset
+[2016.04.26-16.41.05:377][413]LogMaterial: 0.004460 seconds spent updating 0 materials, 0 interfaces, 0 instances, 0 with static permutations.
+[2016.04.26-16.41.10:201][470]LogSavePackage: Save=9.024680ms
+[2016.04.26-16.41.10:201][470]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/BussChairSeat3C911C8649D19301C87E438F1BB5474F.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Textures/vehicle/buss/BussChairSeat.uasset'
+[2016.04.26-16.41.10:218][470]LogSavePackage: Total save time: 26.895076ms
+[2016.04.26-16.41.10:218][470]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Textures/vehicle/buss/BussChairSeat.uasset
+[2016.04.26-16.41.15:620][542]LogMaterial: 0.005401 seconds spent updating 0 materials, 0 interfaces, 0 instances, 0 with static permutations.
+[2016.04.26-16.41.20:032][596]LogSavePackage: Save=5.520592ms
+[2016.04.26-16.41.20:032][596]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/BussChairSide064D51654557C4E18A0E2CAB4CE53BD3.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Textures/vehicle/buss/BussChairSide.uasset'
+[2016.04.26-16.41.20:043][596]LogSavePackage: Total save time: 17.032556ms
+[2016.04.26-16.41.20:043][596]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Textures/vehicle/buss/BussChairSide.uasset
+[2016.04.26-16.41.26:685][686]LogMaterial: 0.007113 seconds spent updating 0 materials, 0 interfaces, 0 instances, 0 with static permutations.
+[2016.04.26-16.41.31:016][739]LogSavePackage: Save=7.452172ms
+[2016.04.26-16.41.31:016][739]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/BussChairTopF85DA82140FC2CB66CE0E38D5A0537E4.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Textures/vehicle/buss/BussChairTop.uasset'
+[2016.04.26-16.41.31:028][739]LogSavePackage: Total save time: 19.702803ms
+[2016.04.26-16.41.31:028][739]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Textures/vehicle/buss/BussChairTop.uasset
+[2016.04.26-16.41.40:145][793]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:\Users\Matthew\Documents\Unreal Projects\Game_GT\TempResources\veicles\buss\BussChairLegsBottom.png)
+[2016.04.26-16.41.40:150][793]LogTexture:Display: Building textures: BussChairLegsBottom (AutoDXT)
+[2016.04.26-16.41.44:570][837]LogTexture:Display: Building textures: BussChairLegsBottom (BGRA8)
+[2016.04.26-16.41.44:585][837]LogMaterial: 0.007016 seconds spent updating 0 materials, 0 interfaces, 0 instances, 0 with static permutations.
+[2016.04.26-16.41.47:927][878]LogSavePackage: Save=7.074862ms
+[2016.04.26-16.41.47:927][878]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/BussChairLegsBottomBB25E7CE420AC857E0CD2DAD8FD8B232.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Textures/vehicle/buss/BussChairLegsBottom.uasset'
+[2016.04.26-16.41.47:937][878]LogSavePackage: Total save time: 18.528696ms
+[2016.04.26-16.41.47:937][878]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Textures/vehicle/buss/BussChairLegsBottom.uasset
+[2016.04.26-16.41.53:142][941]LogRenderer: Reallocating scene render targets to support 1084x608 (Frame:21730).
+[2016.04.26-16.42.02:188][129]SourceControl: Info On branch master
+[2016.04.26-16.42.02:188][129]SourceControl: Info Your branch is up-to-date with 'origin/master'.
+[2016.04.26-16.42.02:188][129]SourceControl: Info Changes to be committed:
+[2016.04.26-16.42.02:188][129]SourceControl: Info   (use "git reset HEAD <file>..." to unstage)
+[2016.04.26-16.42.02:188][129]SourceControl: Info 	new file:   Content/Sprites/vehicle/buss/BussChairBackFront_Sprite.uasset
+[2016.04.26-16.42.02:188][129]SourceControl: Info 	new file:   Content/Sprites/vehicle/buss/BussChairBack_Sprite.uasset
+[2016.04.26-16.42.02:189][129]SourceControl: Info 	new file:   Content/Sprites/vehicle/buss/BussChairBottom_Sprite.uasset
+[2016.04.26-16.42.02:189][129]SourceControl: Info 	new file:   Content/Sprites/vehicle/buss/BussChairFront_Sprite.uasset
+[2016.04.26-16.42.02:189][129]SourceControl: Info 	new file:   Content/Sprites/vehicle/buss/BussChairSeat_Sprite.uasset
+[2016.04.26-16.42.02:189][129]SourceControl: Info 	new file:   Content/Sprites/vehicle/buss/BussChairSide_Sprite.uasset
+[2016.04.26-16.42.02:189][129]SourceControl: Info 	new file:   Content/Sprites/vehicle/buss/BussChairTop_Sprite.uasset
+[2016.04.26-16.42.02:189][129]SourceControl: Info 	new file:   Content/Textures/vehicle/buss/BussChairBack.uasset
+[2016.04.26-16.42.02:189][129]SourceControl: Info 	new file:   Content/Textures/vehicle/buss/BussChairBackFront.uasset
+[2016.04.26-16.42.02:189][129]SourceControl: Info 	new file:   Content/Textures/vehicle/buss/BussChairBottom.uasset
+[2016.04.26-16.42.02:189][129]SourceControl: Info 	new file:   Content/Textures/vehicle/buss/BussChairFront.uasset
+[2016.04.26-16.42.02:189][129]SourceControl: Info 	new file:   Content/Textures/vehicle/buss/BussChairLegsBottom.uasset
+[2016.04.26-16.42.02:189][129]SourceControl: Info 	new file:   Content/Textures/vehicle/buss/BussChairSeat.uasset
+[2016.04.26-16.42.02:189][129]SourceControl: Info 	new file:   Content/Textures/vehicle/buss/BussChairSide.uasset
+[2016.04.26-16.42.02:189][129]SourceControl: Info 	new file:   Content/Textures/vehicle/buss/BussChairTop.uasset
+[2016.04.26-16.42.02:189][129]SourceControl: Info Changes not staged for commit:
+[2016.04.26-16.42.02:189][129]SourceControl: Info   (use "git add/rm <file>..." to update what will be committed)
+[2016.04.26-16.42.02:189][129]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2016.04.26-16.42.02:189][129]SourceControl: Info 	modified:   Content/Blueprints/vehicles/BussBody.uasset
+[2016.04.26-16.42.02:189][129]SourceControl: Info 	modified:   Content/Blueprints/vehicles/BussThruster.uasset
+[2016.04.26-16.42.02:189][129]SourceControl: Info 	modified:   Intermediate/CachedAssetRegistry.bin
+[2016.04.26-16.42.02:189][129]SourceControl: Info 	modified:   Saved/Autosaves/Game/TopDownCPP/Maps/TopDownExampleMap_Auto1.umap
+[2016.04.26-16.42.02:189][129]SourceControl: Info 	modified:   Saved/Autosaves/Game/TopDownCPP/Maps/TopDownExampleMap_Auto2.umap
+[2016.04.26-16.42.02:189][129]SourceControl: Info 	modified:   Saved/Autosaves/Game/TopDownCPP/Maps/TopDownExampleMap_Auto3.umap
+[2016.04.26-16.42.02:190][129]SourceControl: Info 	modified:   Saved/Autosaves/Game/TopDownCPP/Maps/TopDownExampleMap_Auto4.umap
+[2016.04.26-16.42.02:190][129]SourceControl: Info 	modified:   Saved/Autosaves/PackageRestoreData.json
+[2016.04.26-16.42.02:190][129]SourceControl: Info 	deleted:    Saved/Backup/ConversationTestNPC_2016-02-03-11-32-40.uasset
+[2016.04.26-16.42.02:190][129]SourceControl: Info 	deleted:    Saved/Backup/TopDownExampleMap_2016-02-03-11-35-38.umap
+[2016.04.26-16.42.02:190][129]SourceControl: Info 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2016.04.26-16.42.02:190][129]SourceControl: Info 	modified:   Saved/Config/Windows/Engine.ini
+[2016.04.26-16.42.02:190][129]SourceControl: Info 	modified:   Saved/Logs/Game_GT.log
+[2016.04.26-16.42.02:190][129]SourceControl: Info 	modified:   TempResources/veicles/buss/BussThrusterSide.png
+[2016.04.26-16.42.02:190][129]SourceControl: Info 	modified:   TempResources/veicles/buss/BussThrusterTop.png
+[2016.04.26-16.42.02:190][129]SourceControl: Info Untracked files:
+[2016.04.26-16.42.02:190][129]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2016.04.26-16.42.02:190][129]SourceControl: Info 	Saved/Autosaves/Engine/
+[2016.04.26-16.42.02:190][129]SourceControl: Info 	Saved/Autosaves/Game/Textures/vehicle/buss/BussChairBackFront_Auto4.uasset
+[2016.04.26-16.42.02:190][129]SourceControl: Info 	Saved/Autosaves/Game/Textures/vehicle/buss/BussChairBackFront_Sprite_Auto4.uasset
+[2016.04.26-16.42.02:190][129]SourceControl: Info 	Saved/Autosaves/Game/Textures/vehicle/buss/BussChairBack_Sprite_Auto4.uasset
+[2016.04.26-16.42.02:190][129]SourceControl: Info 	Saved/Autosaves/Game/Textures/vehicle/buss/BussChairBottom_Auto4.uasset
+[2016.04.26-16.42.02:190][129]SourceControl: Info 	Saved/Autosaves/Game/Textures/vehicle/buss/BussChairBottom_Sprite_Auto4.uasset
+[2016.04.26-16.42.02:190][129]SourceControl: Info 	Saved/Autosaves/Game/Textures/vehicle/buss/BussChairFront_Auto4.uasset
+[2016.04.26-16.42.02:190][129]SourceControl: Info 	Saved/Autosaves/Game/Textures/vehicle/buss/BussChairFront_Sprite_Auto4.uasset
+[2016.04.26-16.42.02:190][129]SourceControl: Info 	Saved/Autosaves/Game/Textures/vehicle/buss/BussChairSeat_Auto4.uasset
+[2016.04.26-16.42.02:190][129]SourceControl: Info 	Saved/Autosaves/Game/Textures/vehicle/buss/BussChairSeat_Sprite_Auto4.uasset
+[2016.04.26-16.42.02:191][129]SourceControl: Info 	Saved/Autosaves/Game/Textures/vehicle/buss/BussChairSide_Auto4.uasset
+[2016.04.26-16.42.02:191][129]SourceControl: Info 	Saved/Autosaves/Game/Textures/vehicle/buss/BussChairSide_Sprite_Auto4.uasset
+[2016.04.26-16.42.02:191][129]SourceControl: Info 	Saved/Autosaves/Game/Textures/vehicle/buss/BussChairTop_Auto4.uasset
+[2016.04.26-16.42.02:191][129]SourceControl: Info 	Saved/Autosaves/Game/Textures/vehicle/buss/BussChairTop_Sprite_Auto4.uasset
+[2016.04.26-16.42.02:191][129]SourceControl: Info 	Saved/Autosaves/Game/Textures/vehicle/buss/BussThrusterSide_Auto1.uasset
+[2016.04.26-16.42.02:191][129]SourceControl: Info 	Saved/Autosaves/Game/Textures/vehicle/buss/BussThrusterTop_Auto1.uasset
+[2016.04.26-16.42.02:191][129]SourceControl: Info 	Saved/Backup/BussBody_2016-04-26-12-00-26.uasset
+[2016.04.26-16.42.02:191][129]SourceControl: Info 	Saved/Backup/BussThrusterSide_2016-04-26-12-00-27.uasset
+[2016.04.26-16.42.02:191][129]SourceControl: Info 	Saved/Backup/BussThrusterTop_2016-04-26-12-00-28.uasset
+[2016.04.26-16.42.02:191][129]SourceControl: Info 	Saved/Backup/BussThruster_2016-04-26-12-10-51.uasset
+[2016.04.26-16.42.02:191][129]SourceControl: Info 	Saved/Backup/BussThruster_2016-04-26-12-20-54.uasset
+[2016.04.26-16.42.02:191][129]SourceControl: Info 	Saved/Backup/BussThruster_2016-04-26-12-37-49.uasset
+[2016.04.26-16.42.02:191][129]SourceControl: Info 	Saved/Backup/Sphere_2016-04-26-12-20-56.uasset
+[2016.04.26-16.42.02:191][129]SourceControl: Info 	Saved/Backup/TopDownExampleMap_2016-04-26-12-00-25.umap
+[2016.04.26-16.42.02:192][129]SourceControl: Info 	Saved/Backup/TopDownExampleMap_2016-04-26-12-10-50.umap
+[2016.04.26-16.42.02:192][129]SourceControl: Info 	Saved/Backup/TopDownExampleMap_2016-04-26-12-20-53.umap
+[2016.04.26-16.42.02:192][129]SourceControl: Info 	Saved/Backup/TopDownExampleMap_2016-04-26-12-39-47.umap
+[2016.04.26-16.42.02:192][129]SourceControl: Info 	TempResources/veicles/buss/BussChairBack.png
+[2016.04.26-16.42.02:192][129]SourceControl: Info 	TempResources/veicles/buss/BussChairBackFront.png
+[2016.04.26-16.42.02:192][129]SourceControl: Info 	TempResources/veicles/buss/BussChairBottom.png
+[2016.04.26-16.42.02:192][129]SourceControl: Info 	TempResources/veicles/buss/BussChairFront.png
+[2016.04.26-16.42.02:192][129]SourceControl: Info 	TempResources/veicles/buss/BussChairLegsBottom.png
+[2016.04.26-16.42.02:192][129]SourceControl: Info 	TempResources/veicles/buss/BussChairSeat.png
+[2016.04.26-16.42.02:192][129]SourceControl: Info 	TempResources/veicles/buss/BussChairSide.png
+[2016.04.26-16.42.02:192][129]SourceControl: Info 	TempResources/veicles/buss/BussChairTop.png
+[2016.04.26-16.42.02:779][129]LogSavePackage: Save=14.067649ms
+[2016.04.26-16.42.02:780][129]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/BussChairLegsBottom_Sprite4092F6BE419EA40E3D5629A1E933E5C5.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Sprites/vehicle/buss/BussChairLegsBottom_Sprite.uasset'
+[2016.04.26-16.42.02:792][129]LogSavePackage: Total save time: 26.964609ms
+[2016.04.26-16.42.02:792][129]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Sprites/vehicle/buss/BussChairLegsBottom_Sprite.uasset
+[2016.04.26-16.42.03:444][129]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AB4E312AC0
+[2016.04.26-16.43.06:834][810]LogEditorTransaction: Undo Edit Source Sprite
+[2016.04.26-16.46.47:454][561]LogEditorFactories: Performing atomic reimport of [C:/Users/Matthew/Documents/Unreal Projects/Game_GT/TempResources/veicles/buss/BussChairBackFront.png]
+[2016.04.26-16.46.47:454][561]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 C:/Users/Matthew/Documents/Unreal Projects/Game_GT/TempResources/veicles/buss/BussChairBackFront.png)
+[2016.04.26-16.46.47:458][561]LogTexture:Display: Building textures: BussChairBackFront (BGRA8)
+[2016.04.26-16.46.47:459][561]LogEditorFactories: -- imported successfully
+[2016.04.26-16.47.10:021][738]LogEditorFactories: Performing atomic reimport of [C:/Users/Matthew/Documents/Unreal Projects/Game_GT/TempResources/veicles/buss/BussChairBackFront.png]
+[2016.04.26-16.47.10:022][738]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 C:/Users/Matthew/Documents/Unreal Projects/Game_GT/TempResources/veicles/buss/BussChairBackFront.png)
+[2016.04.26-16.47.10:027][738]LogTexture:Display: Building textures: BussChairBackFront (BGRA8)
+[2016.04.26-16.47.10:028][738]LogEditorFactories: -- imported successfully
+[2016.04.26-16.49.51:193][405]LogEditorFactories: Performing atomic reimport of [C:/Users/Matthew/Documents/Unreal Projects/Game_GT/TempResources/veicles/buss/BussChairBottom.png]
+[2016.04.26-16.49.51:194][405]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 C:/Users/Matthew/Documents/Unreal Projects/Game_GT/TempResources/veicles/buss/BussChairBottom.png)
+[2016.04.26-16.49.51:199][405]LogTexture:Display: Building textures: BussChairBottom (BGRA8)
+[2016.04.26-16.49.51:200][405]LogEditorFactories: -- imported successfully
+[2016.04.26-16.51.27:648][ 66]LogEditorFactories: Performing atomic reimport of [C:/Users/Matthew/Documents/Unreal Projects/Game_GT/TempResources/veicles/buss/BussChairSeat.png]
+[2016.04.26-16.51.27:649][ 66]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 C:/Users/Matthew/Documents/Unreal Projects/Game_GT/TempResources/veicles/buss/BussChairSeat.png)
+[2016.04.26-16.51.27:653][ 66]LogTexture:Display: Building textures: BussChairSeat (BGRA8)
+[2016.04.26-16.51.27:655][ 66]LogEditorFactories: -- imported successfully
+[2016.04.26-16.52.59:795][802]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownCPP/Maps/TopDownExampleMap' took 0.199
+[2016.04.26-16.52.59:822][802]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/vehicle/buss/BussChairSeat] ([1] browsable assets)...
+[2016.04.26-16.52.59:825][802]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/vehicle/buss/BussChairSeat.BussChairSeat]
+[2016.04.26-16.52.59:825][802]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/vehicle/buss/BussChairSeat]
+[2016.04.26-16.53.00:115][802]LogSavePackage: Save=15.380258ms
+[2016.04.26-16.53.00:115][802]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/BussChairSeat_Auto5B52D4198425C6BC5D8BF9484E3D55E71.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/Autosaves/Game/Textures/vehicle/buss/BussChairSeat_Auto5.uasset'
+[2016.04.26-16.53.00:125][802]LogSavePackage: Total save time: 293.021116ms
+[2016.04.26-16.53.00:125][802]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/Autosaves/Game/Textures/vehicle/buss/BussChairSeat_Auto5.uasset
+[2016.04.26-16.53.00:160][802]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/vehicle/buss/BussChairBackFront] ([1] browsable assets)...
+[2016.04.26-16.53.00:173][802]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/vehicle/buss/BussChairBackFront.BussChairBackFront]
+[2016.04.26-16.53.00:173][802]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/vehicle/buss/BussChairBackFront]
+[2016.04.26-16.53.00:494][802]LogSavePackage: Save=15.473730ms
+[2016.04.26-16.53.00:495][802]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/BussChairBackFront_Auto5C45604D540EABDB69B3520A2980013D5.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/Autosaves/Game/Textures/vehicle/buss/BussChairBackFront_Auto5.uasset'
+[2016.04.26-16.53.00:531][802]LogSavePackage: Total save time: 347.906154ms
+[2016.04.26-16.53.00:531][802]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/Autosaves/Game/Textures/vehicle/buss/BussChairBackFront_Auto5.uasset
+[2016.04.26-16.53.00:571][802]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/vehicle/buss/BussChairBottom] ([1] browsable assets)...
+[2016.04.26-16.53.00:586][802]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/vehicle/buss/BussChairBottom.BussChairBottom]
+[2016.04.26-16.53.00:586][802]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/vehicle/buss/BussChairBottom]
+[2016.04.26-16.53.00:976][802]LogSavePackage: Save=9.629973ms
+[2016.04.26-16.53.00:976][802]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/BussChairBottom_Auto5968134204B104E004A8C669F5CF41E41.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/Autosaves/Game/Textures/vehicle/buss/BussChairBottom_Auto5.uasset'
+[2016.04.26-16.53.00:988][802]LogSavePackage: Total save time: 339.787703ms
+[2016.04.26-16.53.00:988][802]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/Autosaves/Game/Textures/vehicle/buss/BussChairBottom_Auto5.uasset
+[2016.04.26-16.53.01:035][802]LogSavePackage: Save=9.988476ms
+[2016.04.26-16.53.01:035][802]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/BussChairLegsBottom_Sprite_Auto551AB6D384C002781BD6E9DAD5DFE019A.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/Autosaves/Game/Textures/vehicle/buss/BussChairLegsBottom_Sprite_Auto5.uasset'
+[2016.04.26-16.53.01:042][802]LogSavePackage: Total save time: 17.387073ms
+[2016.04.26-16.53.01:042][802]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/Autosaves/Game/Textures/vehicle/buss/BussChairLegsBottom_Sprite_Auto5.uasset
+[2016.04.26-16.53.01:073][802]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/vehicles/BussChair] ([1] browsable assets)...
+[2016.04.26-16.53.01:073][802]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/vehicles/BussChair]
+[2016.04.26-16.53.01:211][802]LogSavePackage: Save=132.168198ms
+[2016.04.26-16.53.01:211][802]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/BussChair_Auto530190E814DE2C51FD7C825AB0582296E.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/Autosaves/Game/Blueprints/vehicles/BussChair_Auto5.uasset'
+[2016.04.26-16.53.01:225][802]LogSavePackage: Total save time: 147.153471ms
+[2016.04.26-16.53.01:225][802]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/Autosaves/Game/Blueprints/vehicles/BussChair_Auto5.uasset
+[2016.04.26-16.53.01:225][802]LogFileHelpers: Auto-saving content packages took 1.427
+[2016.04.26-16.54.07:523][ 67]LogEditorFactories: Performing atomic reimport of [C:/Users/Matthew/Documents/Unreal Projects/Game_GT/TempResources/veicles/buss/BussChairLegsBottom.png]
+[2016.04.26-16.54.07:523][ 67]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 C:/Users/Matthew/Documents/Unreal Projects/Game_GT/TempResources/veicles/buss/BussChairLegsBottom.png)
+[2016.04.26-16.54.07:526][ 67]LogTexture:Display: Building textures: BussChairLegsBottom (BGRA8)
+[2016.04.26-16.54.07:527][ 67]LogEditorFactories: -- imported successfully
+[2016.04.26-16.55.08:023][378]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:\Users\Matthew\Documents\Unreal Projects\Game_GT\TempResources\veicles\buss\BussChairLegsSide.png)
+[2016.04.26-16.55.08:027][378]LogTexture:Display: Building textures: BussChairLegsSide (BGRA8)
+[2016.04.26-16.55.12:052][421]LogMaterial: 0.005899 seconds spent updating 0 materials, 0 interfaces, 0 instances, 0 with static permutations.
+[2016.04.26-16.55.15:688][458]LogSavePackage: Save=5.999355ms
+[2016.04.26-16.55.15:688][458]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/BussChairLegsSide74358F0340F41FED5D9B53B9EFB064E1.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Textures/vehicle/buss/BussChairLegsSide.uasset'
+[2016.04.26-16.55.15:699][458]LogSavePackage: Total save time: 17.548937ms
+[2016.04.26-16.55.15:700][458]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Textures/vehicle/buss/BussChairLegsSide.uasset
+[2016.04.26-16.55.29:417][654]SourceControl: Info On branch master
+[2016.04.26-16.55.29:417][654]SourceControl: Info Your branch is up-to-date with 'origin/master'.
+[2016.04.26-16.55.29:417][654]SourceControl: Info Changes to be committed:
+[2016.04.26-16.55.29:417][654]SourceControl: Info   (use "git reset HEAD <file>..." to unstage)
+[2016.04.26-16.55.29:417][654]SourceControl: Info 	new file:   Content/Sprites/vehicle/buss/BussChairBackFront_Sprite.uasset
+[2016.04.26-16.55.29:417][654]SourceControl: Info 	new file:   Content/Sprites/vehicle/buss/BussChairBack_Sprite.uasset
+[2016.04.26-16.55.29:417][654]SourceControl: Info 	new file:   Content/Sprites/vehicle/buss/BussChairBottom_Sprite.uasset
+[2016.04.26-16.55.29:417][654]SourceControl: Info 	new file:   Content/Sprites/vehicle/buss/BussChairFront_Sprite.uasset
+[2016.04.26-16.55.29:417][654]SourceControl: Info 	new file:   Content/Sprites/vehicle/buss/BussChairLegsBottom_Sprite.uasset
+[2016.04.26-16.55.29:417][654]SourceControl: Info 	new file:   Content/Sprites/vehicle/buss/BussChairSeat_Sprite.uasset
+[2016.04.26-16.55.29:418][654]SourceControl: Info 	new file:   Content/Sprites/vehicle/buss/BussChairSide_Sprite.uasset
+[2016.04.26-16.55.29:418][654]SourceControl: Info 	new file:   Content/Sprites/vehicle/buss/BussChairTop_Sprite.uasset
+[2016.04.26-16.55.29:418][654]SourceControl: Info 	new file:   Content/Textures/vehicle/buss/BussChairBack.uasset
+[2016.04.26-16.55.29:418][654]SourceControl: Info 	new file:   Content/Textures/vehicle/buss/BussChairBackFront.uasset
+[2016.04.26-16.55.29:418][654]SourceControl: Info 	new file:   Content/Textures/vehicle/buss/BussChairBottom.uasset
+[2016.04.26-16.55.29:418][654]SourceControl: Info 	new file:   Content/Textures/vehicle/buss/BussChairFront.uasset
+[2016.04.26-16.55.29:418][654]SourceControl: Info 	new file:   Content/Textures/vehicle/buss/BussChairLegsBottom.uasset
+[2016.04.26-16.55.29:418][654]SourceControl: Info 	new file:   Content/Textures/vehicle/buss/BussChairLegsSide.uasset
+[2016.04.26-16.55.29:418][654]SourceControl: Info 	new file:   Content/Textures/vehicle/buss/BussChairSeat.uasset
+[2016.04.26-16.55.29:418][654]SourceControl: Info 	new file:   Content/Textures/vehicle/buss/BussChairSide.uasset
+[2016.04.26-16.55.29:418][654]SourceControl: Info 	new file:   Content/Textures/vehicle/buss/BussChairTop.uasset
+[2016.04.26-16.55.29:419][654]SourceControl: Info Changes not staged for commit:
+[2016.04.26-16.55.29:419][654]SourceControl: Info   (use "git add/rm <file>..." to update what will be committed)
+[2016.04.26-16.55.29:419][654]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2016.04.26-16.55.29:419][654]SourceControl: Info 	modified:   Content/Blueprints/vehicles/BussBody.uasset
+[2016.04.26-16.55.29:419][654]SourceControl: Info 	modified:   Content/Blueprints/vehicles/BussThruster.uasset
+[2016.04.26-16.55.29:419][654]SourceControl: Info 	modified:   Intermediate/CachedAssetRegistry.bin
+[2016.04.26-16.55.29:419][654]SourceControl: Info 	modified:   Saved/Autosaves/Game/TopDownCPP/Maps/TopDownExampleMap_Auto1.umap
+[2016.04.26-16.55.29:419][654]SourceControl: Info 	modified:   Saved/Autosaves/Game/TopDownCPP/Maps/TopDownExampleMap_Auto2.umap
+[2016.04.26-16.55.29:419][654]SourceControl: Info 	modified:   Saved/Autosaves/Game/TopDownCPP/Maps/TopDownExampleMap_Auto3.umap
+[2016.04.26-16.55.29:419][654]SourceControl: Info 	modified:   Saved/Autosaves/Game/TopDownCPP/Maps/TopDownExampleMap_Auto4.umap
+[2016.04.26-16.55.29:419][654]SourceControl: Info 	modified:   Saved/Autosaves/PackageRestoreData.json
+[2016.04.26-16.55.29:419][654]SourceControl: Info 	deleted:    Saved/Backup/ConversationTestNPC_2016-02-03-11-32-40.uasset
+[2016.04.26-16.55.29:420][654]SourceControl: Info 	deleted:    Saved/Backup/TopDownExampleMap_2016-02-03-11-35-38.umap
+[2016.04.26-16.55.29:420][654]SourceControl: Info 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2016.04.26-16.55.29:420][654]SourceControl: Info 	modified:   Saved/Config/Windows/Engine.ini
+[2016.04.26-16.55.29:420][654]SourceControl: Info 	modified:   Saved/Logs/Game_GT.log
+[2016.04.26-16.55.29:420][654]SourceControl: Info 	modified:   TempResources/veicles/buss/BussThrusterSide.png
+[2016.04.26-16.55.29:420][654]SourceControl: Info 	modified:   TempResources/veicles/buss/BussThrusterTop.png
+[2016.04.26-16.55.29:420][654]SourceControl: Info Untracked files:
+[2016.04.26-16.55.29:420][654]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2016.04.26-16.55.29:420][654]SourceControl: Info 	Saved/Autosaves/Engine/
+[2016.04.26-16.55.29:420][654]SourceControl: Info 	Saved/Autosaves/Game/Blueprints/vehicles/BussChair_Auto5.uasset
+[2016.04.26-16.55.29:420][654]SourceControl: Info 	Saved/Autosaves/Game/Textures/vehicle/buss/BussChairBackFront_Auto4.uasset
+[2016.04.26-16.55.29:420][654]SourceControl: Info 	Saved/Autosaves/Game/Textures/vehicle/buss/BussChairBackFront_Auto5.uasset
+[2016.04.26-16.55.29:420][654]SourceControl: Info 	Saved/Autosaves/Game/Textures/vehicle/buss/BussChairBackFront_Sprite_Auto4.uasset
+[2016.04.26-16.55.29:421][654]SourceControl: Info 	Saved/Autosaves/Game/Textures/vehicle/buss/BussChairBack_Sprite_Auto4.uasset
+[2016.04.26-16.55.29:421][654]SourceControl: Info 	Saved/Autosaves/Game/Textures/vehicle/buss/BussChairBottom_Auto4.uasset
+[2016.04.26-16.55.29:421][654]SourceControl: Info 	Saved/Autosaves/Game/Textures/vehicle/buss/BussChairBottom_Auto5.uasset
+[2016.04.26-16.55.29:421][654]SourceControl: Info 	Saved/Autosaves/Game/Textures/vehicle/buss/BussChairBottom_Sprite_Auto4.uasset
+[2016.04.26-16.55.29:421][654]SourceControl: Info 	Saved/Autosaves/Game/Textures/vehicle/buss/BussChairFront_Auto4.uasset
+[2016.04.26-16.55.29:421][654]SourceControl: Info 	Saved/Autosaves/Game/Textures/vehicle/buss/BussChairFront_Sprite_Auto4.uasset
+[2016.04.26-16.55.29:421][654]SourceControl: Info 	Saved/Autosaves/Game/Textures/vehicle/buss/BussChairLegsBottom_Sprite_Auto5.uasset
+[2016.04.26-16.55.29:421][654]SourceControl: Info 	Saved/Autosaves/Game/Textures/vehicle/buss/BussChairSeat_Auto4.uasset
+[2016.04.26-16.55.29:421][654]SourceControl: Info 	Saved/Autosaves/Game/Textures/vehicle/buss/BussChairSeat_Auto5.uasset
+[2016.04.26-16.55.29:421][654]SourceControl: Info 	Saved/Autosaves/Game/Textures/vehicle/buss/BussChairSeat_Sprite_Auto4.uasset
+[2016.04.26-16.55.29:421][654]SourceControl: Info 	Saved/Autosaves/Game/Textures/vehicle/buss/BussChairSide_Auto4.uasset
+[2016.04.26-16.55.29:422][654]SourceControl: Info 	Saved/Autosaves/Game/Textures/vehicle/buss/BussChairSide_Sprite_Auto4.uasset
+[2016.04.26-16.55.29:422][654]SourceControl: Info 	Saved/Autosaves/Game/Textures/vehicle/buss/BussChairTop_Auto4.uasset
+[2016.04.26-16.55.29:422][654]SourceControl: Info 	Saved/Autosaves/Game/Textures/vehicle/buss/BussChairTop_Sprite_Auto4.uasset
+[2016.04.26-16.55.29:422][654]SourceControl: Info 	Saved/Autosaves/Game/Textures/vehicle/buss/BussThrusterSide_Auto1.uasset
+[2016.04.26-16.55.29:422][654]SourceControl: Info 	Saved/Autosaves/Game/Textures/vehicle/buss/BussThrusterTop_Auto1.uasset
+[2016.04.26-16.55.29:422][654]SourceControl: Info 	Saved/Backup/BussBody_2016-04-26-12-00-26.uasset
+[2016.04.26-16.55.29:422][654]SourceControl: Info 	Saved/Backup/BussChairBackFront_2016-04-26-12-53-00.uasset
+[2016.04.26-16.55.29:422][654]SourceControl: Info 	Saved/Backup/BussChairBottom_2016-04-26-12-53-00.uasset
+[2016.04.26-16.55.29:422][654]SourceControl: Info 	Saved/Backup/BussChairSeat_2016-04-26-12-53-00.uasset
+[2016.04.26-16.55.29:422][654]SourceControl: Info 	Saved/Backup/BussThrusterSide_2016-04-26-12-00-27.uasset
+[2016.04.26-16.55.29:422][654]SourceControl: Info 	Saved/Backup/BussThrusterTop_2016-04-26-12-00-28.uasset
+[2016.04.26-16.55.29:423][654]SourceControl: Info 	Saved/Backup/BussThruster_2016-04-26-12-10-51.uasset
+[2016.04.26-16.55.29:423][654]SourceControl: Info 	Saved/Backup/BussThruster_2016-04-26-12-20-54.uasset
+[2016.04.26-16.55.29:423][654]SourceControl: Info 	Saved/Backup/BussThruster_2016-04-26-12-37-49.uasset
+[2016.04.26-16.55.29:423][654]SourceControl: Info 	Saved/Backup/Sphere_2016-04-26-12-20-56.uasset
+[2016.04.26-16.55.29:423][654]SourceControl: Info 	Saved/Backup/TopDownExampleMap_2016-04-26-12-00-25.umap
+[2016.04.26-16.55.29:423][654]SourceControl: Info 	Saved/Backup/TopDownExampleMap_2016-04-26-12-10-50.umap
+[2016.04.26-16.55.29:423][654]SourceControl: Info 	Saved/Backup/TopDownExampleMap_2016-04-26-12-20-53.umap
+[2016.04.26-16.55.29:423][654]SourceControl: Info 	Saved/Backup/TopDownExampleMap_2016-04-26-12-39-47.umap
+[2016.04.26-16.55.29:423][654]SourceControl: Info 	TempResources/veicles/buss/BussChairBack.png
+[2016.04.26-16.55.29:423][654]SourceControl: Info 	TempResources/veicles/buss/BussChairBackFront.png
+[2016.04.26-16.55.29:423][654]SourceControl: Info 	TempResources/veicles/buss/BussChairBottom.png
+[2016.04.26-16.55.29:423][654]SourceControl: Info 	TempResources/veicles/buss/BussChairFront.png
+[2016.04.26-16.55.29:424][654]SourceControl: Info 	TempResources/veicles/buss/BussChairLegsBottom.png
+[2016.04.26-16.55.29:424][654]SourceControl: Info 	TempResources/veicles/buss/BussChairLegsSide.png
+[2016.04.26-16.55.29:424][654]SourceControl: Info 	TempResources/veicles/buss/BussChairSeat.png
+[2016.04.26-16.55.29:424][654]SourceControl: Info 	TempResources/veicles/buss/BussChairSide.png
+[2016.04.26-16.55.29:424][654]SourceControl: Info 	TempResources/veicles/buss/BussChairTop.png
+[2016.04.26-16.55.30:217][654]LogSavePackage: Save=24.846653ms
+[2016.04.26-16.55.30:217][654]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/BussChairLegsSide_Sprite9188359445FC857CAC2BAD865548460F.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Sprites/vehicle/buss/BussChairLegsSide_Sprite.uasset'
+[2016.04.26-16.55.30:229][654]LogSavePackage: Total save time: 37.755582ms
+[2016.04.26-16.55.30:229][654]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Sprites/vehicle/buss/BussChairLegsSide_Sprite.uasset
+[2016.04.26-16.56.08:672][977]LogEditorTransaction: Undo Modify Component(s)
+[2016.04.26-16.59.48:808][232]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:\Users\Matthew\Documents\Unreal Projects\Game_GT\TempResources\veicles\buss\BussChairLegsTop.png)
+[2016.04.26-16.59.48:812][232]LogTexture:Display: Building textures: BussChairLegsTop (BGRA8)
+[2016.04.26-16.59.56:138][318]LogTexture:Display: Building textures: BussChairLegsTop (BGRA8)
+[2016.04.26-16.59.56:150][318]LogMaterial: 0.006562 seconds spent updating 0 materials, 0 interfaces, 0 instances, 0 with static permutations.
+[2016.04.26-16.59.57:623][341]LogMaterial: 0.006161 seconds spent updating 0 materials, 0 interfaces, 0 instances, 0 with static permutations.
+[2016.04.26-17.00.10:801][493]LogSavePackage: Save=6.396614ms
+[2016.04.26-17.00.10:801][493]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/BussChairLegsTop321472F04D859F34F960A19451BC71BB.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Textures/vehicle/buss/BussChairLegsTop.uasset'
+[2016.04.26-17.00.10:812][493]LogSavePackage: Total save time: 18.067028ms
+[2016.04.26-17.00.10:812][493]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Textures/vehicle/buss/BussChairLegsTop.uasset
+[2016.04.26-17.00.19:504][614]SourceControl: Info On branch master
+[2016.04.26-17.00.19:504][614]SourceControl: Info Your branch is up-to-date with 'origin/master'.
+[2016.04.26-17.00.19:504][614]SourceControl: Info Changes to be committed:
+[2016.04.26-17.00.19:504][614]SourceControl: Info   (use "git reset HEAD <file>..." to unstage)
+[2016.04.26-17.00.19:504][614]SourceControl: Info 	new file:   Content/Sprites/vehicle/buss/BussChairBackFront_Sprite.uasset
+[2016.04.26-17.00.19:504][614]SourceControl: Info 	new file:   Content/Sprites/vehicle/buss/BussChairBack_Sprite.uasset
+[2016.04.26-17.00.19:504][614]SourceControl: Info 	new file:   Content/Sprites/vehicle/buss/BussChairBottom_Sprite.uasset
+[2016.04.26-17.00.19:504][614]SourceControl: Info 	new file:   Content/Sprites/vehicle/buss/BussChairFront_Sprite.uasset
+[2016.04.26-17.00.19:504][614]SourceControl: Info 	new file:   Content/Sprites/vehicle/buss/BussChairLegsBottom_Sprite.uasset
+[2016.04.26-17.00.19:504][614]SourceControl: Info 	new file:   Content/Sprites/vehicle/buss/BussChairLegsSide_Sprite.uasset
+[2016.04.26-17.00.19:505][614]SourceControl: Info 	new file:   Content/Sprites/vehicle/buss/BussChairSeat_Sprite.uasset
+[2016.04.26-17.00.19:505][614]SourceControl: Info 	new file:   Content/Sprites/vehicle/buss/BussChairSide_Sprite.uasset
+[2016.04.26-17.00.19:505][614]SourceControl: Info 	new file:   Content/Sprites/vehicle/buss/BussChairTop_Sprite.uasset
+[2016.04.26-17.00.19:505][614]SourceControl: Info 	new file:   Content/Textures/vehicle/buss/BussChairBack.uasset
+[2016.04.26-17.00.19:505][614]SourceControl: Info 	new file:   Content/Textures/vehicle/buss/BussChairBackFront.uasset
+[2016.04.26-17.00.19:505][614]SourceControl: Info 	new file:   Content/Textures/vehicle/buss/BussChairBottom.uasset
+[2016.04.26-17.00.19:505][614]SourceControl: Info 	new file:   Content/Textures/vehicle/buss/BussChairFront.uasset
+[2016.04.26-17.00.19:505][614]SourceControl: Info 	new file:   Content/Textures/vehicle/buss/BussChairLegsBottom.uasset
+[2016.04.26-17.00.19:505][614]SourceControl: Info 	new file:   Content/Textures/vehicle/buss/BussChairLegsSide.uasset
+[2016.04.26-17.00.19:505][614]SourceControl: Info 	new file:   Content/Textures/vehicle/buss/BussChairLegsTop.uasset
+[2016.04.26-17.00.19:505][614]SourceControl: Info 	new file:   Content/Textures/vehicle/buss/BussChairSeat.uasset
+[2016.04.26-17.00.19:505][614]SourceControl: Info 	new file:   Content/Textures/vehicle/buss/BussChairSide.uasset
+[2016.04.26-17.00.19:506][614]SourceControl: Info 	new file:   Content/Textures/vehicle/buss/BussChairTop.uasset
+[2016.04.26-17.00.19:506][614]SourceControl: Info Changes not staged for commit:
+[2016.04.26-17.00.19:506][614]SourceControl: Info   (use "git add/rm <file>..." to update what will be committed)
+[2016.04.26-17.00.19:506][614]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2016.04.26-17.00.19:506][614]SourceControl: Info 	modified:   Content/Blueprints/vehicles/BussBody.uasset
+[2016.04.26-17.00.19:506][614]SourceControl: Info 	modified:   Content/Blueprints/vehicles/BussThruster.uasset
+[2016.04.26-17.00.19:506][614]SourceControl: Info 	modified:   Intermediate/CachedAssetRegistry.bin
+[2016.04.26-17.00.19:506][614]SourceControl: Info 	modified:   Saved/Autosaves/Game/TopDownCPP/Maps/TopDownExampleMap_Auto1.umap
+[2016.04.26-17.00.19:506][614]SourceControl: Info 	modified:   Saved/Autosaves/Game/TopDownCPP/Maps/TopDownExampleMap_Auto2.umap
+[2016.04.26-17.00.19:506][614]SourceControl: Info 	modified:   Saved/Autosaves/Game/TopDownCPP/Maps/TopDownExampleMap_Auto3.umap
+[2016.04.26-17.00.19:506][614]SourceControl: Info 	modified:   Saved/Autosaves/Game/TopDownCPP/Maps/TopDownExampleMap_Auto4.umap
+[2016.04.26-17.00.19:506][614]SourceControl: Info 	modified:   Saved/Autosaves/PackageRestoreData.json
+[2016.04.26-17.00.19:506][614]SourceControl: Info 	deleted:    Saved/Backup/ConversationTestNPC_2016-02-03-11-32-40.uasset
+[2016.04.26-17.00.19:507][614]SourceControl: Info 	deleted:    Saved/Backup/TopDownExampleMap_2016-02-03-11-35-38.umap
+[2016.04.26-17.00.19:507][614]SourceControl: Info 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2016.04.26-17.00.19:507][614]SourceControl: Info 	modified:   Saved/Config/Windows/Engine.ini
+[2016.04.26-17.00.19:507][614]SourceControl: Info 	modified:   Saved/Logs/Game_GT.log
+[2016.04.26-17.00.19:507][614]SourceControl: Info 	modified:   TempResources/veicles/buss/BussThrusterSide.png
+[2016.04.26-17.00.19:507][614]SourceControl: Info 	modified:   TempResources/veicles/buss/BussThrusterTop.png
+[2016.04.26-17.00.19:507][614]SourceControl: Info Untracked files:
+[2016.04.26-17.00.19:507][614]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2016.04.26-17.00.19:507][614]SourceControl: Info 	Saved/Autosaves/Engine/
+[2016.04.26-17.00.19:507][614]SourceControl: Info 	Saved/Autosaves/Game/Blueprints/vehicles/BussChair_Auto5.uasset
+[2016.04.26-17.00.19:507][614]SourceControl: Info 	Saved/Autosaves/Game/Textures/vehicle/buss/BussChairBackFront_Auto4.uasset
+[2016.04.26-17.00.19:507][614]SourceControl: Info 	Saved/Autosaves/Game/Textures/vehicle/buss/BussChairBackFront_Auto5.uasset
+[2016.04.26-17.00.19:507][614]SourceControl: Info 	Saved/Autosaves/Game/Textures/vehicle/buss/BussChairBackFront_Sprite_Auto4.uasset
+[2016.04.26-17.00.19:507][614]SourceControl: Info 	Saved/Autosaves/Game/Textures/vehicle/buss/BussChairBack_Sprite_Auto4.uasset
+[2016.04.26-17.00.19:508][614]SourceControl: Info 	Saved/Autosaves/Game/Textures/vehicle/buss/BussChairBottom_Auto4.uasset
+[2016.04.26-17.00.19:508][614]SourceControl: Info 	Saved/Autosaves/Game/Textures/vehicle/buss/BussChairBottom_Auto5.uasset
+[2016.04.26-17.00.19:508][614]SourceControl: Info 	Saved/Autosaves/Game/Textures/vehicle/buss/BussChairBottom_Sprite_Auto4.uasset
+[2016.04.26-17.00.19:508][614]SourceControl: Info 	Saved/Autosaves/Game/Textures/vehicle/buss/BussChairFront_Auto4.uasset
+[2016.04.26-17.00.19:508][614]SourceControl: Info 	Saved/Autosaves/Game/Textures/vehicle/buss/BussChairFront_Sprite_Auto4.uasset
+[2016.04.26-17.00.19:508][614]SourceControl: Info 	Saved/Autosaves/Game/Textures/vehicle/buss/BussChairLegsBottom_Sprite_Auto5.uasset
+[2016.04.26-17.00.19:508][614]SourceControl: Info 	Saved/Autosaves/Game/Textures/vehicle/buss/BussChairSeat_Auto4.uasset
+[2016.04.26-17.00.19:508][614]SourceControl: Info 	Saved/Autosaves/Game/Textures/vehicle/buss/BussChairSeat_Auto5.uasset
+[2016.04.26-17.00.19:508][614]SourceControl: Info 	Saved/Autosaves/Game/Textures/vehicle/buss/BussChairSeat_Sprite_Auto4.uasset
+[2016.04.26-17.00.19:508][614]SourceControl: Info 	Saved/Autosaves/Game/Textures/vehicle/buss/BussChairSide_Auto4.uasset
+[2016.04.26-17.00.19:508][614]SourceControl: Info 	Saved/Autosaves/Game/Textures/vehicle/buss/BussChairSide_Sprite_Auto4.uasset
+[2016.04.26-17.00.19:508][614]SourceControl: Info 	Saved/Autosaves/Game/Textures/vehicle/buss/BussChairTop_Auto4.uasset
+[2016.04.26-17.00.19:509][614]SourceControl: Info 	Saved/Autosaves/Game/Textures/vehicle/buss/BussChairTop_Sprite_Auto4.uasset
+[2016.04.26-17.00.19:509][614]SourceControl: Info 	Saved/Autosaves/Game/Textures/vehicle/buss/BussThrusterSide_Auto1.uasset
+[2016.04.26-17.00.19:509][614]SourceControl: Info 	Saved/Autosaves/Game/Textures/vehicle/buss/BussThrusterTop_Auto1.uasset
+[2016.04.26-17.00.19:509][614]SourceControl: Info 	Saved/Backup/BussBody_2016-04-26-12-00-26.uasset
+[2016.04.26-17.00.19:509][614]SourceControl: Info 	Saved/Backup/BussChairBackFront_2016-04-26-12-53-00.uasset
+[2016.04.26-17.00.19:509][614]SourceControl: Info 	Saved/Backup/BussChairBottom_2016-04-26-12-53-00.uasset
+[2016.04.26-17.00.19:509][614]SourceControl: Info 	Saved/Backup/BussChairSeat_2016-04-26-12-53-00.uasset
+[2016.04.26-17.00.19:509][614]SourceControl: Info 	Saved/Backup/BussThrusterSide_2016-04-26-12-00-27.uasset
+[2016.04.26-17.00.19:509][614]SourceControl: Info 	Saved/Backup/BussThrusterTop_2016-04-26-12-00-28.uasset
+[2016.04.26-17.00.19:509][614]SourceControl: Info 	Saved/Backup/BussThruster_2016-04-26-12-10-51.uasset
+[2016.04.26-17.00.19:509][614]SourceControl: Info 	Saved/Backup/BussThruster_2016-04-26-12-20-54.uasset
+[2016.04.26-17.00.19:509][614]SourceControl: Info 	Saved/Backup/BussThruster_2016-04-26-12-37-49.uasset
+[2016.04.26-17.00.19:510][614]SourceControl: Info 	Saved/Backup/Sphere_2016-04-26-12-20-56.uasset
+[2016.04.26-17.00.19:510][614]SourceControl: Info 	Saved/Backup/TopDownExampleMap_2016-04-26-12-00-25.umap
+[2016.04.26-17.00.19:510][614]SourceControl: Info 	Saved/Backup/TopDownExampleMap_2016-04-26-12-10-50.umap
+[2016.04.26-17.00.19:510][614]SourceControl: Info 	Saved/Backup/TopDownExampleMap_2016-04-26-12-20-53.umap
+[2016.04.26-17.00.19:510][614]SourceControl: Info 	Saved/Backup/TopDownExampleMap_2016-04-26-12-39-47.umap
+[2016.04.26-17.00.19:510][614]SourceControl: Info 	TempResources/veicles/buss/BussChairBack.png
+[2016.04.26-17.00.19:510][614]SourceControl: Info 	TempResources/veicles/buss/BussChairBackFront.png
+[2016.04.26-17.00.19:510][614]SourceControl: Info 	TempResources/veicles/buss/BussChairBottom.png
+[2016.04.26-17.00.19:510][614]SourceControl: Info 	TempResources/veicles/buss/BussChairFront.png
+[2016.04.26-17.00.19:510][614]SourceControl: Info 	TempResources/veicles/buss/BussChairLegsBottom.png
+[2016.04.26-17.00.19:510][614]SourceControl: Info 	TempResources/veicles/buss/BussChairLegsSide.png
+[2016.04.26-17.00.19:510][614]SourceControl: Info 	TempResources/veicles/buss/BussChairLegsTop.png
+[2016.04.26-17.00.19:511][614]SourceControl: Info 	TempResources/veicles/buss/BussChairSeat.png
+[2016.04.26-17.00.19:511][614]SourceControl: Info 	TempResources/veicles/buss/BussChairSide.png
+[2016.04.26-17.00.19:511][614]SourceControl: Info 	TempResources/veicles/buss/BussChairTop.png
+[2016.04.26-17.00.20:314][614]LogSavePackage: Save=31.708921ms
+[2016.04.26-17.00.20:315][614]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/BussChairLegsTop_SpriteD313247F4AD34C14F2A723B6E8A77F75.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Sprites/vehicle/buss/BussChairLegsTop_Sprite.uasset'
+[2016.04.26-17.00.20:327][614]LogSavePackage: Total save time: 46.304349ms
+[2016.04.26-17.00.20:327][614]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Sprites/vehicle/buss/BussChairLegsTop_Sprite.uasset
+[2016.04.26-17.01.41:477][273]BlueprintLog: New page: Compile BussChair
+[2016.04.26-17.01.42:250][273]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/vehicles/BussChair" FILE="../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Blueprints/vehicles/BussChair.uasset" SILENT=true
+[2016.04.26-17.01.42:370][273]LogSavePackage: Save=112.968658ms
+[2016.04.26-17.01.42:370][273]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/BussChair93A596A544D00AF8CBB9F18F2BBA776A.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Blueprints/vehicles/BussChair.uasset'
+[2016.04.26-17.01.42:390][273]LogSavePackage: Total save time: 134.159047ms
+[2016.04.26-17.01.42:390][273]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Blueprints/vehicles/BussChair.uasset
+[2016.04.26-17.01.42:705][273]BlueprintEditorCompileResults: Info [4609.65] Compile of BussChair successful! [in 1,227 ms]
+[2016.04.26-17.06.21:368][433]BlueprintLog: New page: Compile BussChair
+[2016.04.26-17.06.22:024][433]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AB4DE53880
+[2016.04.26-17.06.22:442][433]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/vehicles/BussBody" FILE="../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Blueprints/vehicles/BussBody.uasset" SILENT=true
+[2016.04.26-17.06.22:802][433]LogSavePackage: Save=132.175598ms
+[2016.04.26-17.06.22:802][433]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/BussBody84B167E6498141CC60C189A523D96616.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Blueprints/vehicles/BussBody.uasset'
+[2016.04.26-17.06.22:820][433]LogSavePackage: Total save time: 371.249832ms
+[2016.04.26-17.06.22:820][433]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Blueprints/vehicles/BussBody.uasset
+[2016.04.26-17.06.22:852][433]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/vehicles/BussChair" FILE="../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Blueprints/vehicles/BussChair.uasset" SILENT=true
+[2016.04.26-17.06.23:228][433]LogSavePackage: Save=103.242935ms
+[2016.04.26-17.06.23:228][433]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/BussChairB11BC355480749E7AA028A85D0AFC5DA.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Blueprints/vehicles/BussChair.uasset'
+[2016.04.26-17.06.23:245][433]LogSavePackage: Total save time: 386.964083ms
+[2016.04.26-17.06.23:245][433]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Blueprints/vehicles/BussChair.uasset
+[2016.04.26-17.06.23:260][433]BlueprintEditorCompileResults: Info [4890.21] Compile of BussChair successful! [in 1,891 ms]
+[2016.04.26-17.06.56:513][706]BlueprintLog: New page: Compile BussChair
+[2016.04.26-17.06.57:416][706]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/vehicles/BussChair" FILE="../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Blueprints/vehicles/BussChair.uasset" SILENT=true
+[2016.04.26-17.06.57:810][706]LogSavePackage: Save=112.306374ms
+[2016.04.26-17.06.57:810][706]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/BussChairB6E6791D4F24B4115F1AE8829811AE38.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Blueprints/vehicles/BussChair.uasset'
+[2016.04.26-17.06.57:828][706]LogSavePackage: Total save time: 405.222051ms
+[2016.04.26-17.06.57:828][706]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Blueprints/vehicles/BussChair.uasset
+[2016.04.26-17.06.57:843][706]BlueprintEditorCompileResults: Info [4924.79] Compile of BussChair successful! [in 1,329 ms]
+[2016.04.26-17.08.15:726][271]LogEditorTransaction: Undo Paste Component(s)
+[2016.04.26-17.09.21:721][765]LogTexture:Display: Building textures: BussBase (BGRA8)
+[2016.04.26-17.09.21:765][765]LogMaterial: 0.014579 seconds spent updating 0 materials, 0 interfaces, 0 instances, 0 with static permutations.
+[2016.04.26-17.09.25:822][814]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/vehicle/buss/BussBase" FILE="../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Textures/vehicle/buss/BussBase.uasset" SILENT=true
+[2016.04.26-17.09.26:016][814]LogSavePackage: Save=20.332033ms
+[2016.04.26-17.09.26:016][814]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/BussBaseCEB5487D4F0A99E8D90F96AABED63685.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Textures/vehicle/buss/BussBase.uasset'
+[2016.04.26-17.09.26:029][814]LogSavePackage: Total save time: 202.633537ms
+[2016.04.26-17.09.26:029][814]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Textures/vehicle/buss/BussBase.uasset
+[2016.04.26-17.11.59:186][921]BlueprintLog: New page: Compile BussBody
+[2016.04.26-17.12.01:387][921]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/vehicles/BussBody" FILE="../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Blueprints/vehicles/BussBody.uasset" SILENT=true
+[2016.04.26-17.12.01:746][921]LogSavePackage: Save=129.679764ms
+[2016.04.26-17.12.01:746][921]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/BussBody9D4B812B40BDAD98D076818D3D68B3E8.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Blueprints/vehicles/BussBody.uasset'
+[2016.04.26-17.12.01:761][921]LogSavePackage: Total save time: 368.874259ms
+[2016.04.26-17.12.01:761][921]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Blueprints/vehicles/BussBody.uasset
+[2016.04.26-17.12.01:776][921]BlueprintEditorCompileResults: Info [5228.72] Compile of BussBody successful! [in 2,589 ms]
+[2016.04.26-17.12.02:918][927]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/vehicles/BussBody" FILE="../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Blueprints/vehicles/BussBody.uasset" SILENT=true
+[2016.04.26-17.12.03:346][927]LogSavePackage: Save=153.821945ms
+[2016.04.26-17.12.03:346][927]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/BussBody5B6890464BE91BAC5C48B286760827BC.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Blueprints/vehicles/BussBody.uasset'
+[2016.04.26-17.12.03:359][927]LogSavePackage: Total save time: 434.238501ms
+[2016.04.26-17.12.03:359][927]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Blueprints/vehicles/BussBody.uasset
+[2016.04.26-17.12.04:659][938]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.04.26-17.12.57:290][402]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/vehicles/BussBody" FILE="../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Blueprints/vehicles/BussBody.uasset" SILENT=true
+[2016.04.26-17.12.57:723][402]LogSavePackage: Save=160.197479ms
+[2016.04.26-17.12.57:723][402]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/BussBody7BBD0D664CBF41C2C4D4A384E2E8DC8C.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Blueprints/vehicles/BussBody.uasset'
+[2016.04.26-17.12.57:735][402]LogSavePackage: Total save time: 439.307686ms
+[2016.04.26-17.12.57:735][402]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Blueprints/vehicles/BussBody.uasset
+[2016.04.26-17.13.01:811][440]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AB3C0FD8A0
+[2016.04.26-17.13.03:027][440]LogSavePackage: Save=1050.166992ms
+[2016.04.26-17.13.03:027][440]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/TopDownExampleMap29AD406C468542025FCA7AB31C916204.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/TopDownCPP/Maps/TopDownExampleMap.umap'
+[2016.04.26-17.13.03:051][440]LogSavePackage: Total save time: 1219.656978ms
+[2016.04.26-17.13.03:051][440]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/TopDownCPP/Maps/TopDownExampleMap.umap
+[2016.04.26-17.13.04:404][452]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AB58DD89A0
+[2016.04.26-17.13.04:404][452]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AB3D9B91C0
+[2016.04.26-17.13.04:418][452]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AB4F814220
+[2016.04.26-17.13.04:425][452]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AB4D8ACEA0
+[2016.04.26-17.13.04:432][452]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AB4E2F2480
+[2016.04.26-17.13.04:469][452]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AB589C2840
+[2016.04.26-17.13.07:602][452]SourceControl: Info fatal: C:/Program Files/Epic Games/4.10/Engine/Content/BasicShapes/Sphere.uasset: 'C:/Program Files/Epic Games/4.10/Engine/Content/BasicShapes/Sphere.uasset' is outside repository
+[2016.04.26-17.13.07:678][452]Cmd: OBJ SAVEPACKAGE PACKAGE="/Engine/BasicShapes/Sphere" FILE="../../../Engine/Content/BasicShapes/Sphere.uasset" SILENT=true
+[2016.04.26-17.13.07:892][452]LogSavePackage: Save=13.355774ms
+[2016.04.26-17.13.07:892][452]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/Sphere5D00025948C5C7B38C4593AC03B9AC21.tmp' to '../../../Engine/Content/BasicShapes/Sphere.uasset'
+[2016.04.26-17.13.07:918][452]LogSavePackage: Total save time: 235.244699ms
+[2016.04.26-17.13.07:918][452]LogSavePackage:Display: Finished SavePackage ../../../Engine/Content/BasicShapes/Sphere.uasset
+[2016.04.26-17.13.07:958][452]LogSavePackage: Save=4.469594ms
+[2016.04.26-17.13.07:958][452]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/BussChairBack_Sprite41316AAB4B429E9059AC3E8E40B9DF8B.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Textures/vehicle/buss/BussChairBack_Sprite.uasset'
+[2016.04.26-17.13.07:969][452]LogSavePackage: Total save time: 16.344052ms
+[2016.04.26-17.13.07:969][452]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Textures/vehicle/buss/BussChairBack_Sprite.uasset
+[2016.04.26-17.13.08:393][452]LogSavePackage: Save=7.812384ms
+[2016.04.26-17.13.08:393][452]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/BussChairBackFront39499D3D4C3C5DEAC1028DB9704EBC0D.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Textures/vehicle/buss/BussChairBackFront.uasset'
+[2016.04.26-17.13.08:404][452]LogSavePackage: Total save time: 194.818873ms
+[2016.04.26-17.13.08:404][452]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Textures/vehicle/buss/BussChairBackFront.uasset
+[2016.04.26-17.13.08:436][452]LogSavePackage: Save=3.619219ms
+[2016.04.26-17.13.08:436][452]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/BussChairBackFront_SpriteDBBFCCF7484D19B9C58E34A22ABC33C8.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Textures/vehicle/buss/BussChairBackFront_Sprite.uasset'
+[2016.04.26-17.13.08:447][452]LogSavePackage: Total save time: 15.485130ms
+[2016.04.26-17.13.08:447][452]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Textures/vehicle/buss/BussChairBackFront_Sprite.uasset
+[2016.04.26-17.13.08:835][452]LogSavePackage: Save=4.655399ms
+[2016.04.26-17.13.08:835][452]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/BussChairBottom1BFEB0F343B638632AB43A9D2BF419B6.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Textures/vehicle/buss/BussChairBottom.uasset'
+[2016.04.26-17.13.08:846][452]LogSavePackage: Total save time: 173.210137ms
+[2016.04.26-17.13.08:846][452]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Textures/vehicle/buss/BussChairBottom.uasset
+[2016.04.26-17.13.08:885][452]LogSavePackage: Save=3.525747ms
+[2016.04.26-17.13.08:885][452]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/BussChairBottom_Sprite71BA9A774D351EA7EDEAA6ACB1CB1152.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Textures/vehicle/buss/BussChairBottom_Sprite.uasset'
+[2016.04.26-17.13.08:896][452]LogSavePackage: Total save time: 15.278805ms
+[2016.04.26-17.13.08:896][452]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Textures/vehicle/buss/BussChairBottom_Sprite.uasset
+[2016.04.26-17.13.09:111][452]LogSavePackage: Save=2.900505ms
+[2016.04.26-17.13.09:111][452]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/BussChairFront_SpriteB1717CD34668933BD72D00B4CD85B3CE.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Textures/vehicle/buss/BussChairFront_Sprite.uasset'
+[2016.04.26-17.13.09:121][452]LogSavePackage: Total save time: 13.257742ms
+[2016.04.26-17.13.09:121][452]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Textures/vehicle/buss/BussChairFront_Sprite.uasset
+[2016.04.26-17.13.09:458][452]LogSavePackage: Save=4.873692ms
+[2016.04.26-17.13.09:458][452]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/BussChairLegsBottom828AD223402D3859BCFF6BA697401346.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Textures/vehicle/buss/BussChairLegsBottom.uasset'
+[2016.04.26-17.13.09:469][452]LogSavePackage: Total save time: 140.849758ms
+[2016.04.26-17.13.09:469][452]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Textures/vehicle/buss/BussChairLegsBottom.uasset
+[2016.04.26-17.13.09:502][452]LogSavePackage: Save=4.605813ms
+[2016.04.26-17.13.09:502][452]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/BussChairLegsBottom_Sprite7092CFDD4DB9ACBD0F24A08E3CD3EE99.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Textures/vehicle/buss/BussChairLegsBottom_Sprite.uasset'
+[2016.04.26-17.13.09:513][452]LogSavePackage: Total save time: 16.751003ms
+[2016.04.26-17.13.09:513][452]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Textures/vehicle/buss/BussChairLegsBottom_Sprite.uasset
+[2016.04.26-17.13.09:740][452]LogSavePackage: Save=7.729171ms
+[2016.04.26-17.13.09:740][452]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/BussChairLegsSide_SpriteD9422CCA45E3ECF1A7FDC9A128E8D3F7.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Textures/vehicle/buss/BussChairLegsSide_Sprite.uasset'
+[2016.04.26-17.13.09:748][452]LogSavePackage: Total save time: 16.603384ms
+[2016.04.26-17.13.09:748][452]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Textures/vehicle/buss/BussChairLegsSide_Sprite.uasset
+[2016.04.26-17.13.10:014][452]LogSavePackage: Save=3.751449ms
+[2016.04.26-17.13.10:014][452]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/BussChairLegsTop_SpriteB1A57FDC4C6DBB4EE75FC781384EEDE9.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Textures/vehicle/buss/BussChairLegsTop_Sprite.uasset'
+[2016.04.26-17.13.10:027][452]LogSavePackage: Total save time: 17.917130ms
+[2016.04.26-17.13.10:027][452]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Textures/vehicle/buss/BussChairLegsTop_Sprite.uasset
+[2016.04.26-17.13.10:458][452]LogSavePackage: Save=3.805025ms
+[2016.04.26-17.13.10:459][452]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/BussChairSeat652DBF9A43D625F3D2D687A5E487F5E0.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Textures/vehicle/buss/BussChairSeat.uasset'
+[2016.04.26-17.13.10:468][452]LogSavePackage: Total save time: 140.006222ms
+[2016.04.26-17.13.10:468][452]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Textures/vehicle/buss/BussChairSeat.uasset
+[2016.04.26-17.13.10:503][452]LogSavePackage: Save=5.115923ms
+[2016.04.26-17.13.10:503][452]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/BussChairSeat_Sprite08BABF7F46F41879F455458561AF69A4.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Textures/vehicle/buss/BussChairSeat_Sprite.uasset'
+[2016.04.26-17.13.10:518][452]LogSavePackage: Total save time: 20.702504ms
+[2016.04.26-17.13.10:518][452]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Textures/vehicle/buss/BussChairSeat_Sprite.uasset
+[2016.04.26-17.13.10:916][452]LogSavePackage: Save=13.209866ms
+[2016.04.26-17.13.10:916][452]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/BussChairSide_Sprite42DBCA5649E79507AD0F96AE48FC95BA.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Textures/vehicle/buss/BussChairSide_Sprite.uasset'
+[2016.04.26-17.13.10:941][452]LogSavePackage: Total save time: 40.333495ms
+[2016.04.26-17.13.10:941][452]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Textures/vehicle/buss/BussChairSide_Sprite.uasset
+[2016.04.26-17.13.11:545][452]LogSavePackage: Save=7.793576ms
+[2016.04.26-17.13.11:545][452]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/BussChairTop_SpriteFF5C6006435CB743FE7B16942A6D9B83.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Textures/vehicle/buss/BussChairTop_Sprite.uasset'
+[2016.04.26-17.13.11:579][452]LogSavePackage: Total save time: 43.215189ms
+[2016.04.26-17.13.11:579][452]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Textures/vehicle/buss/BussChairTop_Sprite.uasset
+[2016.04.26-17.13.12:258][452]LogSavePackage: Save=11.128387ms
+[2016.04.26-17.13.12:258][452]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/BussThrusterSideDFB3FDBD4D336F6B5E3C49976D115BBE.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Textures/vehicle/buss/BussThrusterSide.uasset'
+[2016.04.26-17.13.12:271][452]LogSavePackage: Total save time: 230.742048ms
+[2016.04.26-17.13.12:271][452]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Textures/vehicle/buss/BussThrusterSide.uasset
+[2016.04.26-17.13.12:506][452]LogSavePackage: Save=9.963397ms
+[2016.04.26-17.13.12:506][452]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Saved/BussThrusterTopD4E75DA24681246A45CCA1872AC05914.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Textures/vehicle/buss/BussThrusterTop.uasset'
+[2016.04.26-17.13.12:520][452]LogSavePackage: Total save time: 216.240093ms
+[2016.04.26-17.13.12:520][452]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Game_GT/Content/Textures/vehicle/buss/BussThrusterTop.uasset
+[2016.04.26-17.13.13:650][452]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.04.26-17.13.14:579][453]Cmd: QUIT_EDITOR
+[2016.04.26-17.13.15:692][453]LogExit: Preparing to exit.
+[2016.04.26-17.13.17:424][453]LogExit: Editor shut down
+[2016.04.26-17.13.17:426][453]LogExit: Transaction tracking system shut down
+[2016.04.26-17.13.17:510][453]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AB3DF8DD00
+[2016.04.26-17.13.17:512][453]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AB4661DD00
+[2016.04.26-17.13.17:513][453]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AB46512980
+[2016.04.26-17.13.17:513][453]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AB46468400
+[2016.04.26-17.13.17:514][453]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AB3D9B9A80
+[2016.04.26-17.13.19:514][453]LogExit: Object subsystem successfully closed.
+[2016.04.26-17.13.19:661][453]LogD3D11RHI: Shutdown
+[2016.04.26-17.13.19:661][453]LogD3D11RHI: CleanupD3DDevice
+[2016.04.26-17.13.20:255][453]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.04.26-17.13.20:615][453]LogModuleManager: Shutting down and abandoning module TextureEditor (203)
+[2016.04.26-17.13.20:616][453]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (202)
+[2016.04.26-17.13.20:616][453]LogModuleManager: Shutting down and abandoning module CookingStats (201)
+[2016.04.26-17.13.20:616][453]LogModuleManager: Shutting down and abandoning module BlueprintGraph (200)
+[2016.04.26-17.13.20:616][453]LogModuleManager: Shutting down and abandoning module CrashTracker (199)
+[2016.04.26-17.13.20:616][453]LogModuleManager: Shutting down and abandoning module SceneOutliner (198)
+[2016.04.26-17.13.20:616][453]LogModuleManager: Shutting down and abandoning module SuperSearch (197)
+[2016.04.26-17.13.20:616][453]LogModuleManager: Shutting down and abandoning module WidgetCarousel (196)
+[2016.04.26-17.13.20:616][453]LogModuleManager: Shutting down and abandoning module AddContentDialog (195)
+[2016.04.26-17.13.20:626][453]LogModuleManager: Shutting down and abandoning module EditorWidgets (194)
+[2016.04.26-17.13.20:627][453]LogModuleManager: Shutting down and abandoning module CollectionManager (193)
+[2016.04.26-17.13.20:627][453]LogModuleManager: Shutting down and abandoning module StatsViewer (192)
+[2016.04.26-17.13.20:627][453]LogModuleManager: Shutting down and abandoning module FoliageEdit (191)
+[2016.04.26-17.13.20:627][453]LogModuleManager: Shutting down and abandoning module LandscapeEditor (190)
+[2016.04.26-17.13.20:650][453]LogModuleManager: Shutting down and abandoning module ActorPickerMode (189)
+[2016.04.26-17.13.20:650][453]LogModuleManager: Shutting down and abandoning module GeometryMode (188)
+[2016.04.26-17.13.20:651][453]LogModuleManager: Shutting down and abandoning module TextureAlignMode (187)
+[2016.04.26-17.13.20:651][453]LogModuleManager: Shutting down and abandoning module BspMode (186)
+[2016.04.26-17.13.20:651][453]LogModuleManager: Shutting down and abandoning module PlacementMode (185)
+[2016.04.26-17.13.20:651][453]LogModuleManager: Shutting down and abandoning module AutomationWorker (184)
+[2016.04.26-17.13.20:651][453]LogModuleManager: Shutting down and abandoning module CharacterAI (183)
+[2016.04.26-17.13.20:651][453]LogModuleManager: Shutting down and abandoning module SmartSnapping (182)
+[2016.04.26-17.13.20:651][453]LogModuleManager: Shutting down and abandoning module ViewportSnapping (181)
+[2016.04.26-17.13.20:651][453]LogModuleManager: Shutting down and abandoning module LogVisualizer (180)
+[2016.04.26-17.13.20:652][453]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (179)
+[2016.04.26-17.13.20:682][453]LogModuleManager: Shutting down and abandoning module IntroTutorials (178)
+[2016.04.26-17.13.20:682][453]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (177)
+[2016.04.26-17.13.20:682][453]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (176)
+[2016.04.26-17.13.20:683][453]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (175)
+[2016.04.26-17.13.20:683][453]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (174)
+[2016.04.26-17.13.21:597][453]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (173)
+[2016.04.26-17.13.21:597][453]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (172)
+[2016.04.26-17.13.21:597][453]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (171)
+[2016.04.26-17.13.21:597][453]LogModuleManager: Shutting down and abandoning module MergeActors (170)
+[2016.04.26-17.13.21:597][453]LogModuleManager: Shutting down and abandoning module SizeMap (169)
+[2016.04.26-17.13.21:597][453]LogModuleManager: Shutting down and abandoning module TreeMap (168)
+[2016.04.26-17.13.21:597][453]LogModuleManager: Shutting down and abandoning module ReferenceViewer (167)
+[2016.04.26-17.13.21:598][453]LogModuleManager: Shutting down and abandoning module LocalizationService (166)
+[2016.04.26-17.13.21:598][453]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (165)
+[2016.04.26-17.13.21:608][453]LogModuleManager: Shutting down and abandoning module HardwareTargeting (164)
+[2016.04.26-17.13.21:608][453]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (163)
+[2016.04.26-17.13.21:608][453]LogModuleManager: Shutting down and abandoning module UndoHistory (162)
+[2016.04.26-17.13.21:608][453]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (161)
+[2016.04.26-17.13.21:608][453]LogModuleManager: Shutting down and abandoning module UserFeedback (160)
+[2016.04.26-17.13.21:608][453]LogModuleManager: Shutting down and abandoning module XmlParser (159)
+[2016.04.26-17.13.21:608][453]LogModuleManager: Shutting down and abandoning module Blutility (158)
+[2016.04.26-17.13.21:609][453]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (157)
+[2016.04.26-17.13.21:609][453]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (156)
+[2016.04.26-17.13.21:609][453]LogModuleManager: Shutting down and abandoning module InputBindingEditor (155)
+[2016.04.26-17.13.21:614][453]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (154)
+[2016.04.26-17.13.21:614][453]LogModuleManager: Shutting down and abandoning module SettingsEditor (153)
+[2016.04.26-17.13.21:614][453]LogModuleManager: Shutting down and abandoning module ProjectLauncher (152)
+[2016.04.26-17.13.21:624][453]LogModuleManager: Shutting down and abandoning module SessionFrontend (151)
+[2016.04.26-17.13.21:625][453]LogModuleManager: Shutting down and abandoning module ProfilerClient (150)
+[2016.04.26-17.13.21:625][453]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (149)
+[2016.04.26-17.13.21:625][453]LogModuleManager: Shutting down and abandoning module DeviceManager (148)
+[2016.04.26-17.13.21:625][453]LogModuleManager: Shutting down and abandoning module AutomationController (147)
+[2016.04.26-17.13.21:625][453]LogModuleManager: Shutting down and abandoning module AutomationWindow (146)
+[2016.04.26-17.13.21:676][453]LogModuleManager: Shutting down and abandoning module Layers (145)
+[2016.04.26-17.13.21:711][453]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (144)
+[2016.04.26-17.13.21:712][453]LogModuleManager: Shutting down and abandoning module DetailCustomizations (143)
+[2016.04.26-17.13.21:712][453]LogModuleManager: Shutting down and abandoning module PackagesDialog (142)
+[2016.04.26-17.13.21:712][453]LogModuleManager: Shutting down and abandoning module Persona (141)
+[2016.04.26-17.13.21:736][453]LogModuleManager: Shutting down and abandoning module Kismet (140)
+[2016.04.26-17.13.21:736][453]LogModuleManager: Shutting down and abandoning module GraphEditor (139)
+[2016.04.26-17.13.21:736][453]LogModuleManager: Shutting down and abandoning module ClassViewer (138)
+[2016.04.26-17.13.21:741][453]LogModuleManager: Shutting down and abandoning module Toolbox (137)
+[2016.04.26-17.13.21:741][453]LogModuleManager: Shutting down and abandoning module ModuleUI (136)
+[2016.04.26-17.13.21:741][453]LogModuleManager: Shutting down and abandoning module MovieSceneTools (135)
+[2016.04.26-17.13.21:742][453]LogModuleManager: Shutting down and abandoning module OutputLog (134)
+[2016.04.26-17.13.21:742][453]LogModuleManager: Shutting down and abandoning module GammaUI (133)
+[2016.04.26-17.13.21:742][453]LogModuleManager: Shutting down and abandoning module Documentation (132)
+[2016.04.26-17.13.21:742][453]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (131)
+[2016.04.26-17.13.21:742][453]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (130)
+[2016.04.26-17.13.21:742][453]LogModuleManager: Shutting down and abandoning module AnalyticsET (129)
+[2016.04.26-17.13.21:742][453]LogModuleManager: Shutting down and abandoning module Analytics (128)
+[2016.04.26-17.13.21:742][453]LogModuleManager: Shutting down and abandoning module AITestSuite (127)
+[2016.04.26-17.13.21:742][453]LogModuleManager: Shutting down and abandoning module GameplayDebugger (126)
+[2016.04.26-17.13.21:743][453]LogModuleManager: Shutting down and abandoning module AIModule (125)
+[2016.04.26-17.13.21:743][453]LogModuleManager: Shutting down and abandoning module ProfilerService (124)
+[2016.04.26-17.13.21:887][453]LogModuleManager: Shutting down and abandoning module TaskGraph (123)
+[2016.04.26-17.13.21:939][453]LogModuleManager: Shutting down and abandoning module SlateRemote (122)
+[2016.04.26-17.13.21:939][453]LogModuleManager: Shutting down and abandoning module SteamVRController (121)
+[2016.04.26-17.13.21:939][453]LogModuleManager: Shutting down and abandoning module SteamVR (120)
+[2016.04.26-17.13.21:939][453]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (119)
+[2016.04.26-17.13.21:939][453]LogModuleManager: Shutting down and abandoning module OculusLibrary (118)
+[2016.04.26-17.13.21:939][453]LogModuleManager: Shutting down and abandoning module OculusInput (117)
+[2016.04.26-17.13.21:939][453]LogModuleManager: Shutting down and abandoning module LeapMotionController (116)
+[2016.04.26-17.13.21:990][453]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (115)
+[2016.04.26-17.13.21:990][453]LogModuleManager: Shutting down and abandoning module CableComponent (114)
+[2016.04.26-17.13.21:990][453]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (113)
+[2016.04.26-17.13.21:990][453]LogModuleManager: Shutting down and abandoning module MessagingDebugger (112)
+[2016.04.26-17.13.22:078][453]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (111)
+[2016.04.26-17.13.22:085][453]LogModuleManager: Shutting down and abandoning module HTML5Networking (110)
+[2016.04.26-17.13.22:085][453]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (109)
+[2016.04.26-17.13.22:085][453]LogModuleManager: Shutting down and abandoning module PluginBrowser (108)
+[2016.04.26-17.13.22:111][453]LogModuleManager: Shutting down and abandoning module EpicSurvey (107)
+[2016.04.26-17.13.22:111][453]LogModuleManager: Shutting down and abandoning module DesktopPlatform (106)
+[2016.04.26-17.13.22:111][453]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (105)
+[2016.04.26-17.13.22:111][453]LogModuleManager: Shutting down and abandoning module UObjectPlugin (104)
+[2016.04.26-17.13.22:111][453]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (103)
+[2016.04.26-17.13.22:111][453]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (102)
+[2016.04.26-17.13.22:148][453]LogModuleManager: Shutting down and abandoning module SourceControl (101)
+[2016.04.26-17.13.22:168][453]LogModuleManager: Shutting down and abandoning module GitSourceControl (100)
+[2016.04.26-17.13.22:168][453]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (99)
+[2016.04.26-17.13.22:168][453]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (98)
+[2016.04.26-17.13.22:169][453]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (97)
+[2016.04.26-17.13.22:169][453]LogModuleManager: Shutting down and abandoning module MeshPaint (96)
+[2016.04.26-17.13.22:169][453]LogModuleManager: Shutting down and abandoning module SlateReflector (95)
+[2016.04.26-17.13.22:193][453]LogModuleManager: Shutting down and abandoning module HotReload (94)
+[2016.04.26-17.13.22:195][453]LogModuleManager: Shutting down and abandoning module MainFrame (93)
+[2016.04.26-17.13.22:195][453]LogModuleManager: Shutting down and abandoning module LevelEditor (92)
+[2016.04.26-17.13.22:198][453]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (91)
+[2016.04.26-17.13.22:219][453]LogModuleManager: Shutting down and abandoning module AssetRegistry (90)
+[2016.04.26-17.13.22:622][453]LogModuleManager: Shutting down and abandoning module ContentBrowser (89)
+[2016.04.26-17.13.22:625][453]LogModuleManager: Shutting down and abandoning module Paper2DEditor (88)
+[2016.04.26-17.13.22:625][453]LogModuleManager: Shutting down and abandoning module Game_GT (87)
+[2016.04.26-17.13.22:625][453]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
+[2016.04.26-17.13.22:726][453]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2016.04.26-17.13.22:726][453]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2016.04.26-17.13.22:726][453]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2016.04.26-17.13.22:741][453]LogModuleManager: Shutting down and abandoning module Media (82)
+[2016.04.26-17.13.22:741][453]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2016.04.26-17.13.22:742][453]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2016.04.26-17.13.22:742][453]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2016.04.26-17.13.22:742][453]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2016.04.26-17.13.22:742][453]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2016.04.26-17.13.22:831][453]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2016.04.26-17.13.22:831][453]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2016.04.26-17.13.22:831][453]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2016.04.26-17.13.22:832][453]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2016.04.26-17.13.22:832][453]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2016.04.26-17.13.22:852][453]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2016.04.26-17.13.22:852][453]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2016.04.26-17.13.22:862][453]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2016.04.26-17.13.22:862][453]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2016.04.26-17.13.22:862][453]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2016.04.26-17.13.22:876][453]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2016.04.26-17.13.22:876][453]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2016.04.26-17.13.22:876][453]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2016.04.26-17.13.22:876][453]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2016.04.26-17.13.22:876][453]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2016.04.26-17.13.22:876][453]LogModuleManager: Shutting down and abandoning module Core (60)
+[2016.04.26-17.13.22:876][453]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2016.04.26-17.13.22:876][453]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2016.04.26-17.13.22:876][453]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2016.04.26-17.13.22:957][453]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2016.04.26-17.13.23:030][453]LogDerivedDataCache: Shutdown
+[2016.04.26-17.13.23:030][453]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2016.04.26-17.13.23:030][453]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2016.04.26-17.13.23:030][453]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2016.04.26-17.13.23:030][453]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2016.04.26-17.13.23:030][453]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2016.04.26-17.13.23:030][453]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2016.04.26-17.13.23:030][453]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2016.04.26-17.13.23:030][453]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2016.04.26-17.13.23:031][453]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2016.04.26-17.13.23:031][453]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2016.04.26-17.13.23:031][453]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2016.04.26-17.13.23:031][453]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2016.04.26-17.13.23:031][453]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2016.04.26-17.13.23:031][453]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2016.04.26-17.13.23:031][453]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2016.04.26-17.13.23:031][453]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2016.04.26-17.13.23:031][453]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.04.26-17.13.23:031][453]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.04.26-17.13.23:031][453]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.04.26-17.13.23:031][453]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.04.26-17.13.23:031][453]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.04.26-17.13.23:031][453]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.04.26-17.13.23:031][453]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.04.26-17.13.23:031][453]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.04.26-17.13.23:031][453]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.04.26-17.13.23:031][453]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.04.26-17.13.23:031][453]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.04.26-17.13.23:032][453]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.04.26-17.13.23:032][453]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.04.26-17.13.23:032][453]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.04.26-17.13.23:032][453]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.04.26-17.13.23:032][453]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.04.26-17.13.23:032][453]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.04.26-17.13.23:032][453]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.04.26-17.13.23:032][453]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.04.26-17.13.23:032][453]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.04.26-17.13.23:032][453]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.04.26-17.13.24:038][453]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.04.26-17.13.24:071][453]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.04.26-17.13.24:071][453]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.04.26-17.13.24:071][453]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.04.26-17.13.24:071][453]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.04.26-17.13.24:071][453]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.04.26-17.13.24:071][453]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.04.26-17.13.24:126][453]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.04.26-17.13.24:157][453]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.04.26-17.13.24:157][453]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.04.26-17.13.24:157][453]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.04.26-17.13.24:157][453]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.04.26-17.13.24:157][453]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.04.26-17.13.24:157][453]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.04.26-17.13.24:157][453]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.04.26-17.13.24:157][453]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.04.26-17.13.24:157][453]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.04.26-17.13.24:188][453]LogExit: Exiting.
+[2016.04.26-17.13.24:453][453]Log file closed, 04/26/16 13:13:24
