@@ -1,0 +1,261 @@
+﻿[2016.05.02-14.55.45:387][  0]Log file open, 05/02/16 10:55:45
+[2016.05.02-14.55.45:387][  0]LogInit:Display: Running engine for game: Game_GT
+[2016.05.02-14.55.45:387][  0]LogPlatformFile: Not using cached read wrapper
+[2016.05.02-14.55.45:387][  0]LogInit:Display: RandInit(-1190164898) SRandInit(-1190164897).
+[2016.05.02-14.55.45:387][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.05.02-14.55.45:387][  0]LogStats: Stats thread started at 0.131635
+[2016.05.02-14.55.45:387][  0]LogInit: Version: 4.10.1-2791327+++depot+UE4-Releases+4.10
+[2016.05.02-14.55.45:387][  0]LogInit: API Version: 2758231
+[2016.05.02-14.55.45:387][  0]LogInit: Compiled (64-bit): Dec  4 2015 19:44:40
+[2016.05.02-14.55.45:387][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.05.02-14.55.45:387][  0]LogInit: Build Configuration: Development
+[2016.05.02-14.55.45:387][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.05.02-14.55.45:387][  0]LogInit: Command line:  
+[2016.05.02-14.55.45:387][  0]LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.05.02-14.55.45:387][  0]LogInit: Rocket: 1
+[2016.05.02-14.55.45:405][  0]LogInit: Using libcurl 7.41.0
+[2016.05.02-14.55.45:405][  0]LogInit:  - built for x86_64-pc-win32
+[2016.05.02-14.55.45:405][  0]LogInit:  - supports SSL with WinSSL
+[2016.05.02-14.55.45:405][  0]LogInit:  - other features:
+[2016.05.02-14.55.45:405][  0]LogInit:      CURL_VERSION_SSL
+[2016.05.02-14.55.45:405][  0]LogInit:      CURL_VERSION_IPV6
+[2016.05.02-14.55.45:405][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.05.02-14.55.45:405][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.05.02-14.55.45:405][  0]LogInit:      CURL_VERSION_IDN
+[2016.05.02-14.55.45:405][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.05.02-14.55.45:405][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.05.02-14.55.45:405][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.05.02-14.55.45:405][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.05.02-14.55.45:405][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.05.02-14.55.45:438][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.05.02-14.55.45:444][  0]LogInit: Object subsystem initialized
+[2016.05.02-14.55.45:444][  0]LogInit: Selected Device Profile: [Windows]
+[2016.05.02-14.55.45:444][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.05.02-14.55.45:461][  0]LogInit: Computer: APPLEEATER-V2
+[2016.05.02-14.55.45:461][  0]LogInit: User: dacos
+[2016.05.02-14.55.45:461][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.05.02-14.55.45:461][  0]LogInit: High frequency timer resolution =2.533209 MHz
+[2016.05.02-14.55.45:461][  0]LogMemory: Memory total: Physical=11.9GB (12GB approx)
+[2016.05.02-14.55.45:462][  0]LogMemory: Platform Memory Stats for Windows
+[2016.05.02-14.55.45:462][  0]LogMemory: Process Physical Memory: 58.84 MB used, 58.84 MB peak
+[2016.05.02-14.55.45:462][  0]LogMemory: Process Virtual Memory: 57.86 MB used, 57.86 MB peak
+[2016.05.02-14.55.45:462][  0]LogMemory: Physical Memory: 3966.28 MB used, 12177.01 MB total
+[2016.05.02-14.55.45:462][  0]LogMemory: Virtual Memory: 382.61 MB used, 134217728.00 MB total
+[2016.05.02-14.55.45:635][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.05.02-14.55.46:132][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 960M         (Feature Level 11_0)
+[2016.05.02-14.55.46:132][  0]LogD3D11RHI: Adapter has 1995MB of dedicated video memory, 0MB of dedicated system memory, and 6088MB of shared system memory, 1 output[s]
+[2016.05.02-14.55.46:138][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2016.05.02-14.55.46:138][  0]LogD3D11RHI: Adapter has 112MB of dedicated video memory, 0MB of dedicated system memory, and 6088MB of shared system memory, 0 output[s]
+[2016.05.02-14.55.46:139][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.05.02-14.55.46:139][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 6088MB of shared system memory, 0 output[s]
+[2016.05.02-14.55.46:139][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.05.02-14.55.46:145][  0]LogD3D11RHI: !Direct3DDevice
+[2016.05.02-14.55.46:145][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.05.02-14.55.46:176][  0]LogD3D11RHI: Async texture creation enabled
+[2016.05.02-14.55.46:669][  0]LogShaderCompilers: Guid format shader working directory is -26 characters bigger than the processId version (../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Intermediate/Shaders/WorkingDirectory/5748/).
+[2016.05.02-14.55.46:669][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/dacos/AppData/Local/Temp/UnrealShaderWorkingDir/EC72CCC847B024F20B0B288FBBF95057/'.
+[2016.05.02-14.55.46:670][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.05.02-14.55.48:207][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.05.02-14.55.48:212][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.05.02-14.55.48:216][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.05.02-14.55.48:221][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.05.02-14.55.48:225][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.05.02-14.55.48:231][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.05.02-14.55.48:234][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.05.02-14.55.48:238][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.05.02-14.55.48:242][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.05.02-14.55.48:247][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.05.02-14.55.48:251][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.05.02-14.55.48:258][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.05.02-14.55.48:258][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.05.02-14.55.48:259][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.05.02-14.55.48:305][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.05.02-14.55.48:308][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.05.02-14.55.48:311][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.05.02-14.55.48:317][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.05.02-14.55.48:317][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.05.02-14.55.48:611][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.05.02-14.55.48:919][  0]LogDerivedDataCache: Loaded boot cache 0.31s 42MB C:/Users/dacos/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.05.02-14.55.48:919][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/dacos/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.05.02-14.55.48:919][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.05.02-14.55.48:919][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.05.02-14.55.48:920][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.05.02-14.55.48:920][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.05.02-14.55.49:013][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.05.02-14.55.49:031][  0]LogDerivedDataCache: Using Local data cache path C:/Users/dacos/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.05.02-14.55.51:637][  0]LogInit: Selected Device Profile: [Windows]
+[2016.05.02-14.55.51:647][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.05.02-14.55.51:865][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.05.02-14.55.51:865][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.05.02-14.55.52:476][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.05.02-14.55.54:475][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.05.02-14.55.54:550][  0]LogLinker:Warning: Asset '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.05.02-14.55.54:555][  0]LogLinker:Warning: Asset '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Mannequin/Animations/ThirdPerson_Jump.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.05.02-14.55.54:564][  0]LogLinker:Warning: Asset '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.05.02-14.55.54:569][  0]LogLinker:Warning: Asset '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.05.02-14.55.54:573][  0]LogLinker:Warning: Asset '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.05.02-14.55.54:577][  0]LogLinker:Warning: Asset '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Mannequin/Animations/ThirdPersonIdle.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.05.02-14.55.54:583][  0]LogLinker:Warning: Asset '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Mannequin/Animations/ThirdPersonRun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.05.02-14.55.54:588][  0]LogLinker:Warning: Asset '../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Mannequin/Animations/ThirdPersonWalk.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.05.02-14.55.55:097][  0]LogAssetRegistry: FAssetRegistry took 0.0131 seconds to start up
+[2016.05.02-14.55.55:411][  0]SourceControl: Info Source control is disabled
+[2016.05.02-14.55.56:256][  0]LogObj: 31636 objects as part of root set at end of initial load.
+[2016.05.02-14.55.56:256][  0]LogUObjectAllocator: 7168912 out of 0 bytes used by permanent object pool.
+[2016.05.02-14.55.56:363][  0]LogEngine: Initializing Engine...
+[2016.05.02-14.55.56:367][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.05.02-14.55.56:378][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.05.02-14.55.56:608][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.05.02-14.55.56:623][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.02-14.55.56:685][  0]LogInit: FAudioDevice initialized.
+[2016.05.02-14.55.56:709][  0]LogDerivedDataCache: Saved boot cache 0.02s 42MB C:/Users/dacos/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.05.02-14.55.56:713][  0]LogInit: Texture streaming: Enabled
+[2016.05.02-14.55.56:721][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.05.02-14.55.56:722][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.1-2791327+++depot+UE4-Releases+4.10
+[2016.05.02-14.55.56:722][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 7271a55c42ba7649a468ef8135f6e487|72e7fe8abf234c00b7d4ff8eb3462f9c|ed1d22c6-da52-4d8a-a8db-03a689afc6c5
+[2016.05.02-14.55.56:722][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.05.02-14.55.56:774][  0]LogInit: Transaction tracking system initialized
+[2016.05.02-14.55.56:825][  0]BlueprintLog: New page: Editor Load
+[2016.05.02-14.55.57:033][  0]LocalizationService: Info Localization service is disabled
+[2016.05.02-14.55.57:169][  0]LogConsoleResponse:Display: 
+[2016.05.02-14.55.57:461][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.05.02-14.55.57:691][  0]LogFileCache: Scanning file cache for directory 'C:/Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/' took 0.02s
+[2016.05.02-14.55.57:693][  0]Cmd: MAP LOAD FILE="../../../../../../Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/TopDownCPP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.05.02-14.55.57:693][  0]LightingResults: New page: Lighting Build
+[2016.05.02-14.55.57:702][  0]MapCheck: New page: Map Check
+[2016.05.02-14.55.57:702][  0]LightingResults: New page: Lighting Build
+[2016.05.02-14.55.57:720][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001FB7116DB20
+[2016.05.02-14.55.58:494][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Blueprints/NPC/Lili_Jarvinen.Lili_Jarvinen_C:UserConstructionScript; removing parent information, but keeping function
+[2016.05.02-14.55.58:682][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Blueprints/NPC/RadaBancroft.RadaBancroft_C:UserConstructionScript; removing parent information, but keeping function
+[2016.05.02-14.55.59:483][  0]LogStaticMesh: Building static mesh Hemisphere...
+[2016.05.02-14.55.59:490][  0]LogStaticMesh: Built static mesh [0.007856.2s] /Game/Meshes/Hemisphere.Hemisphere
+[2016.05.02-14.55.59:672][  0]LogTexture:Display: Building textures: BussThrusterTop (BGRA8)
+[2016.05.02-14.55.59:725][  0]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2016.05.02-14.55.59:810][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.05.02-14.55.59:814][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.05.02-14.55.59:889][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 74.022ms to complete.
+[2016.05.02-14.55.59:889][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 2.197
+[2016.05.02-14.56.00:065][  0]LogCollectionManager: Loaded 0 collections in 0.002354 seconds
+[2016.05.02-14.56.00:123][  0]LogFileCache: Scanning file cache for directory 'C:/Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Saved/Collections/' took 0.01s
+[2016.05.02-14.56.00:123][  0]LogFileCache: Scanning file cache for directory 'C:/Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Developers/dacos/Collections/' took 0.01s
+[2016.05.02-14.56.00:123][  0]LogFileCache: Scanning file cache for directory 'C:/Users/dacos/OneDrive/Documents/Unreal Projects/Game_GT/Content/Collections/' took 0.01s
+[2016.05.02-14.56.00:123][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000005 seconds
+[2016.05.02-14.56.00:135][  0]LogContentBrowser: Native class hierarchy populated in 0.0107 seconds. Added 1897 classes and 340 folders.
+[2016.05.02-14.56.00:148][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2016.05.02-14.56.00:444][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2016.05.02-14.56.00:456][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0011 seconds. Added 1 classes and 2 folders.
+[2016.05.02-14.56.00:514][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.05.02-14.56.00:530][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.05.02-14.56.00:557][  0]LogLoad: Full Startup: 16.72 seconds (BP compile: 0.47 seconds)
+[2016.05.02-14.56.00:901][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.05.02-14.56.01:022][  0]SourceControl: Info On branch master
+[2016.05.02-14.56.01:022][  0]SourceControl: Info Your branch is behind 'origin/master' by 2 commits, and can be fast-forwarded.
+[2016.05.02-14.56.01:022][  0]SourceControl: Info   (use "git pull" to update your local branch)
+[2016.05.02-14.56.01:022][  0]SourceControl: Info Changes not staged for commit:
+[2016.05.02-14.56.01:022][  0]SourceControl: Info   (use "git add <file>..." to update what will be committed)
+[2016.05.02-14.56.01:022][  0]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2016.05.02-14.56.01:022][  0]SourceControl: Info 	modified:   Intermediate/CachedAssetRegistry.bin
+[2016.05.02-14.56.01:022][  0]SourceControl: Info 	modified:   Saved/Config/Windows/Editor.ini
+[2016.05.02-14.56.01:022][  0]SourceControl: Info 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2016.05.02-14.56.01:022][  0]SourceControl: Info 	modified:   Saved/Config/Windows/Engine.ini
+[2016.05.02-14.56.01:022][  0]SourceControl: Info 	modified:   Saved/Logs/Game_GT.log
+[2016.05.02-14.56.01:022][  0]SourceControl: Info Untracked files:
+[2016.05.02-14.56.01:022][  0]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2016.05.02-14.56.01:022][  0]SourceControl: Info 	Saved/Logs/Game_GT-backup-2016.05.02-10.55.45.log
+[2016.05.02-14.56.01:022][  0]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
+[2016.05.02-14.56.01:022][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.05.02-14.56.01:170][  0]LogRenderer: Reallocating scene render targets to support 1388x596 (Frame:2).
+[2016.05.02-14.56.03:945][  9]LogAssetRegistry: Asset discovery search completed in 8.8608 seconds
+[2016.05.02-14.56.03:946][  9]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2016.05.02-14.56.03:946][  9]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000392 seconds (updated 0 objects)
+[2016.05.02-14.58.38:680][428]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2016.05.02-14.59.51:089][755]LogRenderer: Reallocating scene render targets to support 1388x700 (Frame:7433).
+[2016.05.02-15.02.19:697][653]LogEditorViewport: Clicking on Actor (context menu): BussBody_C (BussBody)
+[2016.05.02-15.02.20:720][707]LogEditorViewport: Clicking on Actor (LMB): BusGarage_C (BusGarage)
+[2016.05.02-15.05.37:951][538]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2016.05.02-15.07.53:940][146]LogRenderer: Reallocating scene render targets to support 1868x700 (Frame:35954).
+[2016.05.02-15.08.05:592][630]LogRenderer: Reallocating scene render targets to support 1868x740 (Frame:36409).
+[2016.05.02-15.08.17:253][138]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.05.02-15.08.17:253][138]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.02-15.08.17:255][138]PIE: New page: PIE session: TopDownExampleMap (May 2, 2016, 7:08:17 AM)
+[2016.05.02-15.08.17:255][138]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap
+[2016.05.02-15.08.17:298][138]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043096s)
+[2016.05.02-15.08.17:299][138]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2016.05.02-15.08.17:300][138]LogPlayLevel: PIE: World Init took: (0.001421s)
+[2016.05.02-15.08.17:300][138]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.045240s)
+[2016.05.02-15.08.17:426][138]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.02-15.08.17:441][138]LogInit: FAudioDevice initialized.
+[2016.05.02-15.08.17:509][138]LogWorld: Game class is '2DTopDown_Style_C'
+[2016.05.02-15.08.17:534][138]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2016.05.02-11.08.17
+[2016.05.02-15.08.17:534][138]LogActor:Warning: GameSession /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.02-15.08.17:534][138]LogActor:Warning: GameNetworkManager /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.02-15.08.17:546][138]LogWorld: Bringing up level for play took: 0.033925
+[2016.05.02-15.08.17:553][138]PIE: Info Play in editor start time for /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap 0.113
+[2016.05.02-15.08.17:554][138]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.05.02-15.11.57:324][498]LogSelection:Warning: PIE object was selected: "BP_Sky_Sphere_C /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.BP_Sky_Sphere_798"
+[2016.05.02-15.12.01:959][654]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.05.02-15.12.02:038][654]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.05.02-15.12.02:060][654]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001FB078ADDA0
+[2016.05.02-15.12.04:350][761]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.05.02-15.12.04:350][761]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.02-15.12.04:350][761]PIE: New page: PIE session: TopDownExampleMap (May 2, 2016, 7:12:04 AM)
+[2016.05.02-15.12.04:350][761]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap
+[2016.05.02-15.12.04:370][761]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019826s)
+[2016.05.02-15.12.04:370][761]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2016.05.02-15.12.04:370][761]LogPlayLevel: PIE: World Init took: (0.000765s)
+[2016.05.02-15.12.04:371][761]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.020873s)
+[2016.05.02-15.12.04:392][761]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.02-15.12.04:401][761]LogInit: FAudioDevice initialized.
+[2016.05.02-15.12.04:436][761]LogWorld: Game class is '2DTopDown_Style_C'
+[2016.05.02-15.12.04:447][761]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2016.05.02-11.12.04
+[2016.05.02-15.12.04:448][761]LogActor:Warning: GameSession /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.02-15.12.04:448][761]LogActor:Warning: GameNetworkManager /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.02-15.12.04:451][761]LogWorld: Bringing up level for play took: 0.014664
+[2016.05.02-15.12.04:454][761]PIE: Info Play in editor start time for /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap 1.013
+[2016.05.02-15.12.04:454][761]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.05.02-15.13.59:738][490]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.05.02-15.13.59:797][490]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.05.02-15.13.59:868][491]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001FB63230D60
+[2016.05.02-15.14.01:799][553]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.05.02-15.14.01:799][553]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.02-15.14.01:799][553]PIE: New page: PIE session: TopDownExampleMap (May 2, 2016, 7:14:01 AM)
+[2016.05.02-15.14.01:799][553]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap
+[2016.05.02-15.14.01:819][553]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019699s)
+[2016.05.02-15.14.01:820][553]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2016.05.02-15.14.01:821][553]LogPlayLevel: PIE: World Init took: (0.001321s)
+[2016.05.02-15.14.01:821][553]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.021314s)
+[2016.05.02-15.14.01:845][553]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.02-15.14.01:852][553]LogInit: FAudioDevice initialized.
+[2016.05.02-15.14.01:887][553]LogWorld: Game class is '2DTopDown_Style_C'
+[2016.05.02-15.14.01:900][553]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2016.05.02-11.14.01
+[2016.05.02-15.14.01:901][553]LogActor:Warning: GameSession /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.02-15.14.01:901][553]LogActor:Warning: GameNetworkManager /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.02-15.14.01:905][553]LogWorld: Bringing up level for play took: 0.016551
+[2016.05.02-15.14.01:907][553]PIE: Info Play in editor start time for /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap 0.467
+[2016.05.02-15.14.01:908][553]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.05.02-15.14.34:107][752]SourceControl: Info rm 'Content/Blueprints/vehicles/BussBody_MP.uasset'
+[2016.05.02-15.14.36:522][813]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.05.02-15.14.36:941][813]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0014 seconds. Added 107 classes and 0 folders.
+[2016.05.02-15.14.39:078][848]LogRenderer: Reallocating scene render targets to support 1868x864 (Frame:52602).
+[2016.05.02-15.14.46:769][970]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.05.02-15.14.46:817][970]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.05.02-15.14.46:874][971]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001FB07941B20
+[2016.05.02-15.14.48:053][991]LogRenderer: Reallocating scene render targets to support 1868x876 (Frame:52863).
+[2016.05.02-15.15.26:305][627]BlueprintLog: New page: Compile BussChair
+[2016.05.02-15.15.26:795][627]LogCrashTracker: 
+
+
+[2016.05.02-15.15.26:798][627]LogCrashTracker: 
+
+
+[2016.05.02-15.15.26:799][627]LogWindows:Error: === Critical error: ===
+Fatal error!
+
+
+
+[2016.05.02-15.15.26:857][627]LogExit: Executing StaticShutdownAfterError
+[2016.05.02-15.15.26:874][627]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.05.02-15.15.26:874][627]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.05.02-15.15.26:874][627]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.05.02-15.15.26:875][627]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.05.02-15.15.26:875][627]LogWindows: FPlatformMisc::RequestExit(1)
+[2016.05.02-15.15.26:875][627]Log file closed, 05/02/16 11:15:26
